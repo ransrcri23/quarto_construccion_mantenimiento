@@ -732,5 +732,16 @@
       "Reto 1 - Mikado",
       "Descripcion"
     ]
+  },
+  {
+    "objectID": "caso1/index.html#estudiantes",
+    "href": "caso1/index.html#estudiantes",
+    "title": "Descripcion",
+    "section": "Estudiantes",
+    "text": "Estudiantes\nStephanie Delgado Brenes Rosibel Enriquez Vargas Max Rojas Torres Manuel Sanabria Montoya Randall Sánchez Rivera",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
   }
 ]

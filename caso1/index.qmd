@@ -7,11 +7,11 @@ title: "Descripcion"
 Este caso está relacionado con el tema de Behavior Driven Development (BDD)
 
 ## Estudiantes
-Stephanie Delgado Brenes
-Rosibel Enriquez Vargas
-Max Rojas Torres
-Manuel Sanabria Montoya
-Randall Sánchez Rivera
+- Stephanie Delgado Brenes
+- Rosibel Enriquez Vargas
+- Max Rojas Torres
+- Manuel Sanabria Montoya
+- Randall Sánchez Rivera
 
 ## Subsecciones
 
