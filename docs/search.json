@@ -721,5 +721,16 @@
       "Reto 5 - Tecnología relacionada con integración continua",
       "Implementacion"
     ]
+  },
+  {
+    "objectID": "reto1/index.html#reto-1",
+    "href": "reto1/index.html#reto-1",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
+    "crumbs": [
+      "Reto 1 - Mikado",
+      "Descripcion"
+    ]
   }
 ]
