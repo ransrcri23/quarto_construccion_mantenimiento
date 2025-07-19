@@ -253,8 +253,8 @@
     ]
   },
   {
-    "objectID": "reto1/index.html#reto-2",
-    "href": "reto1/index.html#reto-2",
+    "objectID": "reto1/index.html#reto-1",
+    "href": "reto1/index.html#reto-1",
     "title": "Descripcion",
     "section": "",
     "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
@@ -456,6 +456,17 @@
     "title": "Descripcion",
     "section": "",
     "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#estudiantes",
+    "href": "caso1/index.html#estudiantes",
+    "title": "Descripcion",
+    "section": "Estudiantes",
+    "text": "Estudiantes\n\nStephanie Delgado Brenes\nRosibel Enriquez Vargas\nMax Rojas Torres\nManuel Sanabria Montoya\nRandall Sánchez Rivera",
     "crumbs": [
       "Caso 1 - BDD",
       "Descripcion"
@@ -720,28 +731,6 @@
     "crumbs": [
       "Reto 5 - Tecnología relacionada con integración continua",
       "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto1/index.html#reto-1",
-    "href": "reto1/index.html#reto-1",
-    "title": "Descripcion",
-    "section": "",
-    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
-    "crumbs": [
-      "Reto 1 - Mikado",
-      "Descripcion"
-    ]
-  },
-  {
-    "objectID": "caso1/index.html#estudiantes",
-    "href": "caso1/index.html#estudiantes",
-    "title": "Descripcion",
-    "section": "Estudiantes",
-    "text": "Estudiantes\nStephanie Delgado Brenes Rosibel Enriquez Vargas Max Rojas Torres Manuel Sanabria Montoya Randall Sánchez Rivera",
-    "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
     ]
   }
 ]
