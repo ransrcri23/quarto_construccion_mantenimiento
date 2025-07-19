@@ -6,6 +6,13 @@ title: "Descripcion"
 
 Este caso está relacionado con el tema de Behavior Driven Development (BDD)
 
+## Estudiantes
+Stephanie Delgado Brenes
+Rosibel Enriquez Vargas
+Max Rojas Torres
+Manuel Sanabria Montoya
+Randall Sánchez Rivera
+
 ## Subsecciones
 
 En las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso
