@@ -8,13 +8,11 @@ A continuación se puede observar el diagrama de Mikado del proyecto, el cual se
 
 ![Diagrama de Mikado](./recursos/mikado.svg){fig-align="left"}
 
-<details>
-  <summary>Navegar diagrama con mejor calidad</summary>
-<div style="width:100%; height:600px; overflow:scroll; border:1px solid #ccc;">
-  <object data="./recursos/mikado.svg" type="image/svg+xml" style="min-width:1000px; min-height:1000px;"></object>
-</div>
-</details>
+Descargar el diagrama en SVG, para ver con mejor calidad
 
+<a href="./recursos/mikado.svg" download style="padding: 10px 16px; background-color: #2d9cdb; color: white; text-decoration: none; border-radius: 5px;">
+⬇ Descargar SVG
+</a>
 
 ## Casos de uso de Mikado
 
