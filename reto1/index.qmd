@@ -2,7 +2,7 @@
 title: "Descripcion"
 ---
 
-## Reto 2
+## Reto 1
 
 Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.
 
