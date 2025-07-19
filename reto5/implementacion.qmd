@@ -1,0 +1,9 @@
+---
+title: "Implementacion"
+---
+
+## ¿Como lo aplicamos?
+
+Aunque Docker no es una herramienta de integración continua por sí sola, su incorporación dentro del pipeline de desarrollo es fundamental para garantizar la consistencia y confiabilidad del proceso. Al permitir la creación de entornos aislados y reproducibles, Docker facilita la construcción, prueba y despliegue de la aplicación de forma automatizada y homogénea en todas las etapas del ciclo de vida.
+
+Esto reduce significativamente los errores asociados a diferencias entre entornos locales, de prueba y producción, y permite integrar de forma más efectiva otras herramientas de CI/CD. En este sentido, Docker se convierte en un habilitador clave dentro de nuestra estrategia de integración continua, mejorando la calidad del software y acelerando los tiempos de entrega.

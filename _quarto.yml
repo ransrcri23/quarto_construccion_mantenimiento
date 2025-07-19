@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PSWE-03 Construcción y Mantenimiento de Software SCV6"
+  navbar:
+    background: "#2E86AB"
+    foreground: white
+    search: true
+
+  sidebar:
+    background: "#F8F9FA"
+    contents:
+      - index.qmd
+      - section: "Proyecto Funcional"
+        contents:
+          - demo/index.qmd
+      - section: "Reto 1 - Mikado"
+        contents:
+          - reto1/index.qmd
+          - reto1/implementacion.qmd
+          - reto1/ejemplos.qmd
+      - section: "Reto 2 - Metodologia Utilizada"
+        contents:
+          - reto2/index.qmd
+          - reto2/implementacion.qmd
+          - reto2/ejemplos.qmd
+      - section: "Reto 3 - RF y RNF"
+        contents:
+          - reto3/index.qmd
+          - reto3/implementacion.qmd
+          - reto3/ejemplos.qmd
+      - section: "Reto 4 - Diseno, Calidad y Oportunidad de Integracion"
+        contents:
+          - reto4/index.qmd
+          - reto4/implementacion.qmd
+          - reto4/ejemplos.qmd
+      - section: "Reto 5 - Tecnología relacionada con integración continua"
+        contents:
+          - reto5/index.qmd
+          - reto5/implementacion.qmd
+          - reto5/ejemplos.qmd
+      - section: "Caso 1 - BDD"
+        contents:
+          - caso1/index.qmd
+          - caso1/implementacion.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

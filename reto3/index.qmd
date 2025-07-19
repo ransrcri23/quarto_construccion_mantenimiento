@@ -1,0 +1,14 @@
+---
+title: "Descripcion"
+---
+
+## Reto 3
+
+Este reto consiste en definir y documentar los requerimientos funcionales y no funcionales del proyecto
+
+## Subsecciones
+
+En las siguientes subsecciones se define el alcance del proyecto y se listan los recursos donde se registraron los requerimientos
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)

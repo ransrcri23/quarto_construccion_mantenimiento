@@ -1,0 +1,24 @@
+---
+title: "Implementacion"
+---
+
+## ¿Como lo aplicamos?
+
+En este proyecto encontramos la oportunidad de utilizar mikado en tres áreas, las cuales serán desarrolladas a continuación.
+
+- ### Front End
+
+Para la elección de la tecnología a utilizar para el front end se tomaron en cuenta varias opciones como Angular, React y Django templates. El proyecto fue inicialmente configurado con dependencias para utilizar react, sin embargo, por cuestiones de tiempo y con el fin de desarrollar una experiencia mínima viable simple y dentro del tiempo establecido, eliminamos las dependencias y nos movimos a la utilización de django templates.
+
+- ### API de inteligencia artificial generativa
+
+Nuestro proyecto se conecta con un API de inteligencia artificial generativa, el cual permite generar análisis individuales y de tendencias de las valoraciones PHQ-9 registradas para los pacientes. Se tomaron en cuenta Open AI y Gemini como opciones y al final se tomó la decisión de utilizar Gemini, principalmente por la cantidad de tokens gratuitos, los cuales se ajustaban a las necesidades del desarrollo de la experiencia mínima viable.
+
+- ### Tecnología para reportes de BDD
+
+Paara la implementación de reportes relacionados con Behavior Driven Development se tomaron en cuentra opciones como Cucumber, sin embargo, finalmente se decidió utilizar Allure por su buena compatibilidad y facilidad de implementación con Python.
+
+
+
+## Nota
+ En la sección de [Ejemplos y demostraciones](ejemplos.qmd) se puede encontrar tanto los diagramas de mikado como capturas de pantalla que demuestran el proceso de estos tres casos de uso.

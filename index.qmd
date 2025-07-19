@@ -1,0 +1,39 @@
+---
+title: "Proyecto de Construccion y Mantenimiento de Software"
+---
+
+<br><br>
+
+![Cenfotec](/recursos/cenfotec.png){fig-align="left" width=75%}
+
+<br><br>
+
+### Estudiantes
+
+- Stephanie Delgado Brenes
+- Rosibel Enriquez Vargas
+- Max Rojas Torres
+- Manuel Sanabria Montoya
+- Randall Sánchez Rivera
+
+
+## Sobre este sitio
+
+El propósito de este sitio es documentar los diferentes retos y casos que componen los entregables del proyecto del curso de Construcción y Mantenimiento de Software, de la universidad Cenfotec. Cada sección incluye una breve descripción de cada reto o caso, así como detalles sobre su implementación y ejemplos y demostraciones de su uso en el proyecto.
+
+## Contenido
+
+- [**Proyecto Funcional**](demo/index.qmd): Información general del proyecto funcional y demostraciones.
+- [**Reto 1**](reto1/index.qmd): Mikado.
+- [**Reto 2**](reto2/index.qmd): Metodología utilizada.
+- [**Reto 3**](reto3/index.qmd): Requerimientos Funcionales y No Funcionales.
+- [**Reto 4**](reto4/index.qmd): Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.
+- [**Reto 5**](reto5/index.qmd): Utilización de alguna tecnología relacionada con integración continua.
+- [**Caso 1**](caso1/index.qmd): Behavior Driven Development (BDD).
+
+Usa la navegación lateral para explorar las subsecciones de cada tema.
+
+## Enlaces
+
+- **[Repositorio en Github](https://github.com/maxterdize/psybot-service)**
+- **[Board en Jira](https://ucenfotec-team-cvech351.atlassian.net/jira/software/projects/PSYBOT/boards/1/timeline)**

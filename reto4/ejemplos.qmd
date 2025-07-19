@@ -1,0 +1,40 @@
+---
+title: "Ejemplos y demostraciones"
+---
+
+### Características ideales de diseño
+
+
+- **Reutilización:** El siguiente screenshot muestra la estructura del servicio de generación de prompts para intercambiar información con Gemini, la cual es reutilizable en otras iniciativas.
+
+![Ejemplo de código reutilizable](./recursos/reutilizacion.png){fig-align="left"}
+
+- **Extensibilidad:** En la imagen a continuación se puede observar la interfaz de swagger con los diferentes endpoints de la aplicación, los cuales funcionan independientemente, lo cual facilita la extensibilidad total de la aplicación.
+
+![Demostración de extensibilidad](./recursos/extensibilidad.png){fig-align="left"}
+
+### Prácticas de diseño
+
+- **Divide y vencerás e iteraciones:** En esta captura de pantalla se puede observar los commits al repositorio que demuestran el proceso iterativo de desarollo utilizado, así como el principio de divide y vencerás.
+
+![Git Graph](./recursos/graph.png){fig-align="left"}
+
+### Técnicas para mejorar la calidad de software
+
+- **Actividades exclusivas de control de calidad:** A continuación se puede observar un ejemplo de una prueba automatizada realizada durante el desarrollo del módulo de pacientes.
+
+![Código de prueba automatizada](./recursos/prueba.png){fig-align="left"}
+
+- **Saber definir los requerimientos y planificación de las etapas:** En la siguiente imagen se puede observar las diferentes épicas del proyecto, las cuales agrupan los requerimientos específicos de la aplicación.
+
+![Épicas del proyecto](./recursos/epicas.png){fig-align="left"}
+
+### Oportunidad de integración
+
+- **Integración del módulo de pacientes (posterior al módulo de valoraciones):** En esta imagen se puede apreciar un ejemplo de la correlación del módulo de pacientes y el de valoraciones, como resultado de la integración del primero con el segundo.
+
+![Integración de paciente y valoraciones](./recursos/integracion_paciente.png){fig-align="left"}
+
+- **Integración con el API de Gemini:** En esta captura de pantalla se puede apreciar parte del código que permite la integración con el API de Gemini.
+
+![Integración con Gemini](./recursos/integracion_gemini.png){fig-align="left"}

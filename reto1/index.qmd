@@ -1,0 +1,14 @@
+---
+title: "Descripcion"
+---
+
+## Reto 2
+
+Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.
+
+## Subsecciones
+
+En las siguientes subsecciones se detalla la manera en que se implementó la técnica y algunos recursos para demostrar su aplicación en el proyecto
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)

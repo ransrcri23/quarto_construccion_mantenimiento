@@ -1,0 +1,28 @@
+---
+title: "Ejemplos y demostraciones"
+---
+
+## Diagrama de Mikado
+
+A continuación se puede observar el diagrama de Mikado del proyecto, el cual se separa en tres grandes ramas con los casos de uso descritos en la sección de [Implementación](implementacion.qmd).
+
+![Diagrama de Mikado](./recursos/mikado.svg){fig-align="left"}
+
+
+## Casos de uso de Mikado
+
+- ### Front End
+
+La imagen a continuación muestra los commits donde se removieron las dependencias relacionadas con React y posteriormente donde se implementó el front end con Django templates.
+
+![Commits relacionados con Mikado de Front End](./recursos/mikadoFE_commits.png){fig-align="left"}
+
+- ### API de inteligencia artificial generativa
+
+La captura de pantalla a continuación muestra los commits del revert realizado al commit de configuración de dependencias de Open AI, para posteriormente configurar las depedencias de Gemini.
+
+![Commits relacionados con Mikado de Front End](./recursos/mikadoAI_commits.png){fig-align="left"}
+
+- ### Tecnología para reportes de BDD
+
+Para este caso de uso en particular se trabajó en un proceso de investigación y descarte de opciones antes de realizar commits al código, por lo que no fue necesario ningún tipo de reversión de cambios en el repositorio.

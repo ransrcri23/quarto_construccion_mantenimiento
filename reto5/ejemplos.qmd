@@ -1,0 +1,15 @@
+---
+title: "Ejemplos y demostraciones"
+---
+
+### Utilización de Docker
+
+A continuación se pueden observar algunas capturas de pantalla que demuestran la utilización de Docker en el proyecto.
+
+![Archivo docker-compose.yml](./recursos/docker_compose.png){fig-align="left"}
+
+![Archivo dockerfile](./recursos/dockerfile.png){fig-align="left"}
+
+![Archivo requirements.txt](./recursos/requirements.png){fig-align="left"}
+
+![Ejecución en Docker Desktop](./recursos/dockerdesktop.png){fig-align="left"}

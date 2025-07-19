@@ -1,0 +1,14 @@
+---
+title: "Descripcion"
+---
+
+## Reto 2
+
+Este reto consiste en determinar y fundamentar la metodología de desarrollo utilizada en el proyecto
+
+## Subsecciones
+
+En las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)

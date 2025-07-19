@@ -1,0 +1,18 @@
+---
+title: "Implementacion"
+---
+
+## ¿Como lo aplicamos?
+
+En el proyecto se definieron un total de 38 requerimientos, de los cuales 31 corresponden a requerimientos funcionales y 7 a requerimientos no funcionales. Todos los requerimientos fueron documentados en Jira con formato de user story, descripción, flujo normal y criterios de aceptación.
+
+Los tipos de requerimientos fueron etiquetados como **RF**, para requerimientos funcionales y **RNF** para requerimientos no funcionales.
+
+## Enlace al Jira
+
+Visita este enlace para ver nuestro [board de Jira](https://ucenfotec-team-cvech351.atlassian.net/jira/software/projects/PSYBOT/boards/1/timeline)
+
+En los siguientes URL, se puede observar la lista de requerimientos filtradas por Requerimientos Funcionales y No Funcionales:
+
+- [Requerimientos Funcionales](https://ucenfotec-team-cvech351.atlassian.net/issues/?jql=labels%20%3D%20%22RF%22)
+- [Requerimientos No Funcionales](https://ucenfotec-team-cvech351.atlassian.net/issues/?jql=labels%20%3D%20%22RNF%22)

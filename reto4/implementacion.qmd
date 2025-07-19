@@ -1,0 +1,37 @@
+---
+title: "Implementacion"
+---
+
+## ¿Como lo aplicamos?
+
+### Características ideales de diseño
+
+En el desarrollo de la primera versión se implementaron múltiples características ideales de diseño, principalmente las siguientes:
+
+- **Reutilización:** El sistema cuenta con dos módulos que se conectan al API de Gemini, para obtener un análisis de los niveles de depresión de los pacientes. La configuración de dependencias y el código de conexión y métodos que generan los prompts son perfectamente reutilizables en otras aplicaciones, donde podrían integrarse tal como están desarrollados y solamente utilizar un prompt distinto.
+
+- **Extensibilidad:** Los diferentes endpoints están separados por funcionalidad, de manera que se conectan entre ellos por atributos específicos pero no comparten lógica. Al estar desarrollados de esta manera, permite seguir extendiendo la aplicación un módulo a la vez, con una complejidad relativamente baja.
+
+### Prácticas de diseño
+
+La aplicación propuesta se prestaba para aplicar múltiples prácticas de diseño, dos de ellas desarrolladas a continuación:
+
+- **Iteraciones:** Todo el código del proyecto fue desarrollado en iteraciones, creando branches para cada grupo de funcionalidades y la interfaz gráfica.
+
+- **Divide y vencerás:** En esta mínima experiencia viable se dividieron las funcionalidades en grupos pequeños y se fue integrando el código progresivamente. El enfoque para seguir desarrollando la totalidad del proyecto sería el mismo, en cantidades pequeñas de trabajo que hagan el desarrollo manejable desde un punto de vista técnico y conceptual.
+
+### Técnicas para mejorar la calidad de software
+
+A continuación se describen las técnicas para mejorar la calidad de software utilizadas y la forma en que fueron aplicadas:
+
+- **Actividades exclusivas de control de calidad:** En cada iteración se dedicó tiempo exclusivo a realizar pruebas unitarias, funcionales, de integración y de regresión.
+
+- **Saber definir los requerimientos y planificación de las etapas:** Se dedicó un tiempo considerable al inicio del proyecto para definir los requerimientos que componen la totalidad de la visión del proyecto.
+
+### Oportunidad de integración
+
+En la primera versión se identificaron dos oportunidades de integración, las cuales se explican a continuación:
+
+- **Integración del módulo de pacientes (posterior al módulo de valoraciones):** En el desarrollo de la experiencia mínima viable, se trabajó intencionalmente el módulo de pacientes después de crear el módulo de valoraciones, con el propósito de integrar un módulo que representaría una depedencia para el módulo ya existente y de esta manera ejercitar buenas prácticas de integración.
+
+- **Integración con el API de Gemini:** Se integró una conexión con el API de Gemini, al cual se le pasan prompts con los valores de las valoraciones y se obtienen respuestas en un formato específico, que alimentan la funcionalidad de la aplicación.

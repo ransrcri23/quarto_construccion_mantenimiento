@@ -1,0 +1,35 @@
+---
+title: "Implementacion"
+---
+
+## Elección de metodología
+
+Para el desarrollo del sistema de asistencia diagnóstica orientado a psicólogos clínicos, se optó por implementar un **modelo de desarrollo incremental**, un enfoque que permite construir el software mediante versiones sucesivas que agregan funcionalidades de manera progresiva, con entregables operativos en cada iteración (Pressman & Maxim, 2014). Esta decisión responde no solo a la necesidad técnica de validar soluciones complejas, sino también a las exigencias éticas y clínicas propias del contexto en que se implementará la herramienta.
+
+## Justificacion
+
+La selección del modelo incremental está directamente vinculada a las características del entorno clínico-psicológico:
+
+- Complejidad del diagnóstico clínico: El diagnóstico de trastornos como ansiedad o depresión involucra elementos subjetivos, patrones del discurso, lenguaje no verbal, historia clínica y contexto emocional. La solución debe poder analizar múltiples variables y hacerlo sin interferir con la relación terapéutica. El enfoque incremental permite empezar con módulos acotados —como transcripción de lenguaje o análisis de sentimiento— que luego se integran en un ecosistema clínico más amplio.
+- Aceptación gradual del profesional clínico: Según el screener y las entrevistas aplicadas, muchos psicólogos manifiestan apertura al uso de tecnología, pero también preocupación por la interferencia en la consulta o por el respeto al vínculo terapéutico. En este sentido, lanzar versiones básicas, supervisadas y opcionales del sistema permite generar confianza progresiva en el uso de la herramienta (American Psychological Association, 2020).
+- Validación empírica y ajustes éticos: La posibilidad de evaluar funcionalmente cada módulo en ambientes reales de consulta (o simulados) con feedback del profesional permite identificar sesgos, riesgos éticos, limitaciones diagnósticas o errores interpretativos de forma temprana, antes de escalar la solución (Croskerry, 2003; Calvo et al., 2017).
+
+## Beneficios
+
+- Reducción de riesgos técnicos y clínicos: Permite probar a baja escala antes de implementar herramientas sensibles a nivel profesional.
+- Adaptabilidad a distintas formas de práctica clínica: Dado que no todos los psicólogos usan las mismas metodologías, se pueden personalizar módulos para distintos enfoques (TREC, humanista, conductual, etc.).
+- Retroalimentación constante con usuarios clave: Fomenta el diseño centrado en el usuario (UX clínico), mejorando la usabilidad real del sistema.
+- Facilidad para introducir mejoras regulatorias, éticas y técnicas entre versiones.
+
+
+## ¿Como lo aplicamos?
+
+Para este proyecto, se aplicaron iteraciones tanto de descubrimiento como de desarrollo, donde se iban integrando funcionalidades gradualmente al codigo y se publicaban al repositorio. En cada iteración se hicieron validaciones conceptuales y funcionales.
+
+## Resultados
+
+La utilización de la metodología incremental nos permitió formar la idea progresivamente, con integridad conceptual y procurando entender las áreas del negocio donde teníamos deficiencias.
+
+Desde el punto de vista técnico nos permitió iterar el proyecto de forma segura, sin romper funcionalidades críticas y haciendo crecer las funcionalidades de la aplicación de forma gradual.
+
+Adicionalmente, nos permitió explorar y hacer uso de tecnologías desconocidas, procurando realizar implementaciones pequeñas en cada iteración

@@ -1,0 +1,19 @@
+---
+title: "Descripcion"
+---
+
+## Reto 4
+
+El reto consiste en implementar al menos:
+
+- 2 características ideales de diseño
+- 1-2 Prácticas de diseño
+- Al menos 2 técnicas para mejorar la calidad de software
+- Identificar una oportunidad de integración
+
+## Subsecciones
+
+En las siguientes subsecciones se detalla la manera en que se implementaron las características mencionadas, así como ejemplos que demuestran su utilización
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)

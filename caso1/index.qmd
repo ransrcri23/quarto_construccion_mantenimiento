@@ -1,0 +1,13 @@
+---
+title: "Descripcion"
+---
+
+## Caso 1
+
+Este caso está relacionado con el tema de Behavior Driven Development (BDD)
+
+## Subsecciones
+
+En las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso
+
+- [Desarrollo](implementacion.qmd)

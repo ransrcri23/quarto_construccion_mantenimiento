@@ -1,0 +1,66 @@
+---
+title: "Detalles y demostraciones"
+---
+
+## Contexto de negocio
+
+El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.
+
+## Experiencia Mínima Viable
+
+### Funcionalidades dentro del alcance
+
+- Creación de Pacientes
+- Consulta de Pacientes
+- Creación de Valoración PHQ-9
+- Consulta de Valoraciones con cálculo de severidad
+- Análisis Individual de valoraciones
+- Análisis de tendencias de valoracios
+
+<br/>
+
+*¿Qué es una valoración PHQ-9? La valoración PHQ-9 es un cuestionario de 9 preguntas que evalúa la presencia y severidad de síntomas depresivos en las últimas dos semanas, ayudando a detectar y clasificar la depresión en distintos niveles.*
+
+### Funcionalidades fuera del alcance
+
+- Inicio de sesión
+- Modificación de Pacientes
+- Modificación de Valoraciones
+- Chat interactivo con Gemini
+- Valoraciones de otros tipos
+
+## Demos
+
+### Gestión de Pacientes###
+
+<div>
+<video width="640" height="360" controls>
+  <source src="./recursos/gestionPaciente.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+</div>
+
+### Gestión de Valoraciones PHQ-9
+<div>
+<video width="640" height="360" controls>
+  <source src="./recursos/valoracionPHQ9.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+</div>
+
+### Análisis Individual de valoración
+<div>
+<video width="640" height="360" controls>
+  <source src="./recursos/AnalisisIndividual.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+</div>
+
+### Análisis de tendencias
+<div>
+<video width="640" height="360" controls>
+  <source src="./recursos/AnalisisTendencias.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+</div>
+

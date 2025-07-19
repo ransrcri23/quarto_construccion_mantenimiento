@@ -1,0 +1,28 @@
+---
+title: "Ejemplos y demostraciones"
+---
+
+
+## Git Graph del proyecto
+
+En la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada
+
+![Git Graph del proyecto Psybot](./recursos/graph.png)
+
+## Enlace al Jira
+
+Visita este enlace para ver nuestro [board de Jira](https://ucenfotec-team-cvech351.atlassian.net/jira/software/projects/PSYBOT/boards/1/timeline)
+
+![Logo de Jira](./recursos/jira.png){fig-align="left" width=75%}
+
+## Progreso de Épicas
+
+La siguiente imagen muestra el progreso de las épicas iniciadas
+
+![Progreso de épicas](./recursos/progreso.png){fig-align="left"}
+
+## Calendario en Jira
+
+En esta imagen, se puede apreciar parte del calendario de desarrollo del proyecto
+
+![Calendario en Jira](./recursos/calendario.png){fig-align="left"}

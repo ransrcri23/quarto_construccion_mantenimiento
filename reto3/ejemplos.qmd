@@ -1,0 +1,39 @@
+---
+title: "Ejemplos y demostraciones"
+---
+
+## Enlace al Jira
+
+Visita este enlace para ver nuestro [board de Jira](https://ucenfotec-team-cvech351.atlassian.net/jira/software/projects/PSYBOT/boards/1/timeline)
+
+![Logo de Jira](./recursos/jira.png){fig-align="left" width=75%}
+
+## Requerimientos Funcionales
+
+En la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos funcoinales.
+
+![Requerimientos Funcionales](./recursos/RF.png){fig-align="left"}
+
+## Requerimientos No Funcionales
+
+En la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos no funcoinales.
+
+![Requerimientos No Funcionales](./recursos/RNF.png){fig-align="left"}
+
+## Formato de User Story
+
+La imagen a continuación muestra un ejemplo del formato utilizado para documentar los requerimientos en Jira
+
+![User Story](./recursos/userstory.png){fig-align="left"}
+
+## Épicas de requerimientos funcionales
+
+La siguiente imagen muestra las épicas que agrupan los requerimientos funcionales
+
+![Épicas](./recursos/epicas.png){fig-align="left"}
+
+## Progreso de épicas
+
+En la siguiente imagen se puede apreciar el progreso de las diferentes épicas de requerimientos funcionales
+
+![Progreso de épicas](./recursos/progreso.png){fig-align="left"}
