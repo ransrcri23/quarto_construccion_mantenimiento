@@ -35,5 +35,5 @@ Usa la navegación lateral para explorar las subsecciones de cada tema.
 
 ## Enlaces
 
-- **[Repositorio en Github](https://github.com/maxterdize/psybot-service)**
+- **[Repositorio en Github](https://github.com/ransrcri23/psybot-service)**
 - **[Board en Jira](https://ucenfotec-team-cvech351.atlassian.net/jira/software/projects/PSYBOT/boards/1/timeline)**
