@@ -46,14 +46,14 @@ BDD (Behavior Driven Development) es una metodología de desarrollo ágil centra
 
 En los siguientes enlaces se puede observar los folders del repositorio relacionados con la implementación de BDD:
 
-- [Implementación de BDD](https://github.com/maxterdize/psybot-service/tree/main/tests/bdd)
-- [Reporte de Allure](https://github.com/maxterdize/psybot-service/tree/main/allure-report)
-- [Resultados de Allure](https://github.com/maxterdize/psybot-service/tree/main/allure-results)
+- [Implementación de BDD](https://github.com/ransrcri23/psybot-service/tree/main/tests/bdd)
+- [Reporte de Allure](https://github.com/ransrcri23/psybot-service/tree/main/allure-report)
+- [Resultados de Allure](https://github.com/ransrcri23/psybot-service/tree/main/allure-results)
 
 ## Escenarios en formato Gherkin
 
 ### crear_paciente.feature
-[Archivo en el repositorio](https://github.com/maxterdize/psybot-service/blob/main/tests/bdd/features/crear_paciente.feature)
+[Archivo en el repositorio](https://github.com/ransrcri23/psybot-service/blob/main/tests/bdd/features/crear_paciente.feature)
 
 ```gherkin
 # language: es
@@ -152,7 +152,7 @@ Característica: Gestión de Pacientes
 ```
 
 ### valoraciones_phq9.feature
-[Archivo en el repositorio](https://github.com/maxterdize/psybot-service/blob/main/tests/bdd/features/valoraciones_phq9.feature)
+[Archivo en el repositorio](https://github.com/ransrcri23/psybot-service/blob/main/tests/bdd/features/valoraciones_phq9.feature)
 
 ```gherkin
 # language: es
@@ -445,7 +445,7 @@ allure serve tests/bdd/reports/allure-results
 
 Para ejecutar el reporte completo de pruebas, descargue el siguiente zip, luego ejecute el archivo open-report y siga las instrucciones.
 
-[Link de descarga](https://github.com/maxterdize/psybot-service/blob/main/allure-report-psybot-complete.zip)
+[Link de descarga](https://github.com/ransrcri23/psybot-service/blob/main/allure-report-psybot-complete.zip)
 
 Opciones de ejecución:
 
