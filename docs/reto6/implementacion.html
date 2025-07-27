@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Detalles y demostraciones – PSWE-03 Construcción y Mantenimiento de Software SCV6</title>
+<title>Implementacion – PSWE-03 Construcción y Mantenimiento de Software SCV6</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../demo/index.html">Proyecto Funcional</a></li><li class="breadcrumb-item"><a href="../demo/index.html">Detalles y demostraciones</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reto6/index.html">Reto 6 - Automatización de procesos para integración continua.</a></li><li class="breadcrumb-item"><a href="../reto6/implementacion.html">Implementacion</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demo/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../demo/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Detalles y demostraciones</span></a>
   </div>
 </li>
@@ -290,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reto6/implementacion.html" class="sidebar-item-text sidebar-link">
+  <a href="../reto6/implementacion.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Implementacion</span></a>
   </div>
 </li>
@@ -335,25 +335,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#contexto-de-negocio" id="toc-contexto-de-negocio" class="nav-link active" data-scroll-target="#contexto-de-negocio">Contexto de negocio</a></li>
-  <li><a href="#experiencia-mínima-viable" id="toc-experiencia-mínima-viable" class="nav-link" data-scroll-target="#experiencia-mínima-viable">Experiencia Mínima Viable</a>
+  <li><a href="#como-lo-aplicamos" id="toc-como-lo-aplicamos" class="nav-link active" data-scroll-target="#como-lo-aplicamos">¿Como lo aplicamos?</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">¿Como funciona?</a></li>
+  <li><a href="#flujo-de-automatización" id="toc-flujo-de-automatización" class="nav-link" data-scroll-target="#flujo-de-automatización">Flujo de automatización</a></li>
+  <li><a href="#pruebas-unitarias-implementadas" id="toc-pruebas-unitarias-implementadas" class="nav-link" data-scroll-target="#pruebas-unitarias-implementadas">Pruebas unitarias implementadas</a></li>
+  <li><a href="#beneficios-de-implementación" id="toc-beneficios-de-implementación" class="nav-link" data-scroll-target="#beneficios-de-implementación">Beneficios de implementación</a>
   <ul class="collapse">
-  <li><a href="#funcionalidades-dentro-del-alcance" id="toc-funcionalidades-dentro-del-alcance" class="nav-link" data-scroll-target="#funcionalidades-dentro-del-alcance">Funcionalidades dentro del alcance</a></li>
-  <li><a href="#funcionalidades-fuera-del-alcance" id="toc-funcionalidades-fuera-del-alcance" class="nav-link" data-scroll-target="#funcionalidades-fuera-del-alcance">Funcionalidades fuera del alcance</a></li>
+  <li><a href="#para-el-desarrollo" id="toc-para-el-desarrollo" class="nav-link" data-scroll-target="#para-el-desarrollo">Para el Desarrollo:</a></li>
+  <li><a href="#para-el-equipo" id="toc-para-el-equipo" class="nav-link" data-scroll-target="#para-el-equipo">Para el Equipo:</a></li>
+  <li><a href="#para-el-proyecto" id="toc-para-el-proyecto" class="nav-link" data-scroll-target="#para-el-proyecto">Para el Proyecto:</a></li>
   </ul></li>
-  <li><a href="#demos" id="toc-demos" class="nav-link" data-scroll-target="#demos">Demos</a>
-  <ul class="collapse">
-  <li><a href="#gestión-de-pacientes" id="toc-gestión-de-pacientes" class="nav-link" data-scroll-target="#gestión-de-pacientes">Gestión de Pacientes</a></li>
-  </ul></li>
+  <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados">Resultados</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../demo/index.html">Proyecto Funcional</a></li><li class="breadcrumb-item"><a href="../demo/index.html">Detalles y demostraciones</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reto6/index.html">Reto 6 - Automatización de procesos para integración continua.</a></li><li class="breadcrumb-item"><a href="../reto6/implementacion.html">Implementacion</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Detalles y demostraciones</h1>
+<h1 class="title">Implementacion</h1>
 </div>
 
 
@@ -370,79 +371,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="contexto-de-negocio" class="level2">
-<h2 class="anchored" data-anchor-id="contexto-de-negocio">Contexto de negocio</h2>
-<p>El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.</p>
+<section id="como-lo-aplicamos" class="level2">
+<h2 class="anchored" data-anchor-id="como-lo-aplicamos">¿Como lo aplicamos?</h2>
+<p>Para este reto, decidimos implementar un sistema de automatización de pruebas unitarias usando GitHub actions como plataforma de CI/CD.</p>
 </section>
-<section id="experiencia-mínima-viable" class="level2">
-<h2 class="anchored" data-anchor-id="experiencia-mínima-viable">Experiencia Mínima Viable</h2>
-<section id="funcionalidades-dentro-del-alcance" class="level3">
-<h3 class="anchored" data-anchor-id="funcionalidades-dentro-del-alcance">Funcionalidades dentro del alcance</h3>
-<ul>
-<li>Creación de Pacientes</li>
-<li>Consulta de Pacientes</li>
-<li>Creación de Valoración PHQ-9</li>
-<li>Consulta de Valoraciones con cálculo de severidad</li>
-<li>Análisis Individual de valoraciones</li>
-<li>Análisis de tendencias de valoracios</li>
-</ul>
-<p><br></p>
-<p><em>¿Qué es una valoración PHQ-9? La valoración PHQ-9 es un cuestionario de 9 preguntas que evalúa la presencia y severidad de síntomas depresivos en las últimas dos semanas, ayudando a detectar y clasificar la depresión en distintos niveles.</em></p>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">¿Como funciona?</h2>
+<p>El sistema ejecuta automáticamente cuatro pruebas unitarias cada vez que se hace push a branches específicos, principalmente main, garantizando la calidad del código sin intervención manual. En caso de falla de alguna de las pruebas, se generan alertas.</p>
 </section>
-<section id="funcionalidades-fuera-del-alcance" class="level3">
-<h3 class="anchored" data-anchor-id="funcionalidades-fuera-del-alcance">Funcionalidades fuera del alcance</h3>
+<section id="flujo-de-automatización" class="level2">
+<h2 class="anchored" data-anchor-id="flujo-de-automatización">Flujo de automatización</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./recursos/flujo.png" class="img-fluid figure-img"></p>
+<figcaption>Flujo de automatización</figcaption>
+</figure>
+</div>
+</section>
+<section id="pruebas-unitarias-implementadas" class="level2">
+<h2 class="anchored" data-anchor-id="pruebas-unitarias-implementadas">Pruebas unitarias implementadas</h2>
 <ul>
-<li>Inicio de sesión</li>
-<li>Modificación de Pacientes</li>
-<li>Modificación de Valoraciones</li>
-<li>Chat interactivo con Gemini</li>
-<li>Valoraciones de otros tipos</li>
+<li><strong>Creación de paciente</strong>: Validar que se pueden crear pacientes correctamente en MongoDB.</li>
+<li><strong>Creación de Valoraciones PHQ-9</strong>: Validar que se pueden crear valoraciones PHQ-9 con relación a pacientes.</li>
+<li><strong>Test de Análisis Individual con Gemini</strong>: Probar la integración con Gemini AI sin hacer llamadas reales.</li>
+<li><strong>Test de Análisis de Tendencias</strong>: Verificar capacidad de analizar múltiples valoraciones de un paciente.</li>
 </ul>
 </section>
+<section id="beneficios-de-implementación" class="level2">
+<h2 class="anchored" data-anchor-id="beneficios-de-implementación">Beneficios de implementación</h2>
+<section id="para-el-desarrollo" class="level3">
+<h3 class="anchored" data-anchor-id="para-el-desarrollo">Para el Desarrollo:</h3>
+<ul>
+<li>Feedback inmediato sobre cambios</li>
+<li>Prevención de regresiones</li>
+<li>Calidad de código garantizada</li>
+<li>Documentación viva del comportamiento esperado</li>
+</ul>
 </section>
-<section id="demos" class="level2">
-<h2 class="anchored" data-anchor-id="demos">Demos</h2>
-<section id="gestión-de-pacientes" class="level3">
-<h3 class="anchored" data-anchor-id="gestión-de-pacientes">Gestión de Pacientes</h3>
-<div>
-<video width="640" height="360" controls="">
-<source src="./recursos/gestionPaciente.mp4" type="video/mp4">
-Tu navegador no soporta la etiqueta de video. </video>
-</div>
-<section id="gestión-de-valoraciones-phq-9" class="level3">
-<h3 class="anchored" data-anchor-id="gestión-de-valoraciones-phq-9">Gestión de Valoraciones PHQ-9</h3>
-<div>
-<video width="640" height="360" controls="">
-<source src="./recursos/valoracionPHQ9.mp4" type="video/mp4">
-Tu navegador no soporta la etiqueta de video. </video>
-</div>
-<section id="análisis-individual-de-valoración" class="level3">
-<h3 class="anchored" data-anchor-id="análisis-individual-de-valoración">Análisis Individual de valoración</h3>
-<div>
-<video width="640" height="360" controls="">
-<source src="./recursos/AnalisisIndividual.mp4" type="video/mp4">
-Tu navegador no soporta la etiqueta de video. </video>
-</div>
-<section id="análisis-de-tendencias" class="level3">
-<h3 class="anchored" data-anchor-id="análisis-de-tendencias">Análisis de tendencias</h3>
-<div>
-<video width="640" height="360" controls="">
-<source src="./recursos/AnalisisTendencias.mp4" type="video/mp4">
-Tu navegador no soporta la etiqueta de video. </video>
-</div>
+<section id="para-el-equipo" class="level3">
+<h3 class="anchored" data-anchor-id="para-el-equipo">Para el Equipo:</h3>
+<ul>
+<li>Confianza en deploys</li>
+<li>Integración continua</li>
+<li>Estándares de calidad</li>
+<li>Reducción de bugs en producción</li>
+</ul>
+</section>
+<section id="para-el-proyecto" class="level3">
+<h3 class="anchored" data-anchor-id="para-el-proyecto">Para el Proyecto:</h3>
+<ul>
+<li>Escalabilidad - Más tests fácilmente</li>
+<li>Mantenibilidad - Refactoring seguro</li>
+<li>Profesionalismo - Badge de calidad</li>
+<li>Automatización completa - Sin intervención manual</li>
+</ul>
+</section>
+</section>
+<section id="resultados" class="level2">
+<h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<ul>
+<li>100% tests passing en todas las ejecuciones</li>
+<li>~2-3 minutos de duración promedio</li>
+<li>Ejecución automática en cada push</li>
+<li>Cobertura completa de funcionalidades core</li>
+</ul>
 
 
-</section></section></section></section></section></main></div>
+</section>
 
-
-
-
-
-
-
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -842,7 +839,7 @@ Tu navegador no soporta la etiqueta de video. </video>
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 

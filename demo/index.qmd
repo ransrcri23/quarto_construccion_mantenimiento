@@ -31,7 +31,7 @@ El objetivo principal de esta aplicación es servir como un asistente a los prof
 
 ## Demos
 
-### Gestión de Pacientes###
+### Gestión de Pacientes
 
 <div>
 <video width="640" height="360" controls>
@@ -41,6 +41,7 @@ El objetivo principal de esta aplicación es servir como un asistente a los prof
 </div>
 
 ### Gestión de Valoraciones PHQ-9
+
 <div>
 <video width="640" height="360" controls>
   <source src="./recursos/valoracionPHQ9.mp4" type="video/mp4">
@@ -49,6 +50,7 @@ El objetivo principal de esta aplicación es servir como un asistente a los prof
 </div>
 
 ### Análisis Individual de valoración
+
 <div>
 <video width="640" height="360" controls>
   <source src="./recursos/AnalisisIndividual.mp4" type="video/mp4">
@@ -57,6 +59,7 @@ El objetivo principal de esta aplicación es servir como un asistente a los prof
 </div>
 
 ### Análisis de tendencias
+
 <div>
 <video width="640" height="360" controls>
   <source src="./recursos/AnalisisTendencias.mp4" type="video/mp4">

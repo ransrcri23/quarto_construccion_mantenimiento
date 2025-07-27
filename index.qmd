@@ -23,12 +23,23 @@ El propósito de este sitio es documentar los diferentes retos y casos que compo
 
 ## Contenido
 
+### Información General
 - [**Proyecto Funcional**](demo/index.qmd): Información general del proyecto funcional y demostraciones.
+
+### Proyecto de Construcción
+
 - [**Reto 1**](reto1/index.qmd): Mikado.
 - [**Reto 2**](reto2/index.qmd): Metodología utilizada.
 - [**Reto 3**](reto3/index.qmd): Requerimientos Funcionales y No Funcionales.
 - [**Reto 4**](reto4/index.qmd): Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.
+
+### Proyecto de Integración
+
 - [**Reto 5**](reto5/index.qmd): Utilización de alguna tecnología relacionada con integración continua.
+- [**Reto 6**](reto6/index.qmd): Automatización de procesos para integración continua.
+
+### Casos
+
 - [**Caso 1**](caso1/index.qmd): Behavior Driven Development (BDD).
 
 Usa la navegación lateral para explorar las subsecciones de cada tema.

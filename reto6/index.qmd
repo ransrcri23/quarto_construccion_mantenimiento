@@ -1,0 +1,14 @@
+---
+title: "Descripcion"
+---
+
+## Reto 6
+
+Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.
+
+## Subsecciones
+
+En las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)

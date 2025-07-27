@@ -498,7 +498,7 @@
     "href": "index.html#contenido",
     "title": "Proyecto de Construccion y Mantenimiento de Software",
     "section": "Contenido",
-    "text": "Contenido\n\nProyecto Funcional: Información general del proyecto funcional y demostraciones.\nReto 1: Mikado.\nReto 2: Metodología utilizada.\nReto 3: Requerimientos Funcionales y No Funcionales.\nReto 4: Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.\nReto 5: Utilización de alguna tecnología relacionada con integración continua.\nCaso 1: Behavior Driven Development (BDD).\n\nUsa la navegación lateral para explorar las subsecciones de cada tema.",
+    "text": "Contenido\n\nInformación General\n\nProyecto Funcional: Información general del proyecto funcional y demostraciones.\n\n\n\nProyecto de Construcción\n\nReto 1: Mikado.\nReto 2: Metodología utilizada.\nReto 3: Requerimientos Funcionales y No Funcionales.\nReto 4: Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.\n\n\n\nProyecto de Integración\n\nReto 5: Utilización de alguna tecnología relacionada con integración continua.\nReto 6: Automatización de procesos para integración continua.\n\n\n\nCasos\n\nCaso 1: Behavior Driven Development (BDD).\n\nUsa la navegación lateral para explorar las subsecciones de cada tema.",
     "crumbs": [
       "Proyecto de Construccion y Mantenimiento de Software"
     ]
@@ -731,6 +731,199 @@
     "crumbs": [
       "Reto 5 - Tecnología relacionada con integración continua",
       "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html",
+    "href": "reto6/implementacion.html",
+    "title": "Implementacion",
+    "section": "",
+    "text": "Para este reto, decidimos implementar un sistema de automatización de pruebas unitarias usando GitHub actions como plataforma de CI/CD.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html#como-lo-aplicamos",
+    "href": "reto6/implementacion.html#como-lo-aplicamos",
+    "title": "Implementacion",
+    "section": "",
+    "text": "Para este reto, decidimos implementar un sistema de automatización de pruebas unitarias usando GitHub actions como plataforma de CI/CD.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html#como-funciona",
+    "href": "reto6/implementacion.html#como-funciona",
+    "title": "Implementacion",
+    "section": "¿Como funciona?",
+    "text": "¿Como funciona?\nEl sistema ejecuta automáticamente cuatro pruebas unitarias cada vez que se hace push a branches específicos, principalmente main, garantizando la calidad del código sin intervención manual. En caso de falla de alguna de las pruebas, se generan alertas.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html#flujo-de-automatización",
+    "href": "reto6/implementacion.html#flujo-de-automatización",
+    "title": "Implementacion",
+    "section": "Flujo de automatización",
+    "text": "Flujo de automatización\n\n\n\nFlujo de automatización",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/index.html",
+    "href": "reto6/index.html",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto6/index.html#reto-6",
+    "href": "reto6/index.html#reto-6",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto6/index.html#subsecciones",
+    "href": "reto6/index.html#subsecciones",
+    "title": "Descripcion",
+    "section": "Subsecciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html",
+    "href": "reto6/ejemplos.html",
+    "title": "Ejemplos y demostraciones",
+    "section": "",
+    "text": "En esta sección se puede encontrar evidencia sobre la implementación del reto.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#git-graph-del-proyecto",
+    "href": "reto6/ejemplos.html#git-graph-del-proyecto",
+    "title": "Ejemplos y demostraciones",
+    "section": "Git Graph del proyecto",
+    "text": "Git Graph del proyecto\nEn la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot"
+  },
+  {
+    "objectID": "reto6/ejemplos.html#enlace-al-jira",
+    "href": "reto6/ejemplos.html#enlace-al-jira",
+    "title": "Ejemplos y demostraciones",
+    "section": "Enlace al Jira",
+    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira"
+  },
+  {
+    "objectID": "reto6/ejemplos.html#progreso-de-épicas",
+    "href": "reto6/ejemplos.html#progreso-de-épicas",
+    "title": "Ejemplos y demostraciones",
+    "section": "Progreso de Épicas",
+    "text": "Progreso de Épicas\nLa siguiente imagen muestra el progreso de las épicas iniciadas\n\n\n\nProgreso de épicas"
+  },
+  {
+    "objectID": "reto6/ejemplos.html#calendario-en-jira",
+    "href": "reto6/ejemplos.html#calendario-en-jira",
+    "title": "Ejemplos y demostraciones",
+    "section": "Calendario en Jira",
+    "text": "Calendario en Jira\nEn esta imagen, se puede apreciar parte del calendario de desarrollo del proyecto\n\n\n\nCalendario en Jira"
+  },
+  {
+    "objectID": "reto6/implementacion.html#pruebas-unitarias-implementadas",
+    "href": "reto6/implementacion.html#pruebas-unitarias-implementadas",
+    "title": "Implementacion",
+    "section": "Pruebas unitarias implementadas",
+    "text": "Pruebas unitarias implementadas\n\nCreación de paciente: Validar que se pueden crear pacientes correctamente en MongoDB.\nCreación de Valoraciones PHQ-9: Validar que se pueden crear valoraciones PHQ-9 con relación a pacientes.\nTest de Análisis Individual con Gemini: Probar la integración con Gemini AI sin hacer llamadas reales.\nTest de Análisis de Tendencias: Verificar capacidad de analizar múltiples valoraciones de un paciente.",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html#beneficios-de-implementación",
+    "href": "reto6/implementacion.html#beneficios-de-implementación",
+    "title": "Implementacion",
+    "section": "Beneficios de implementación",
+    "text": "Beneficios de implementación\n\nPara el Desarrollo:\n\nFeedback inmediato sobre cambios\nPrevención de regresiones\nCalidad de código garantizada\nDocumentación viva del comportamiento esperado\n\n\n\nPara el Equipo:\n\nConfianza en deploys\nIntegración continua\nEstándares de calidad\nReducción de bugs en producción\n\n\n\nPara el Proyecto:\n\nEscalabilidad - Más tests fácilmente\nMantenibilidad - Refactoring seguro\nProfesionalismo - Badge de calidad\nAutomatización completa - Sin intervención manual",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/implementacion.html#resultados",
+    "href": "reto6/implementacion.html#resultados",
+    "title": "Implementacion",
+    "section": "Resultados",
+    "text": "Resultados\n\n100% tests passing en todas las ejecuciones\n~2-3 minutos de duración promedio\nEjecución automática en cada push\nCobertura completa de funcionalidades core",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
+    "href": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
+    "title": "Ejemplos y demostraciones",
+    "section": "Vista de GitHub al hacer un push",
+    "text": "Vista de GitHub al hacer un push\nEn el siguiente video se puede observar el estado del repositorio al momento de hacer un push, mientras las pruebas unitarias automatizadas se están ejecutando\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nNotificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo\n\n\n\n\nPrueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución\n\n\n\n\nRepositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
+    "href": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
+    "title": "Ejemplos y demostraciones",
+    "section": "Notificación de fallo de pruebas unitarias",
+    "text": "Notificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#prueba-exitosa",
+    "href": "reto6/ejemplos.html#prueba-exitosa",
+    "title": "Ejemplos y demostraciones",
+    "section": "Prueba exitosa",
+    "text": "Prueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#repositorio",
+    "href": "reto6/ejemplos.html#repositorio",
+    "title": "Ejemplos y demostraciones",
+    "section": "Repositorio",
+    "text": "Repositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
     ]
   }
 ]

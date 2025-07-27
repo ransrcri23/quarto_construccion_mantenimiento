@@ -1,0 +1,49 @@
+---
+title: "Implementacion"
+---
+
+## ¿Como lo aplicamos?
+
+Para este reto, decidimos implementar un sistema de automatización de pruebas unitarias usando GitHub actions como plataforma de CI/CD.
+
+## ¿Como funciona?
+
+El sistema ejecuta automáticamente cuatro pruebas unitarias cada vez que se hace push a branches específicos, principalmente main, garantizando la calidad del código sin intervención manual. En caso de falla de alguna de las pruebas, se generan alertas.
+
+## Flujo de automatización
+
+![Flujo de automatización](./recursos/flujo.png)
+
+## Pruebas unitarias implementadas
+
+- **Creación de paciente**: Validar que se pueden crear pacientes correctamente en MongoDB.
+- **Creación de Valoraciones PHQ-9**: Validar que se pueden crear valoraciones PHQ-9 con relación a pacientes.
+- **Test de Análisis Individual con Gemini**: Probar la integración con Gemini AI sin hacer llamadas reales.
+- **Test de Análisis de Tendencias**: Verificar capacidad de analizar múltiples valoraciones de un paciente.
+
+## Beneficios de implementación
+
+### Para el Desarrollo:
+- Feedback inmediato sobre cambios
+- Prevención de regresiones
+- Calidad de código garantizada
+- Documentación viva del comportamiento esperado
+
+### Para el Equipo:
+- Confianza en deploys
+- Integración continua
+- Estándares de calidad
+- Reducción de bugs en producción
+
+### Para el Proyecto:
+- Escalabilidad - Más tests fácilmente
+- Mantenibilidad - Refactoring seguro
+- Profesionalismo - Badge de calidad
+- Automatización completa - Sin intervención manual
+
+## Resultados
+
+- 100% tests passing en todas las ejecuciones
+- ~2-3 minutos de duración promedio
+- Ejecución automática en cada push
+- Cobertura completa de funcionalidades core

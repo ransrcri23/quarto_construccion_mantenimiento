@@ -41,6 +41,11 @@ website:
           - reto5/index.qmd
           - reto5/implementacion.qmd
           - reto5/ejemplos.qmd
+      - section: "Reto 6 - Automatización de procesos para integración continua."
+        contents:
+          - reto6/index.qmd
+          - reto6/implementacion.qmd
+          - reto6/ejemplos.qmd
       - section: "Caso 1 - BDD"
         contents:
           - caso1/index.qmd
@@ -51,3 +56,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 3
