@@ -15,3 +15,4 @@ En esta sección se puede observar las entradas automáticas de documentación d
 |b243326|Randall Sanchez|Se añadió a `auto_documentation.py` la función `commit_and_push_wiki_changes`.  Esta función automatiza el proceso de  `quarto render`, `git add`, `git commit` y `git push` para actualizar el wiki tras generar la documentación.  Mejora la automatización del flujo de trabajo.|2025-08-07 19:08:44|
 |1c1eb56|Randall Sanchez|Cambios en: templates/base.html|2025-08-07 19:23:20|
 |3ab5231|Randall Sanchez|Cambios en: templates/base.html|2025-08-07 19:28:45|
+|3ab5231|Randall Sanchez|Se revertío el cambio de color en la variable CSS `--primary-blue` del template base.  El valor se cambió de `#1e40bb` a `#1e40af`.  La razón no se especifica en el commit, pero sugiere una corrección o reversión a una versión anterior.|2025-08-07 19:37:02|
