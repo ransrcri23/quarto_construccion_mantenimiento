@@ -1,0 +1,14 @@
+---
+title: "Descripcion"
+---
+
+## Reto 7
+
+Este reto consiste en investigar sobre una oportunidad de mejora a nivel de mantenimiento e implementar su solución en el proyecto
+
+## Subsecciones
+
+En las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto
+
+- [Implementación](implementacion.qmd)
+- [Ejemplos y demostraciones](ejemplos.qmd)
