@@ -46,6 +46,12 @@ website:
           - reto6/index.qmd
           - reto6/implementacion.qmd
           - reto6/ejemplos.qmd
+      - section: "Reto 7 - Proyecto de Mantenimiento."
+        contents:
+          - reto7/index.qmd
+          - reto7/implementacion.qmd
+          - reto7/ejemplos.qmd
+          - reto7/logs.qmd
       - section: "Caso 1 - BDD"
         contents:
           - caso1/index.qmd

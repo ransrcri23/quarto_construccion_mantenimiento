@@ -2,38 +2,4 @@
 title: "Ejemplos y demostraciones"
 ---
 
-En esta sección se puede encontrar evidencia sobre la implementación del reto.
-
-## Vista de GitHub al hacer un push
-
-En el siguiente video se puede observar el estado del repositorio al momento de hacer un push, mientras las pruebas unitarias automatizadas se están ejecutando
-
-<div>
-<video width="640" height="360" controls>
-  <source src="./recursos/git.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
-</div>
-
-
-## Notificación de fallo de pruebas unitarias
-
-En esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias
-
-![Notificación de fallo](./recursos/alert.png){fig-align="left" width=75%}
-
-## Prueba exitosa
-
-La siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias
-
-![Prueba exitosa](./recursos/success.png){fig-align="left"}
-
-A continuación se muestra el flujo de ejecución de las pruebas automatizadas
-
-![Flujo de ejecución](./recursos/ejecucion.png){fig-align="left"}
-
-## Repositorio
-
-Visita el **[repositorio del proyecto](https://github.com/ransrcri23/psybot-service)** para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.
-
-![Estructura de archivos](./recursos/estructura.png){fig-align="left"}
+En construcción

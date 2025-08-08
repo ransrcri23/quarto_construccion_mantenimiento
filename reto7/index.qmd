@@ -12,3 +12,4 @@ En las siguientes subsecciones se detalla la metodología y la justificación de
 
 - [Implementación](implementacion.qmd)
 - [Ejemplos y demostraciones](ejemplos.qmd)
+- [Registros de documentación automática](logs.qmd)
