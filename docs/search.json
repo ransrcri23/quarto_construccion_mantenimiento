@@ -33,6 +33,28 @@
     ]
   },
   {
+    "objectID": "reto7/implementacion.html#beneficios",
+    "href": "reto7/implementacion.html#beneficios",
+    "title": "Implementacion",
+    "section": "Beneficios",
+    "text": "Beneficios\nLa utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.",
+    "crumbs": [
+      "Reto 7 - Proyecto de Mantenimiento.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto7/implementacion.html#como-funciona",
+    "href": "reto7/implementacion.html#como-funciona",
+    "title": "Implementacion",
+    "section": "¿Como funciona?",
+    "text": "¿Como funciona?\n\nDiagrama de arquitectura\nEl siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema\n\n\n\nDiagrama de arquitectura\n\n\n\n\nScript de automatización\nDentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:\n\nget_git_info(): Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log –pretty=format:%an), mensaje del commit (git log –pretty=format:%s), archivos modificados (git diff –name-only) y contenido de los cambios (git diff)\nanalyze_changes_with_gemini(): Conecta con gemini, envía el prompt, procesa y formatea la respuesta\nupdate_wiki_logs(): Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado\ncommit_and_push_wiki_changes(): Realiza las tareas para hacer push al repositorio del wiki (quarto render &gt; git add . &gt; git commit &gt; git push)\n\n\n\nGit Hook\nEn este caso, configuramos el pre-push (.git-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.\n#!/bin/sh\n# Git Hook: pre-push\n# Se ejecuta automáticamente antes de cada push\n# Llama al sistema de documentación automática\n\necho \"Ejecutando sistema de documentación automática...\"\n\n# Ejecutar el script de documentación automática\npython auto_documentation.py\n\n# Verificar si el script se ejecutó correctamente\nif [ $? -ne 0 ]; then\n    echo \"Error en la documentación automática\"\n    echo \"El push continúa, pero revisa los logs\"\nfi\n\necho \"Documentación automática completada\"\nEn la siguiente sección se pueden observar algunas demostraciones.",
+    "crumbs": [
+      "Reto 7 - Proyecto de Mantenimiento.",
+      "Implementacion"
+    ]
+  },
+  {
     "objectID": "reto6/index.html",
     "href": "reto6/index.html",
     "title": "Descripcion",
@@ -973,28 +995,6 @@
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
       "Descripcion"
-    ]
-  },
-  {
-    "objectID": "reto7/implementacion.html#beneficios",
-    "href": "reto7/implementacion.html#beneficios",
-    "title": "Implementacion",
-    "section": "Beneficios",
-    "text": "Beneficios\nLa utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.",
-    "crumbs": [
-      "Reto 7 - Proyecto de Mantenimiento.",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto7/implementacion.html#como-funciona",
-    "href": "reto7/implementacion.html#como-funciona",
-    "title": "Implementacion",
-    "section": "¿Como funciona?",
-    "text": "¿Como funciona?\n\nDiagrama de arquitectura\nEl siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema\n\n\n\nDiagrama de arquitectura\n\n\n\n\nScript de automatización\nDentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:\n\nget_git_info(): Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log –pretty=format:%an), mensaje del commit (git log –pretty=format:%s), archivos modificados (git diff –name-only) y contenido de los cambios (git diff)\nanalyze_changes_with_gemini(): Conecta con gemini, envía el prompt, procesa y formatea la respuesta\nupdate_wiki_logs(): Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado\ncommit_and_push_wiki_changes(): Realiza las tareas para hacer push al repositorio del wiki (quarto render &gt; git add . &gt; git commit &gt; git push)\n\n\n\nGit Hook\nEn este caso, configuramos el pre-push (.git-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.\n#!/bin/sh\n# Git Hook: pre-push\n# Se ejecuta automáticamente antes de cada push\n# Llama al sistema de documentación automática\n\necho \"Ejecutando sistema de documentación automática...\"\n\n# Ejecutar el script de documentación automática\npython auto_documentation.py\n\n# Verificar si el script se ejecutó correctamente\nif [ $? -ne 0 ]; then\n    echo \"Error en la documentación automática\"\n    echo \"El push continúa, pero revisa los logs\"\nfi\n\necho \"Documentación automática completada\"\nEn la siguiente sección se pueden observar algunas demostraciones.",
-    "crumbs": [
-      "Reto 7 - Proyecto de Mantenimiento.",
-      "Implementacion"
     ]
   }
 ]
