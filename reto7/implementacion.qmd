@@ -4,4 +4,54 @@ title: "Implementacion"
 
 ## ¿Como lo aplicamos?
 
-En construcción
+Para el desarrollo del reto 7 desarrollamos un sistema de documentación automatizada, la cual se dispara al hacer un push al [repositorio del proyecto en Github](https://github.com/ransrcri23/psybot-service). Una vez que se hace un push al repositorio del proyecto, el sistema extrae información del commit, como el autor y el mensaje del desarrollador en el commit, así como las diferencias entre el código original y el actualizado. Con esta información, el sistema se conecta con Gemini para obtener una descripción del cambio. Una vez que se obtiene la descripción de Gemini, se inserta una nueva fila en la bitácora de cambios, la cual se encuentra en el [wiki del proyecto](https://ransrcri23.github.io/quarto_construccion_mantenimiento/reto7/logs.html).
+
+## Beneficios
+
+La utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.
+
+## ¿Como funciona?
+
+### Diagrama de arquitectura
+
+El siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema
+
+![Diagrama de arquitectura](./recursos/arq.png){fig-align="left"}
+
+### Script de automatización
+
+Dentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:
+
+- **get_git_info():** Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log --pretty=format:%an), mensaje del commit (git log --pretty=format:%s), archivos modificados (git diff --name-only) y contenido de los cambios (git diff) 
+
+- **analyze_changes_with_gemini():** Conecta con gemini, envía el prompt, procesa y formatea la respuesta
+
+- **update_wiki_logs():** Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado
+
+- **commit_and_push_wiki_changes():** Realiza las tareas para hacer push al repositorio del wiki (quarto render > git add . > git commit > git push)
+
+### Git Hook
+
+En este caso, configuramos el pre-push (.git\hooks\pre-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.
+
+```
+#!/bin/sh
+# Git Hook: pre-push
+# Se ejecuta automáticamente antes de cada push
+# Llama al sistema de documentación automática
+
+echo "Ejecutando sistema de documentación automática..."
+
+# Ejecutar el script de documentación automática
+python auto_documentation.py
+
+# Verificar si el script se ejecutó correctamente
+if [ $? -ne 0 ]; then
+    echo "Error en la documentación automática"
+    echo "El push continúa, pero revisa los logs"
+fi
+
+echo "Documentación automática completada"
+```
+
+En la [siguiente sección](ejemplos.qmd) se pueden observar algunas demostraciones.

@@ -2,4 +2,10 @@
 title: "Ejemplos y demostraciones"
 ---
 
-En construcción
+A continuación se puede observar los mensajes en la terminal, a la hora de ejecutar un push al repositorio del proyecto.
+
+![Terminal](./recursos/terminal.png){fig-align="left"}
+
+En la siguiente imagen se puede observar la bitácora del wiki, donde se registran todos los cambios realizados al repositorio. Para ver la sección completa, se puede visitar [este enlace](https://ransrcri23.github.io/quarto_construccion_mantenimiento/reto7/logs.html).
+
+![Bitácora](./recursos/bitacora.png){fig-align="left"}

@@ -332,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../reto7/logs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Documentación automática</span></a>
+ <span class="menu-text">Bitácora automatizada</span></a>
   </div>
 </li>
       </ul>
@@ -371,6 +371,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#como-lo-aplicamos" id="toc-como-lo-aplicamos" class="nav-link active" data-scroll-target="#como-lo-aplicamos">¿Como lo aplicamos?</a></li>
+  <li><a href="#beneficios" id="toc-beneficios" class="nav-link" data-scroll-target="#beneficios">Beneficios</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">¿Como funciona?</a>
+  <ul class="collapse">
+  <li><a href="#diagrama-de-arquitectura" id="toc-diagrama-de-arquitectura" class="nav-link" data-scroll-target="#diagrama-de-arquitectura">Diagrama de arquitectura</a></li>
+  <li><a href="#script-de-automatización" id="toc-script-de-automatización" class="nav-link" data-scroll-target="#script-de-automatización">Script de automatización</a></li>
+  <li><a href="#git-hook" id="toc-git-hook" class="nav-link" data-scroll-target="#git-hook">Git Hook</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -398,9 +405,58 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="como-lo-aplicamos" class="level2">
 <h2 class="anchored" data-anchor-id="como-lo-aplicamos">¿Como lo aplicamos?</h2>
-<p>En construcción</p>
+<p>Para el desarrollo del reto 7 desarrollamos un sistema de documentación automatizada, la cual se dispara al hacer un push al <a href="https://github.com/ransrcri23/psybot-service">repositorio del proyecto en Github</a>. Una vez que se hace un push al repositorio del proyecto, el sistema extrae información del commit, como el autor y el mensaje del desarrollador en el commit, así como las diferencias entre el código original y el actualizado. Con esta información, el sistema se conecta con Gemini para obtener una descripción del cambio. Una vez que se obtiene la descripción de Gemini, se inserta una nueva fila en la bitácora de cambios, la cual se encuentra en el <a href="https://ransrcri23.github.io/quarto_construccion_mantenimiento/reto7/logs.html">wiki del proyecto</a>.</p>
+</section>
+<section id="beneficios" class="level2">
+<h2 class="anchored" data-anchor-id="beneficios">Beneficios</h2>
+<p>La utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.</p>
+</section>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">¿Como funciona?</h2>
+<section id="diagrama-de-arquitectura" class="level3">
+<h3 class="anchored" data-anchor-id="diagrama-de-arquitectura">Diagrama de arquitectura</h3>
+<p>El siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="./recursos/arq.png" class="img-fluid figure-img"></p>
+<figcaption>Diagrama de arquitectura</figcaption>
+</figure>
+</div>
+</section>
+<section id="script-de-automatización" class="level3">
+<h3 class="anchored" data-anchor-id="script-de-automatización">Script de automatización</h3>
+<p>Dentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:</p>
+<ul>
+<li><p><strong>get_git_info():</strong> Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log –pretty=format:%an), mensaje del commit (git log –pretty=format:%s), archivos modificados (git diff –name-only) y contenido de los cambios (git diff)</p></li>
+<li><p><strong>analyze_changes_with_gemini():</strong> Conecta con gemini, envía el prompt, procesa y formatea la respuesta</p></li>
+<li><p><strong>update_wiki_logs():</strong> Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado</p></li>
+<li><p><strong>commit_and_push_wiki_changes():</strong> Realiza las tareas para hacer push al repositorio del wiki (quarto render &gt; git add . &gt; git commit &gt; git push)</p></li>
+</ul>
+</section>
+<section id="git-hook" class="level3">
+<h3 class="anchored" data-anchor-id="git-hook">Git Hook</h3>
+<p>En este caso, configuramos el pre-push (.git-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.</p>
+<pre><code>#!/bin/sh
+# Git Hook: pre-push
+# Se ejecuta automáticamente antes de cada push
+# Llama al sistema de documentación automática
+
+echo "Ejecutando sistema de documentación automática..."
+
+# Ejecutar el script de documentación automática
+python auto_documentation.py
+
+# Verificar si el script se ejecutó correctamente
+if [ $? -ne 0 ]; then
+    echo "Error en la documentación automática"
+    echo "El push continúa, pero revisa los logs"
+fi
+
+echo "Documentación automática completada"</code></pre>
+<p>En la <a href="../reto7/ejemplos.html">siguiente sección</a> se pueden observar algunas demostraciones.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,8 +1,8 @@
 ---
-title: "Documentación automática"
+title: "Bitácora automatizada"
 ---
 
-En esta sección se puede observar las entradas automáticas de documentación de este proof of concept.
+En esta sección se puede observar la bitácora de los pushes mas recientes al repositorio en github. Todas las entradas en la siguiente tabla fueron generados por el sistema de documentación automática.
 
 | Commit             | Owner       | Descripción del cambio | Fecha|
 |--------------------|-------------|------------------------|------|

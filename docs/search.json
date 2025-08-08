@@ -2,12 +2,12 @@
   {
     "objectID": "reto7/logs.html",
     "href": "reto7/logs.html",
-    "title": "Documentación automática",
+    "title": "Bitácora automatizada",
     "section": "",
-    "text": "En esta sección se puede observar las entradas automáticas de documentación de este proof of concept.\n\n\n\n\n\n\n\n\n\nCommit\nOwner\nDescripción del cambio\nFecha\n\n\n\n\ndadbab5\nRandall Sanchez\nCambios en: README.md\n2025-08-07 18:49:29\n\n\ndadbab5\nRandall Sanchez\nSe actualizó el archivo README.md para incluir insignias de estado de pruebas automatizadas con GitHub Actions, versiones de Python, Django y MongoDB. Se añadió una sección indicando la habilitación de pruebas automáticas en las ramas main/develop. Mejora la documentación\n2025-08-07 18:50:38\n\n\nb249ba5\nRandall Sanchez\nSe corrigió la codificación en auto_documentation.py para asegurar la correcta lectura de la salida de git diff en Windows. Se añadió encoding='utf-8' y errors='replace' al comando subprocess.check_output para manejar caracteres no UTF-8, previniendo errores de decodificación.\n2025-08-07 18:52:35\n\n\nb249ba5\nRandall Sanchez\nSe añadió encoding='utf-8' y errors='replace' al comando subprocess.check_output en auto_documentation.py para asegurar la correcta lectura de la salida de git diff en sistemas Windows, previniendo errores de codificación y reemplazando caracteres no UTF-8.\n2025-08-07 18:54:38\n\n\n86be4f8\nRandall Sanchez\nSe modificó auto_documentation.py para restringir el sistema al repositorio remoto ‘personal’. Se añadió un comentario indicando este cambio. La configuración ahora apunta a un repositorio local específico (WIKI_PATH) en lugar de un repositorio remoto genérico.\n2025-08-07 18:59:48\n\n\n86be4f8\nRandall Sanchez\nSe modificó auto_documentation.py para usar exclusivamente un repositorio remoto ‘personal’. Se añadió un comentario indicando el cambio. Esto simplifica la configuración del sistema, probablemente para desarrollo individual o pruebas.\n2025-08-07 19:02:16\n\n\nb243326\nRandall Sanchez\nSe añadió a auto_documentation.py la función commit_and_push_wiki_changes. Esta función automatiza el proceso de quarto render, git add, git commit y git push para actualizar el wiki tras generar la documentación. Mejora la automatización del flujo de trabajo.\n2025-08-07 19:08:44\n\n\na171b0e\nRandall Sanchez\nSe modificó el archivo templates/base.html para cambiar la paleta de colores de azul a verde. Las variables CSS --primary-blue, --light-blue, --lighter-blue, --lightest-blue, y --dark-blue fueron reemplazadas por sus equivalentes en verde (--primary-green, etc.).\n2025-08-07 20:47:58\n\n\n2c59d9d\nRandall Sanchez\nEste commit mejora el sistema de generación automática de descripciones técnicas para cambios de código, específicamente abordando el problema de frases inconclusas. El cambio se centra en la modificación de la solicitud (prompt) enviada al modelo de lenguaje Gemini.\n2025-08-07 20:52:21\n\n\n35db7a6\nRandall Sanchez\nSe revertían los cambios de color en la plantilla base templates/base.html. Los colores verdes (--primary-green, etc.) fueron reemplazados por los azules originales (--primary-blue, etc.), revirtiendo una modificación previa. Esto restaura la apariencia visual inicial de la plantilla.\n2025-08-07 20:53:53\n\n\n846480b\nRandall Sanchez\nSe eliminaron emojis (✅, ❌) de los mensajes de consola en psybot/settings.py referentes a la conexión MongoDB. Esto mejora la portabilidad del código, evitando problemas con consolas que no soportan emojis y simplificando la salida. Se reemplazó “✅ Conectado…” por “Conectado…\n2025-08-07 21:01:17",
+    "text": "En esta sección se puede observar la bitácora de los pushes mas recientes al repositorio en github. Todas las entradas en la siguiente tabla fueron generados por el sistema de documentación automática.\n\n\n\n\n\n\n\n\n\nCommit\nOwner\nDescripción del cambio\nFecha\n\n\n\n\ndadbab5\nRandall Sanchez\nCambios en: README.md\n2025-08-07 18:49:29\n\n\ndadbab5\nRandall Sanchez\nSe actualizó el archivo README.md para incluir insignias de estado de pruebas automatizadas con GitHub Actions, versiones de Python, Django y MongoDB. Se añadió una sección indicando la habilitación de pruebas automáticas en las ramas main/develop. Mejora la documentación\n2025-08-07 18:50:38\n\n\nb249ba5\nRandall Sanchez\nSe corrigió la codificación en auto_documentation.py para asegurar la correcta lectura de la salida de git diff en Windows. Se añadió encoding='utf-8' y errors='replace' al comando subprocess.check_output para manejar caracteres no UTF-8, previniendo errores de decodificación.\n2025-08-07 18:52:35\n\n\nb249ba5\nRandall Sanchez\nSe añadió encoding='utf-8' y errors='replace' al comando subprocess.check_output en auto_documentation.py para asegurar la correcta lectura de la salida de git diff en sistemas Windows, previniendo errores de codificación y reemplazando caracteres no UTF-8.\n2025-08-07 18:54:38\n\n\n86be4f8\nRandall Sanchez\nSe modificó auto_documentation.py para restringir el sistema al repositorio remoto ‘personal’. Se añadió un comentario indicando este cambio. La configuración ahora apunta a un repositorio local específico (WIKI_PATH) en lugar de un repositorio remoto genérico.\n2025-08-07 18:59:48\n\n\n86be4f8\nRandall Sanchez\nSe modificó auto_documentation.py para usar exclusivamente un repositorio remoto ‘personal’. Se añadió un comentario indicando el cambio. Esto simplifica la configuración del sistema, probablemente para desarrollo individual o pruebas.\n2025-08-07 19:02:16\n\n\nb243326\nRandall Sanchez\nSe añadió a auto_documentation.py la función commit_and_push_wiki_changes. Esta función automatiza el proceso de quarto render, git add, git commit y git push para actualizar el wiki tras generar la documentación. Mejora la automatización del flujo de trabajo.\n2025-08-07 19:08:44\n\n\na171b0e\nRandall Sanchez\nSe modificó el archivo templates/base.html para cambiar la paleta de colores de azul a verde. Las variables CSS --primary-blue, --light-blue, --lighter-blue, --lightest-blue, y --dark-blue fueron reemplazadas por sus equivalentes en verde (--primary-green, etc.).\n2025-08-07 20:47:58\n\n\n2c59d9d\nRandall Sanchez\nEste commit mejora el sistema de generación automática de descripciones técnicas para cambios de código, específicamente abordando el problema de frases inconclusas. El cambio se centra en la modificación de la solicitud (prompt) enviada al modelo de lenguaje Gemini.\n2025-08-07 20:52:21\n\n\n35db7a6\nRandall Sanchez\nSe revertían los cambios de color en la plantilla base templates/base.html. Los colores verdes (--primary-green, etc.) fueron reemplazados por los azules originales (--primary-blue, etc.), revirtiendo una modificación previa. Esto restaura la apariencia visual inicial de la plantilla.\n2025-08-07 20:53:53\n\n\n846480b\nRandall Sanchez\nSe eliminaron emojis (✅, ❌) de los mensajes de consola en psybot/settings.py referentes a la conexión MongoDB. Esto mejora la portabilidad del código, evitando problemas con consolas que no soportan emojis y simplificando la salida. Se reemplazó “✅ Conectado…” por “Conectado…\n2025-08-07 21:01:17",
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
-      "Documentación automática"
+      "Bitácora automatizada"
     ]
   },
   {
@@ -15,7 +15,7 @@
     "href": "reto7/implementacion.html",
     "title": "Implementacion",
     "section": "",
-    "text": "En construcción",
+    "text": "Para el desarrollo del reto 7 desarrollamos un sistema de documentación automatizada, la cual se dispara al hacer un push al repositorio del proyecto en Github. Una vez que se hace un push al repositorio del proyecto, el sistema extrae información del commit, como el autor y el mensaje del desarrollador en el commit, así como las diferencias entre el código original y el actualizado. Con esta información, el sistema se conecta con Gemini para obtener una descripción del cambio. Una vez que se obtiene la descripción de Gemini, se inserta una nueva fila en la bitácora de cambios, la cual se encuentra en el wiki del proyecto.",
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
       "Implementacion"
@@ -26,7 +26,7 @@
     "href": "reto7/implementacion.html#como-lo-aplicamos",
     "title": "Implementacion",
     "section": "",
-    "text": "En construcción",
+    "text": "Para el desarrollo del reto 7 desarrollamos un sistema de documentación automatizada, la cual se dispara al hacer un push al repositorio del proyecto en Github. Una vez que se hace un push al repositorio del proyecto, el sistema extrae información del commit, como el autor y el mensaje del desarrollador en el commit, así como las diferencias entre el código original y el actualizado. Con esta información, el sistema se conecta con Gemini para obtener una descripción del cambio. Una vez que se obtiene la descripción de Gemini, se inserta una nueva fila en la bitácora de cambios, la cual se encuentra en el wiki del proyecto.",
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
       "Implementacion"
@@ -936,7 +936,7 @@
     "href": "reto7/ejemplos.html",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "En construcción",
+    "text": "A continuación se puede observar los mensajes en la terminal, a la hora de ejecutar un push al repositorio del proyecto.\n\n\n\nTerminal\n\n\nEn la siguiente imagen se puede observar la bitácora del wiki, donde se registran todos los cambios realizados al repositorio. Para ver la sección completa, se puede visitar este enlace.\n\n\n\nBitácora",
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
       "Ejemplos y demostraciones"
@@ -969,10 +969,32 @@
     "href": "reto7/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones\nRegistros de documentación automática",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones\nBitácora automatizada",
     "crumbs": [
       "Reto 7 - Proyecto de Mantenimiento.",
       "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto7/implementacion.html#beneficios",
+    "href": "reto7/implementacion.html#beneficios",
+    "title": "Implementacion",
+    "section": "Beneficios",
+    "text": "Beneficios\nLa utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.",
+    "crumbs": [
+      "Reto 7 - Proyecto de Mantenimiento.",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto7/implementacion.html#como-funciona",
+    "href": "reto7/implementacion.html#como-funciona",
+    "title": "Implementacion",
+    "section": "¿Como funciona?",
+    "text": "¿Como funciona?\n\nDiagrama de arquitectura\nEl siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema\n\n\n\nDiagrama de arquitectura\n\n\n\n\nScript de automatización\nDentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:\n\nget_git_info(): Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log –pretty=format:%an), mensaje del commit (git log –pretty=format:%s), archivos modificados (git diff –name-only) y contenido de los cambios (git diff)\nanalyze_changes_with_gemini(): Conecta con gemini, envía el prompt, procesa y formatea la respuesta\nupdate_wiki_logs(): Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado\ncommit_and_push_wiki_changes(): Realiza las tareas para hacer push al repositorio del wiki (quarto render &gt; git add . &gt; git commit &gt; git push)\n\n\n\nGit Hook\nEn este caso, configuramos el pre-push (.git-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.\n#!/bin/sh\n# Git Hook: pre-push\n# Se ejecuta automáticamente antes de cada push\n# Llama al sistema de documentación automática\n\necho \"Ejecutando sistema de documentación automática...\"\n\n# Ejecutar el script de documentación automática\npython auto_documentation.py\n\n# Verificar si el script se ejecutó correctamente\nif [ $? -ne 0 ]; then\n    echo \"Error en la documentación automática\"\n    echo \"El push continúa, pero revisa los logs\"\nfi\n\necho \"Documentación automática completada\"\nEn la siguiente sección se pueden observar algunas demostraciones.",
+    "crumbs": [
+      "Reto 7 - Proyecto de Mantenimiento.",
+      "Implementacion"
     ]
   }
 ]
