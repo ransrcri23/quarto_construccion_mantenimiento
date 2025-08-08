@@ -1,354 +1,384 @@
 [
   {
-    "objectID": "reto5/index.html",
-    "href": "reto5/index.html",
+    "objectID": "reto6/index.html",
+    "href": "reto6/index.html",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en explorar la utilización de alguna tecnología relacionada con integración continua",
+    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
     "crumbs": [
-      "Reto 5 - Tecnología relacionada con integración continua",
+      "Reto 6 - Automatización de procesos para integración continua.",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto5/index.html#reto-5",
-    "href": "reto5/index.html#reto-5",
+    "objectID": "reto6/index.html#reto-6",
+    "href": "reto6/index.html#reto-6",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en explorar la utilización de alguna tecnología relacionada con integración continua",
+    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
     "crumbs": [
-      "Reto 5 - Tecnología relacionada con integración continua",
+      "Reto 6 - Automatización de procesos para integración continua.",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto5/index.html#subsecciones",
-    "href": "reto5/index.html#subsecciones",
+    "objectID": "reto6/index.html#subsecciones",
+    "href": "reto6/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se desarrollan las tecnologías exploradas y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nImplementación\nEjemplos y demostraciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
     "crumbs": [
-      "Reto 5 - Tecnología relacionada con integración continua",
+      "Reto 6 - Automatización de procesos para integración continua.",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto5/ejemplos.html",
-    "href": "reto5/ejemplos.html",
+    "objectID": "reto6/ejemplos.html",
+    "href": "reto6/ejemplos.html",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "Utilización de Docker\nA continuación se pueden observar algunas capturas de pantalla que demuestran la utilización de Docker en el proyecto.\n\n\n\nArchivo docker-compose.yml\n\n\n\n\n\nArchivo dockerfile\n\n\n\n\n\nArchivo requirements.txt\n\n\n\n\n\nEjecución en Docker Desktop",
+    "text": "En esta sección se puede encontrar evidencia sobre la implementación del reto.",
     "crumbs": [
-      "Reto 5 - Tecnología relacionada con integración continua",
+      "Reto 6 - Automatización de procesos para integración continua.",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto4/implementacion.html",
-    "href": "reto4/implementacion.html",
+    "objectID": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
+    "href": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
+    "title": "Ejemplos y demostraciones",
+    "section": "Vista de GitHub al hacer un push",
+    "text": "Vista de GitHub al hacer un push\nEn el siguiente video se puede observar el estado del repositorio al momento de hacer un push, mientras las pruebas unitarias automatizadas se están ejecutando\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nNotificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo\n\n\n\n\nPrueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución\n\n\n\n\nRepositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
+    "href": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
+    "title": "Ejemplos y demostraciones",
+    "section": "Notificación de fallo de pruebas unitarias",
+    "text": "Notificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#prueba-exitosa",
+    "href": "reto6/ejemplos.html#prueba-exitosa",
+    "title": "Ejemplos y demostraciones",
+    "section": "Prueba exitosa",
+    "text": "Prueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto6/ejemplos.html#repositorio",
+    "href": "reto6/ejemplos.html#repositorio",
+    "title": "Ejemplos y demostraciones",
+    "section": "Repositorio",
+    "text": "Repositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
+    "crumbs": [
+      "Reto 6 - Automatización de procesos para integración continua.",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto5/implementacion.html",
+    "href": "reto5/implementacion.html",
     "title": "Implementacion",
     "section": "",
-    "text": "En el desarrollo de la primera versión se implementaron múltiples características ideales de diseño, principalmente las siguientes:\n\nReutilización: El sistema cuenta con dos módulos que se conectan al API de Gemini, para obtener un análisis de los niveles de depresión de los pacientes. La configuración de dependencias y el código de conexión y métodos que generan los prompts son perfectamente reutilizables en otras aplicaciones, donde podrían integrarse tal como están desarrollados y solamente utilizar un prompt distinto.\nExtensibilidad: Los diferentes endpoints están separados por funcionalidad, de manera que se conectan entre ellos por atributos específicos pero no comparten lógica. Al estar desarrollados de esta manera, permite seguir extendiendo la aplicación un módulo a la vez, con una complejidad relativamente baja.\n\n\n\n\nLa aplicación propuesta se prestaba para aplicar múltiples prácticas de diseño, dos de ellas desarrolladas a continuación:\n\nIteraciones: Todo el código del proyecto fue desarrollado en iteraciones, creando branches para cada grupo de funcionalidades y la interfaz gráfica.\nDivide y vencerás: En esta mínima experiencia viable se dividieron las funcionalidades en grupos pequeños y se fue integrando el código progresivamente. El enfoque para seguir desarrollando la totalidad del proyecto sería el mismo, en cantidades pequeñas de trabajo que hagan el desarrollo manejable desde un punto de vista técnico y conceptual.\n\n\n\n\nA continuación se describen las técnicas para mejorar la calidad de software utilizadas y la forma en que fueron aplicadas:\n\nActividades exclusivas de control de calidad: En cada iteración se dedicó tiempo exclusivo a realizar pruebas unitarias, funcionales, de integración y de regresión.\nSaber definir los requerimientos y planificación de las etapas: Se dedicó un tiempo considerable al inicio del proyecto para definir los requerimientos que componen la totalidad de la visión del proyecto.\n\n\n\n\nEn la primera versión se identificaron dos oportunidades de integración, las cuales se explican a continuación:\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En el desarrollo de la experiencia mínima viable, se trabajó intencionalmente el módulo de pacientes después de crear el módulo de valoraciones, con el propósito de integrar un módulo que representaría una depedencia para el módulo ya existente y de esta manera ejercitar buenas prácticas de integración.\nIntegración con el API de Gemini: Se integró una conexión con el API de Gemini, al cual se le pasan prompts con los valores de las valoraciones y se obtienen respuestas en un formato específico, que alimentan la funcionalidad de la aplicación.",
+    "text": "Aunque Docker no es una herramienta de integración continua por sí sola, su incorporación dentro del pipeline de desarrollo es fundamental para garantizar la consistencia y confiabilidad del proceso. Al permitir la creación de entornos aislados y reproducibles, Docker facilita la construcción, prueba y despliegue de la aplicación de forma automatizada y homogénea en todas las etapas del ciclo de vida.\nEsto reduce significativamente los errores asociados a diferencias entre entornos locales, de prueba y producción, y permite integrar de forma más efectiva otras herramientas de CI/CD. En este sentido, Docker se convierte en un habilitador clave dentro de nuestra estrategia de integración continua, mejorando la calidad del software y acelerando los tiempos de entrega.",
+    "crumbs": [
+      "Reto 5 - Tecnología relacionada con integración continua",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto5/implementacion.html#como-lo-aplicamos",
+    "href": "reto5/implementacion.html#como-lo-aplicamos",
+    "title": "Implementacion",
+    "section": "",
+    "text": "Aunque Docker no es una herramienta de integración continua por sí sola, su incorporación dentro del pipeline de desarrollo es fundamental para garantizar la consistencia y confiabilidad del proceso. Al permitir la creación de entornos aislados y reproducibles, Docker facilita la construcción, prueba y despliegue de la aplicación de forma automatizada y homogénea en todas las etapas del ciclo de vida.\nEsto reduce significativamente los errores asociados a diferencias entre entornos locales, de prueba y producción, y permite integrar de forma más efectiva otras herramientas de CI/CD. En este sentido, Docker se convierte en un habilitador clave dentro de nuestra estrategia de integración continua, mejorando la calidad del software y acelerando los tiempos de entrega.",
+    "crumbs": [
+      "Reto 5 - Tecnología relacionada con integración continua",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto4/index.html",
+    "href": "reto4/index.html",
+    "title": "Descripcion",
+    "section": "",
+    "text": "El reto consiste en implementar al menos:\n\n2 características ideales de diseño\n1-2 Prácticas de diseño\nAl menos 2 técnicas para mejorar la calidad de software\nIdentificar una oportunidad de integración",
     "crumbs": [
       "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
-      "Implementacion"
+      "Descripcion"
     ]
   },
   {
-    "objectID": "reto4/implementacion.html#como-lo-aplicamos",
-    "href": "reto4/implementacion.html#como-lo-aplicamos",
-    "title": "Implementacion",
+    "objectID": "reto4/index.html#reto-4",
+    "href": "reto4/index.html#reto-4",
+    "title": "Descripcion",
     "section": "",
-    "text": "En el desarrollo de la primera versión se implementaron múltiples características ideales de diseño, principalmente las siguientes:\n\nReutilización: El sistema cuenta con dos módulos que se conectan al API de Gemini, para obtener un análisis de los niveles de depresión de los pacientes. La configuración de dependencias y el código de conexión y métodos que generan los prompts son perfectamente reutilizables en otras aplicaciones, donde podrían integrarse tal como están desarrollados y solamente utilizar un prompt distinto.\nExtensibilidad: Los diferentes endpoints están separados por funcionalidad, de manera que se conectan entre ellos por atributos específicos pero no comparten lógica. Al estar desarrollados de esta manera, permite seguir extendiendo la aplicación un módulo a la vez, con una complejidad relativamente baja.\n\n\n\n\nLa aplicación propuesta se prestaba para aplicar múltiples prácticas de diseño, dos de ellas desarrolladas a continuación:\n\nIteraciones: Todo el código del proyecto fue desarrollado en iteraciones, creando branches para cada grupo de funcionalidades y la interfaz gráfica.\nDivide y vencerás: En esta mínima experiencia viable se dividieron las funcionalidades en grupos pequeños y se fue integrando el código progresivamente. El enfoque para seguir desarrollando la totalidad del proyecto sería el mismo, en cantidades pequeñas de trabajo que hagan el desarrollo manejable desde un punto de vista técnico y conceptual.\n\n\n\n\nA continuación se describen las técnicas para mejorar la calidad de software utilizadas y la forma en que fueron aplicadas:\n\nActividades exclusivas de control de calidad: En cada iteración se dedicó tiempo exclusivo a realizar pruebas unitarias, funcionales, de integración y de regresión.\nSaber definir los requerimientos y planificación de las etapas: Se dedicó un tiempo considerable al inicio del proyecto para definir los requerimientos que componen la totalidad de la visión del proyecto.\n\n\n\n\nEn la primera versión se identificaron dos oportunidades de integración, las cuales se explican a continuación:\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En el desarrollo de la experiencia mínima viable, se trabajó intencionalmente el módulo de pacientes después de crear el módulo de valoraciones, con el propósito de integrar un módulo que representaría una depedencia para el módulo ya existente y de esta manera ejercitar buenas prácticas de integración.\nIntegración con el API de Gemini: Se integró una conexión con el API de Gemini, al cual se le pasan prompts con los valores de las valoraciones y se obtienen respuestas en un formato específico, que alimentan la funcionalidad de la aplicación.",
+    "text": "El reto consiste en implementar al menos:\n\n2 características ideales de diseño\n1-2 Prácticas de diseño\nAl menos 2 técnicas para mejorar la calidad de software\nIdentificar una oportunidad de integración",
     "crumbs": [
       "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto3/index.html",
-    "href": "reto3/index.html",
-    "title": "Descripcion",
-    "section": "",
-    "text": "Este reto consiste en definir y documentar los requerimientos funcionales y no funcionales del proyecto",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto3/index.html#reto-3",
-    "href": "reto3/index.html#reto-3",
-    "title": "Descripcion",
-    "section": "",
-    "text": "Este reto consiste en definir y documentar los requerimientos funcionales y no funcionales del proyecto",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Descripcion"
-    ]
-  },
-  {
-    "objectID": "reto3/index.html#subsecciones",
-    "href": "reto3/index.html#subsecciones",
+    "objectID": "reto4/index.html#subsecciones",
+    "href": "reto4/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se define el alcance del proyecto y se listan los recursos donde se registraron los requerimientos\n\nImplementación\nEjemplos y demostraciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la manera en que se implementaron las características mencionadas, así como ejemplos que demuestran su utilización\n\nImplementación\nEjemplos y demostraciones",
     "crumbs": [
-      "Reto 3 - RF y RNF",
+      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto3/ejemplos.html",
-    "href": "reto3/ejemplos.html",
+    "objectID": "reto4/ejemplos.html",
+    "href": "reto4/ejemplos.html",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "Visita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
+    "text": "Características ideales de diseño\n\nReutilización: El siguiente screenshot muestra la estructura del servicio de generación de prompts para intercambiar información con Gemini, la cual es reutilizable en otras iniciativas.\n\n\n\n\nEjemplo de código reutilizable\n\n\n\nExtensibilidad: En la imagen a continuación se puede observar la interfaz de swagger con los diferentes endpoints de la aplicación, los cuales funcionan independientemente, lo cual facilita la extensibilidad total de la aplicación.\n\n\n\n\nDemostración de extensibilidad\n\n\n\n\nPrácticas de diseño\n\nDivide y vencerás e iteraciones: En esta captura de pantalla se puede observar los commits al repositorio que demuestran el proceso iterativo de desarollo utilizado, así como el principio de divide y vencerás.\n\n\n\n\nGit Graph\n\n\n\n\nTécnicas para mejorar la calidad de software\n\nActividades exclusivas de control de calidad: A continuación se puede observar un ejemplo de una prueba automatizada realizada durante el desarrollo del módulo de pacientes.\n\n\n\n\nCódigo de prueba automatizada\n\n\n\nSaber definir los requerimientos y planificación de las etapas: En la siguiente imagen se puede observar las diferentes épicas del proyecto, las cuales agrupan los requerimientos específicos de la aplicación.\n\n\n\n\nÉpicas del proyecto\n\n\n\n\nOportunidad de integración\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En esta imagen se puede apreciar un ejemplo de la correlación del módulo de pacientes y el de valoraciones, como resultado de la integración del primero con el segundo.\n\n\n\n\nIntegración de paciente y valoraciones\n\n\n\nIntegración con el API de Gemini: En esta captura de pantalla se puede apreciar parte del código que permite la integración con el API de Gemini.\n\n\n\n\nIntegración con Gemini",
     "crumbs": [
-      "Reto 3 - RF y RNF",
+      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto3/ejemplos.html#enlace-al-jira",
-    "href": "reto3/ejemplos.html#enlace-al-jira",
-    "title": "Ejemplos y demostraciones",
-    "section": "",
-    "text": "Visita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto3/ejemplos.html#requerimientos-funcionales",
-    "href": "reto3/ejemplos.html#requerimientos-funcionales",
-    "title": "Ejemplos y demostraciones",
-    "section": "Requerimientos Funcionales",
-    "text": "Requerimientos Funcionales\nEn la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos funcoinales.\n\n\n\nRequerimientos Funcionales",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto3/ejemplos.html#requerimientos-no-funcionales",
-    "href": "reto3/ejemplos.html#requerimientos-no-funcionales",
-    "title": "Ejemplos y demostraciones",
-    "section": "Requerimientos No Funcionales",
-    "text": "Requerimientos No Funcionales\nEn la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos no funcoinales.\n\n\n\nRequerimientos No Funcionales",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto3/ejemplos.html#formato-de-user-story",
-    "href": "reto3/ejemplos.html#formato-de-user-story",
-    "title": "Ejemplos y demostraciones",
-    "section": "Formato de User Story",
-    "text": "Formato de User Story\nLa imagen a continuación muestra un ejemplo del formato utilizado para documentar los requerimientos en Jira\n\n\n\nUser Story",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto3/ejemplos.html#épicas-de-requerimientos-funcionales",
-    "href": "reto3/ejemplos.html#épicas-de-requerimientos-funcionales",
-    "title": "Ejemplos y demostraciones",
-    "section": "Épicas de requerimientos funcionales",
-    "text": "Épicas de requerimientos funcionales\nLa siguiente imagen muestra las épicas que agrupan los requerimientos funcionales\n\n\n\nÉpicas",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto3/ejemplos.html#progreso-de-épicas",
-    "href": "reto3/ejemplos.html#progreso-de-épicas",
-    "title": "Ejemplos y demostraciones",
-    "section": "Progreso de épicas",
-    "text": "Progreso de épicas\nEn la siguiente imagen se puede apreciar el progreso de las diferentes épicas de requerimientos funcionales\n\n\n\nProgreso de épicas",
-    "crumbs": [
-      "Reto 3 - RF y RNF",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto2/implementacion.html",
-    "href": "reto2/implementacion.html",
+    "objectID": "reto3/implementacion.html",
+    "href": "reto3/implementacion.html",
     "title": "Implementacion",
     "section": "",
-    "text": "Para el desarrollo del sistema de asistencia diagnóstica orientado a psicólogos clínicos, se optó por implementar un modelo de desarrollo incremental, un enfoque que permite construir el software mediante versiones sucesivas que agregan funcionalidades de manera progresiva, con entregables operativos en cada iteración (Pressman & Maxim, 2014). Esta decisión responde no solo a la necesidad técnica de validar soluciones complejas, sino también a las exigencias éticas y clínicas propias del contexto en que se implementará la herramienta.",
+    "text": "En el proyecto se definieron un total de 38 requerimientos, de los cuales 31 corresponden a requerimientos funcionales y 7 a requerimientos no funcionales. Todos los requerimientos fueron documentados en Jira con formato de user story, descripción, flujo normal y criterios de aceptación.\nLos tipos de requerimientos fueron etiquetados como RF, para requerimientos funcionales y RNF para requerimientos no funcionales.",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 3 - RF y RNF",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto2/implementacion.html#elección-de-metodología",
-    "href": "reto2/implementacion.html#elección-de-metodología",
+    "objectID": "reto3/implementacion.html#como-lo-aplicamos",
+    "href": "reto3/implementacion.html#como-lo-aplicamos",
     "title": "Implementacion",
     "section": "",
-    "text": "Para el desarrollo del sistema de asistencia diagnóstica orientado a psicólogos clínicos, se optó por implementar un modelo de desarrollo incremental, un enfoque que permite construir el software mediante versiones sucesivas que agregan funcionalidades de manera progresiva, con entregables operativos en cada iteración (Pressman & Maxim, 2014). Esta decisión responde no solo a la necesidad técnica de validar soluciones complejas, sino también a las exigencias éticas y clínicas propias del contexto en que se implementará la herramienta.",
+    "text": "En el proyecto se definieron un total de 38 requerimientos, de los cuales 31 corresponden a requerimientos funcionales y 7 a requerimientos no funcionales. Todos los requerimientos fueron documentados en Jira con formato de user story, descripción, flujo normal y criterios de aceptación.\nLos tipos de requerimientos fueron etiquetados como RF, para requerimientos funcionales y RNF para requerimientos no funcionales.",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 3 - RF y RNF",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto2/implementacion.html#justificacion",
-    "href": "reto2/implementacion.html#justificacion",
+    "objectID": "reto3/implementacion.html#enlace-al-jira",
+    "href": "reto3/implementacion.html#enlace-al-jira",
     "title": "Implementacion",
-    "section": "Justificacion",
-    "text": "Justificacion\nLa selección del modelo incremental está directamente vinculada a las características del entorno clínico-psicológico:\n\nComplejidad del diagnóstico clínico: El diagnóstico de trastornos como ansiedad o depresión involucra elementos subjetivos, patrones del discurso, lenguaje no verbal, historia clínica y contexto emocional. La solución debe poder analizar múltiples variables y hacerlo sin interferir con la relación terapéutica. El enfoque incremental permite empezar con módulos acotados —como transcripción de lenguaje o análisis de sentimiento— que luego se integran en un ecosistema clínico más amplio.\nAceptación gradual del profesional clínico: Según el screener y las entrevistas aplicadas, muchos psicólogos manifiestan apertura al uso de tecnología, pero también preocupación por la interferencia en la consulta o por el respeto al vínculo terapéutico. En este sentido, lanzar versiones básicas, supervisadas y opcionales del sistema permite generar confianza progresiva en el uso de la herramienta (American Psychological Association, 2020).\nValidación empírica y ajustes éticos: La posibilidad de evaluar funcionalmente cada módulo en ambientes reales de consulta (o simulados) con feedback del profesional permite identificar sesgos, riesgos éticos, limitaciones diagnósticas o errores interpretativos de forma temprana, antes de escalar la solución (Croskerry, 2003; Calvo et al., 2017).",
+    "section": "Enlace al Jira",
+    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\nEn los siguientes URL, se puede observar la lista de requerimientos filtradas por Requerimientos Funcionales y No Funcionales:\n\nRequerimientos Funcionales\nRequerimientos No Funcionales",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 3 - RF y RNF",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto2/implementacion.html#beneficios",
-    "href": "reto2/implementacion.html#beneficios",
-    "title": "Implementacion",
-    "section": "Beneficios",
-    "text": "Beneficios\n\nReducción de riesgos técnicos y clínicos: Permite probar a baja escala antes de implementar herramientas sensibles a nivel profesional.\nAdaptabilidad a distintas formas de práctica clínica: Dado que no todos los psicólogos usan las mismas metodologías, se pueden personalizar módulos para distintos enfoques (TREC, humanista, conductual, etc.).\nRetroalimentación constante con usuarios clave: Fomenta el diseño centrado en el usuario (UX clínico), mejorando la usabilidad real del sistema.\nFacilidad para introducir mejoras regulatorias, éticas y técnicas entre versiones.",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto2/implementacion.html#como-lo-aplicamos",
-    "href": "reto2/implementacion.html#como-lo-aplicamos",
-    "title": "Implementacion",
-    "section": "¿Como lo aplicamos?",
-    "text": "¿Como lo aplicamos?\nPara este proyecto, se aplicaron iteraciones tanto de descubrimiento como de desarrollo, donde se iban integrando funcionalidades gradualmente al codigo y se publicaban al repositorio. En cada iteración se hicieron validaciones conceptuales y funcionales.",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto2/implementacion.html#resultados",
-    "href": "reto2/implementacion.html#resultados",
-    "title": "Implementacion",
-    "section": "Resultados",
-    "text": "Resultados\nLa utilización de la metodología incremental nos permitió formar la idea progresivamente, con integridad conceptual y procurando entender las áreas del negocio donde teníamos deficiencias.\nDesde el punto de vista técnico nos permitió iterar el proyecto de forma segura, sin romper funcionalidades críticas y haciendo crecer las funcionalidades de la aplicación de forma gradual.\nAdicionalmente, nos permitió explorar y hacer uso de tecnologías desconocidas, procurando realizar implementaciones pequeñas en cada iteración",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto1/index.html",
-    "href": "reto1/index.html",
+    "objectID": "reto2/index.html",
+    "href": "reto2/index.html",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
+    "text": "Este reto consiste en determinar y fundamentar la metodología de desarrollo utilizada en el proyecto",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto1/index.html#reto-1",
-    "href": "reto1/index.html#reto-1",
+    "objectID": "reto2/index.html#reto-2",
+    "href": "reto2/index.html#reto-2",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
+    "text": "Este reto consiste en determinar y fundamentar la metodología de desarrollo utilizada en el proyecto",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto1/index.html#subsecciones",
-    "href": "reto1/index.html#subsecciones",
+    "objectID": "reto2/index.html#subsecciones",
+    "href": "reto2/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la manera en que se implementó la técnica y algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto1/ejemplos.html",
-    "href": "reto1/ejemplos.html",
+    "objectID": "reto2/ejemplos.html",
+    "href": "reto2/ejemplos.html",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "A continuación se puede observar el diagrama de Mikado del proyecto, el cual se separa en tres grandes ramas con los casos de uso descritos en la sección de Implementación.\n\n\n\nDiagrama de Mikado\n\n\nDescargar el diagrama en SVG, para ver con mejor calidad\n ⬇ Descargar SVG",
+    "text": "En la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto1/ejemplos.html#diagrama-de-mikado",
-    "href": "reto1/ejemplos.html#diagrama-de-mikado",
+    "objectID": "reto2/ejemplos.html#git-graph-del-proyecto",
+    "href": "reto2/ejemplos.html#git-graph-del-proyecto",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "A continuación se puede observar el diagrama de Mikado del proyecto, el cual se separa en tres grandes ramas con los casos de uso descritos en la sección de Implementación.\n\n\n\nDiagrama de Mikado\n\n\nDescargar el diagrama en SVG, para ver con mejor calidad\n ⬇ Descargar SVG",
+    "text": "En la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto1/ejemplos.html#casos-de-uso-de-mikado",
-    "href": "reto1/ejemplos.html#casos-de-uso-de-mikado",
+    "objectID": "reto2/ejemplos.html#enlace-al-jira",
+    "href": "reto2/ejemplos.html#enlace-al-jira",
     "title": "Ejemplos y demostraciones",
-    "section": "Casos de uso de Mikado",
-    "text": "Casos de uso de Mikado\n\nFront End\n\nLa imagen a continuación muestra los commits donde se removieron las dependencias relacionadas con React y posteriormente donde se implementó el front end con Django templates.\n\n\n\nCommits relacionados con Mikado de Front End\n\n\n\nAPI de inteligencia artificial generativa\n\nLa captura de pantalla a continuación muestra los commits del revert realizado al commit de configuración de dependencias de Open AI, para posteriormente configurar las depedencias de Gemini.\n\n\n\nCommits relacionados con Mikado de Front End\n\n\n\nTecnología para reportes de BDD\n\nPara este caso de uso en particular se trabajó en un proceso de investigación y descarte de opciones antes de realizar commits al código, por lo que no fue necesario ningún tipo de reversión de cambios en el repositorio.",
+    "section": "Enlace al Jira",
+    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
     "crumbs": [
-      "Reto 1 - Mikado",
+      "Reto 2 - Metodologia Utilizada",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "demo/index.html",
-    "href": "demo/index.html",
-    "title": "Detalles y demostraciones",
+    "objectID": "reto2/ejemplos.html#progreso-de-épicas",
+    "href": "reto2/ejemplos.html#progreso-de-épicas",
+    "title": "Ejemplos y demostraciones",
+    "section": "Progreso de Épicas",
+    "text": "Progreso de Épicas\nLa siguiente imagen muestra el progreso de las épicas iniciadas\n\n\n\nProgreso de épicas",
+    "crumbs": [
+      "Reto 2 - Metodologia Utilizada",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto2/ejemplos.html#calendario-en-jira",
+    "href": "reto2/ejemplos.html#calendario-en-jira",
+    "title": "Ejemplos y demostraciones",
+    "section": "Calendario en Jira",
+    "text": "Calendario en Jira\nEn esta imagen, se puede apreciar parte del calendario de desarrollo del proyecto\n\n\n\nCalendario en Jira",
+    "crumbs": [
+      "Reto 2 - Metodologia Utilizada",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto1/implementacion.html",
+    "href": "reto1/implementacion.html",
+    "title": "Implementacion",
     "section": "",
-    "text": "El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.",
+    "text": "En este proyecto encontramos la oportunidad de utilizar mikado en tres áreas, las cuales serán desarrolladas a continuación.\n\n\n\nPara la elección de la tecnología a utilizar para el front end se tomaron en cuenta varias opciones como Angular, React y Django templates. El proyecto fue inicialmente configurado con dependencias para utilizar react, sin embargo, por cuestiones de tiempo y con el fin de desarrollar una experiencia mínima viable simple y dentro del tiempo establecido, eliminamos las dependencias y nos movimos a la utilización de django templates.\n\n\n\nNuestro proyecto se conecta con un API de inteligencia artificial generativa, el cual permite generar análisis individuales y de tendencias de las valoraciones PHQ-9 registradas para los pacientes. Se tomaron en cuenta Open AI y Gemini como opciones y al final se tomó la decisión de utilizar Gemini, principalmente por la cantidad de tokens gratuitos, los cuales se ajustaban a las necesidades del desarrollo de la experiencia mínima viable.\n\n\n\nPaara la implementación de reportes relacionados con Behavior Driven Development se tomaron en cuentra opciones como Cucumber, sin embargo, finalmente se decidió utilizar Allure por su buena compatibilidad y facilidad de implementación con Python.",
     "crumbs": [
-      "Proyecto Funcional",
-      "Detalles y demostraciones"
+      "Reto 1 - Mikado",
+      "Implementacion"
     ]
   },
   {
-    "objectID": "demo/index.html#contexto-de-negocio",
-    "href": "demo/index.html#contexto-de-negocio",
-    "title": "Detalles y demostraciones",
+    "objectID": "reto1/implementacion.html#como-lo-aplicamos",
+    "href": "reto1/implementacion.html#como-lo-aplicamos",
+    "title": "Implementacion",
     "section": "",
-    "text": "El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.",
+    "text": "En este proyecto encontramos la oportunidad de utilizar mikado en tres áreas, las cuales serán desarrolladas a continuación.\n\n\n\nPara la elección de la tecnología a utilizar para el front end se tomaron en cuenta varias opciones como Angular, React y Django templates. El proyecto fue inicialmente configurado con dependencias para utilizar react, sin embargo, por cuestiones de tiempo y con el fin de desarrollar una experiencia mínima viable simple y dentro del tiempo establecido, eliminamos las dependencias y nos movimos a la utilización de django templates.\n\n\n\nNuestro proyecto se conecta con un API de inteligencia artificial generativa, el cual permite generar análisis individuales y de tendencias de las valoraciones PHQ-9 registradas para los pacientes. Se tomaron en cuenta Open AI y Gemini como opciones y al final se tomó la decisión de utilizar Gemini, principalmente por la cantidad de tokens gratuitos, los cuales se ajustaban a las necesidades del desarrollo de la experiencia mínima viable.\n\n\n\nPaara la implementación de reportes relacionados con Behavior Driven Development se tomaron en cuentra opciones como Cucumber, sin embargo, finalmente se decidió utilizar Allure por su buena compatibilidad y facilidad de implementación con Python.",
     "crumbs": [
-      "Proyecto Funcional",
-      "Detalles y demostraciones"
+      "Reto 1 - Mikado",
+      "Implementacion"
     ]
   },
   {
-    "objectID": "demo/index.html#experiencia-mínima-viable",
-    "href": "demo/index.html#experiencia-mínima-viable",
-    "title": "Detalles y demostraciones",
-    "section": "Experiencia Mínima Viable",
-    "text": "Experiencia Mínima Viable\n\nFuncionalidades dentro del alcance\n\nCreación de Pacientes\nConsulta de Pacientes\nCreación de Valoración PHQ-9\nConsulta de Valoraciones con cálculo de severidad\nAnálisis Individual de valoraciones\nAnálisis de tendencias de valoracios\n\n\n¿Qué es una valoración PHQ-9? La valoración PHQ-9 es un cuestionario de 9 preguntas que evalúa la presencia y severidad de síntomas depresivos en las últimas dos semanas, ayudando a detectar y clasificar la depresión en distintos niveles.\n\n\nFuncionalidades fuera del alcance\n\nInicio de sesión\nModificación de Pacientes\nModificación de Valoraciones\nChat interactivo con Gemini\nValoraciones de otros tipos",
+    "objectID": "reto1/implementacion.html#nota",
+    "href": "reto1/implementacion.html#nota",
+    "title": "Implementacion",
+    "section": "Nota",
+    "text": "Nota\nEn la sección de Ejemplos y demostraciones se puede encontrar tanto los diagramas de mikado como capturas de pantalla que demuestran el proceso de estos tres casos de uso.",
     "crumbs": [
-      "Proyecto Funcional",
-      "Detalles y demostraciones"
+      "Reto 1 - Mikado",
+      "Implementacion"
     ]
   },
   {
-    "objectID": "demo/index.html#demos",
-    "href": "demo/index.html#demos",
-    "title": "Detalles y demostraciones",
-    "section": "Demos",
-    "text": "Demos\n\nGestión de Pacientes\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nGestión de Valoraciones PHQ-9\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nAnálisis Individual de valoración\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nAnálisis de tendencias\n\n\n\nTu navegador no soporta la etiqueta de video.",
+    "objectID": "index.html#sobre-este-sitio",
+    "href": "index.html#sobre-este-sitio",
+    "title": "Proyecto de Construccion y Mantenimiento de Software",
+    "section": "Sobre este sitio",
+    "text": "Sobre este sitio\nEl propósito de este sitio es documentar los diferentes retos y casos que componen los entregables del proyecto del curso de Construcción y Mantenimiento de Software, de la universidad Cenfotec. Cada sección incluye una breve descripción de cada reto o caso, así como detalles sobre su implementación y ejemplos y demostraciones de su uso en el proyecto.",
     "crumbs": [
-      "Proyecto Funcional",
-      "Detalles y demostraciones"
+      "Proyecto de Construccion y Mantenimiento de Software"
+    ]
+  },
+  {
+    "objectID": "index.html#contenido",
+    "href": "index.html#contenido",
+    "title": "Proyecto de Construccion y Mantenimiento de Software",
+    "section": "Contenido",
+    "text": "Contenido\n\nInformación General\n\nProyecto Funcional: Información general del proyecto funcional y demostraciones.\n\n\n\nProyecto de Construcción\n\nReto 1: Mikado.\nReto 2: Metodología utilizada.\nReto 3: Requerimientos Funcionales y No Funcionales.\nReto 4: Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.\n\n\n\nProyecto de Integración\n\nReto 5: Utilización de alguna tecnología relacionada con integración continua.\nReto 6: Automatización de procesos para integración continua.\n\n\n\nCasos\n\nCaso 1: Behavior Driven Development (BDD).\n\nUsa la navegación lateral para explorar las subsecciones de cada tema.",
+    "crumbs": [
+      "Proyecto de Construccion y Mantenimiento de Software"
+    ]
+  },
+  {
+    "objectID": "index.html#enlaces",
+    "href": "index.html#enlaces",
+    "title": "Proyecto de Construccion y Mantenimiento de Software",
+    "section": "Enlaces",
+    "text": "Enlaces\n\nRepositorio del proyecto en Github\nBoard en Jira\nRepositorio de esta página de documentación",
+    "crumbs": [
+      "Proyecto de Construccion y Mantenimiento de Software"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html",
+    "href": "caso1/index.html",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#caso-1",
+    "href": "caso1/index.html#caso-1",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#estudiantes",
+    "href": "caso1/index.html#estudiantes",
+    "title": "Descripcion",
+    "section": "Estudiantes",
+    "text": "Estudiantes\n\nStephanie Delgado Brenes\nRosibel Enriquez Vargas\nMax Rojas Torres\nManuel Sanabria Montoya\nRandall Sánchez Rivera",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#subsecciones",
+    "href": "caso1/index.html#subsecciones",
+    "title": "Descripcion",
+    "section": "Subsecciones",
+    "text": "Subsecciones\nEn las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nDesarrollo",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
     ]
   },
   {
@@ -440,297 +470,355 @@
     ]
   },
   {
-    "objectID": "caso1/index.html",
-    "href": "caso1/index.html",
-    "title": "Descripcion",
+    "objectID": "demo/index.html",
+    "href": "demo/index.html",
+    "title": "Detalles y demostraciones",
     "section": "",
-    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "text": "El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Proyecto Funcional",
+      "Detalles y demostraciones"
     ]
   },
   {
-    "objectID": "caso1/index.html#caso-1",
-    "href": "caso1/index.html#caso-1",
-    "title": "Descripcion",
+    "objectID": "demo/index.html#contexto-de-negocio",
+    "href": "demo/index.html#contexto-de-negocio",
+    "title": "Detalles y demostraciones",
     "section": "",
-    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "text": "El objetivo principal de esta aplicación es servir como un asistente a los profesionales en salud mental en el diagnóstico y tratamiento de pacientes con depresión y ansiedad, utilizando inteligencia artificial. Entre los principales beneificios se encuentran la reducción de sesgos durante las consultas y la simplificación del proceso de análisis realizado por el profesional.",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Proyecto Funcional",
+      "Detalles y demostraciones"
     ]
   },
   {
-    "objectID": "caso1/index.html#estudiantes",
-    "href": "caso1/index.html#estudiantes",
-    "title": "Descripcion",
-    "section": "Estudiantes",
-    "text": "Estudiantes\n\nStephanie Delgado Brenes\nRosibel Enriquez Vargas\nMax Rojas Torres\nManuel Sanabria Montoya\nRandall Sánchez Rivera",
+    "objectID": "demo/index.html#experiencia-mínima-viable",
+    "href": "demo/index.html#experiencia-mínima-viable",
+    "title": "Detalles y demostraciones",
+    "section": "Experiencia Mínima Viable",
+    "text": "Experiencia Mínima Viable\n\nFuncionalidades dentro del alcance\n\nCreación de Pacientes\nConsulta de Pacientes\nCreación de Valoración PHQ-9\nConsulta de Valoraciones con cálculo de severidad\nAnálisis Individual de valoraciones\nAnálisis de tendencias de valoracios\n\n\n¿Qué es una valoración PHQ-9? La valoración PHQ-9 es un cuestionario de 9 preguntas que evalúa la presencia y severidad de síntomas depresivos en las últimas dos semanas, ayudando a detectar y clasificar la depresión en distintos niveles.\n\n\nFuncionalidades fuera del alcance\n\nInicio de sesión\nModificación de Pacientes\nModificación de Valoraciones\nChat interactivo con Gemini\nValoraciones de otros tipos",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Proyecto Funcional",
+      "Detalles y demostraciones"
     ]
   },
   {
-    "objectID": "caso1/index.html#subsecciones",
-    "href": "caso1/index.html#subsecciones",
-    "title": "Descripcion",
-    "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nDesarrollo",
+    "objectID": "demo/index.html#demos",
+    "href": "demo/index.html#demos",
+    "title": "Detalles y demostraciones",
+    "section": "Demos",
+    "text": "Demos\n\nGestión de Pacientes\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nGestión de Valoraciones PHQ-9\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nAnálisis Individual de valoración\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nAnálisis de tendencias\n\n\n\nTu navegador no soporta la etiqueta de video.",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Proyecto Funcional",
+      "Detalles y demostraciones"
     ]
   },
   {
-    "objectID": "index.html#sobre-este-sitio",
-    "href": "index.html#sobre-este-sitio",
-    "title": "Proyecto de Construccion y Mantenimiento de Software",
-    "section": "Sobre este sitio",
-    "text": "Sobre este sitio\nEl propósito de este sitio es documentar los diferentes retos y casos que componen los entregables del proyecto del curso de Construcción y Mantenimiento de Software, de la universidad Cenfotec. Cada sección incluye una breve descripción de cada reto o caso, así como detalles sobre su implementación y ejemplos y demostraciones de su uso en el proyecto.",
-    "crumbs": [
-      "Proyecto de Construccion y Mantenimiento de Software"
-    ]
-  },
-  {
-    "objectID": "index.html#contenido",
-    "href": "index.html#contenido",
-    "title": "Proyecto de Construccion y Mantenimiento de Software",
-    "section": "Contenido",
-    "text": "Contenido\n\nInformación General\n\nProyecto Funcional: Información general del proyecto funcional y demostraciones.\n\n\n\nProyecto de Construcción\n\nReto 1: Mikado.\nReto 2: Metodología utilizada.\nReto 3: Requerimientos Funcionales y No Funcionales.\nReto 4: Características ideales de diseño, Prácticas de diseño, técnicas para mejorar la calidad de software y oportunidad de integración.\n\n\n\nProyecto de Integración\n\nReto 5: Utilización de alguna tecnología relacionada con integración continua.\nReto 6: Automatización de procesos para integración continua.\n\n\n\nCasos\n\nCaso 1: Behavior Driven Development (BDD).\n\nUsa la navegación lateral para explorar las subsecciones de cada tema.",
-    "crumbs": [
-      "Proyecto de Construccion y Mantenimiento de Software"
-    ]
-  },
-  {
-    "objectID": "index.html#enlaces",
-    "href": "index.html#enlaces",
-    "title": "Proyecto de Construccion y Mantenimiento de Software",
-    "section": "Enlaces",
-    "text": "Enlaces\n\nRepositorio en Github\nBoard en Jira\nRepositorio de esta página de documentación",
-    "crumbs": [
-      "Proyecto de Construccion y Mantenimiento de Software"
-    ]
-  },
-  {
-    "objectID": "reto1/implementacion.html",
-    "href": "reto1/implementacion.html",
-    "title": "Implementacion",
+    "objectID": "reto1/ejemplos.html",
+    "href": "reto1/ejemplos.html",
+    "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "En este proyecto encontramos la oportunidad de utilizar mikado en tres áreas, las cuales serán desarrolladas a continuación.\n\n\n\nPara la elección de la tecnología a utilizar para el front end se tomaron en cuenta varias opciones como Angular, React y Django templates. El proyecto fue inicialmente configurado con dependencias para utilizar react, sin embargo, por cuestiones de tiempo y con el fin de desarrollar una experiencia mínima viable simple y dentro del tiempo establecido, eliminamos las dependencias y nos movimos a la utilización de django templates.\n\n\n\nNuestro proyecto se conecta con un API de inteligencia artificial generativa, el cual permite generar análisis individuales y de tendencias de las valoraciones PHQ-9 registradas para los pacientes. Se tomaron en cuenta Open AI y Gemini como opciones y al final se tomó la decisión de utilizar Gemini, principalmente por la cantidad de tokens gratuitos, los cuales se ajustaban a las necesidades del desarrollo de la experiencia mínima viable.\n\n\n\nPaara la implementación de reportes relacionados con Behavior Driven Development se tomaron en cuentra opciones como Cucumber, sin embargo, finalmente se decidió utilizar Allure por su buena compatibilidad y facilidad de implementación con Python.",
+    "text": "A continuación se puede observar el diagrama de Mikado del proyecto, el cual se separa en tres grandes ramas con los casos de uso descritos en la sección de Implementación.\n\n\n\nDiagrama de Mikado\n\n\nDescargar el diagrama en SVG, para ver con mejor calidad\n ⬇ Descargar SVG",
     "crumbs": [
       "Reto 1 - Mikado",
-      "Implementacion"
+      "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto1/implementacion.html#como-lo-aplicamos",
-    "href": "reto1/implementacion.html#como-lo-aplicamos",
-    "title": "Implementacion",
+    "objectID": "reto1/ejemplos.html#diagrama-de-mikado",
+    "href": "reto1/ejemplos.html#diagrama-de-mikado",
+    "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "En este proyecto encontramos la oportunidad de utilizar mikado en tres áreas, las cuales serán desarrolladas a continuación.\n\n\n\nPara la elección de la tecnología a utilizar para el front end se tomaron en cuenta varias opciones como Angular, React y Django templates. El proyecto fue inicialmente configurado con dependencias para utilizar react, sin embargo, por cuestiones de tiempo y con el fin de desarrollar una experiencia mínima viable simple y dentro del tiempo establecido, eliminamos las dependencias y nos movimos a la utilización de django templates.\n\n\n\nNuestro proyecto se conecta con un API de inteligencia artificial generativa, el cual permite generar análisis individuales y de tendencias de las valoraciones PHQ-9 registradas para los pacientes. Se tomaron en cuenta Open AI y Gemini como opciones y al final se tomó la decisión de utilizar Gemini, principalmente por la cantidad de tokens gratuitos, los cuales se ajustaban a las necesidades del desarrollo de la experiencia mínima viable.\n\n\n\nPaara la implementación de reportes relacionados con Behavior Driven Development se tomaron en cuentra opciones como Cucumber, sin embargo, finalmente se decidió utilizar Allure por su buena compatibilidad y facilidad de implementación con Python.",
+    "text": "A continuación se puede observar el diagrama de Mikado del proyecto, el cual se separa en tres grandes ramas con los casos de uso descritos en la sección de Implementación.\n\n\n\nDiagrama de Mikado\n\n\nDescargar el diagrama en SVG, para ver con mejor calidad\n ⬇ Descargar SVG",
     "crumbs": [
       "Reto 1 - Mikado",
-      "Implementacion"
+      "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto1/implementacion.html#nota",
-    "href": "reto1/implementacion.html#nota",
-    "title": "Implementacion",
-    "section": "Nota",
-    "text": "Nota\nEn la sección de Ejemplos y demostraciones se puede encontrar tanto los diagramas de mikado como capturas de pantalla que demuestran el proceso de estos tres casos de uso.",
+    "objectID": "reto1/ejemplos.html#casos-de-uso-de-mikado",
+    "href": "reto1/ejemplos.html#casos-de-uso-de-mikado",
+    "title": "Ejemplos y demostraciones",
+    "section": "Casos de uso de Mikado",
+    "text": "Casos de uso de Mikado\n\nFront End\n\nLa imagen a continuación muestra los commits donde se removieron las dependencias relacionadas con React y posteriormente donde se implementó el front end con Django templates.\n\n\n\nCommits relacionados con Mikado de Front End\n\n\n\nAPI de inteligencia artificial generativa\n\nLa captura de pantalla a continuación muestra los commits del revert realizado al commit de configuración de dependencias de Open AI, para posteriormente configurar las depedencias de Gemini.\n\n\n\nCommits relacionados con Mikado de Front End\n\n\n\nTecnología para reportes de BDD\n\nPara este caso de uso en particular se trabajó en un proceso de investigación y descarte de opciones antes de realizar commits al código, por lo que no fue necesario ningún tipo de reversión de cambios en el repositorio.",
     "crumbs": [
       "Reto 1 - Mikado",
-      "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto2/ejemplos.html",
-    "href": "reto2/ejemplos.html",
-    "title": "Ejemplos y demostraciones",
-    "section": "",
-    "text": "En la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto2/ejemplos.html#git-graph-del-proyecto",
-    "href": "reto2/ejemplos.html#git-graph-del-proyecto",
-    "title": "Ejemplos y demostraciones",
-    "section": "",
-    "text": "En la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto2/ejemplos.html#enlace-al-jira",
-    "href": "reto2/ejemplos.html#enlace-al-jira",
-    "title": "Ejemplos y demostraciones",
-    "section": "Enlace al Jira",
-    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto2/ejemplos.html#progreso-de-épicas",
-    "href": "reto2/ejemplos.html#progreso-de-épicas",
-    "title": "Ejemplos y demostraciones",
-    "section": "Progreso de Épicas",
-    "text": "Progreso de Épicas\nLa siguiente imagen muestra el progreso de las épicas iniciadas\n\n\n\nProgreso de épicas",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto2/ejemplos.html#calendario-en-jira",
-    "href": "reto2/ejemplos.html#calendario-en-jira",
-    "title": "Ejemplos y demostraciones",
-    "section": "Calendario en Jira",
-    "text": "Calendario en Jira\nEn esta imagen, se puede apreciar parte del calendario de desarrollo del proyecto\n\n\n\nCalendario en Jira",
-    "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto2/index.html",
-    "href": "reto2/index.html",
+    "objectID": "reto1/index.html",
+    "href": "reto1/index.html",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en determinar y fundamentar la metodología de desarrollo utilizada en el proyecto",
+    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 1 - Mikado",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto2/index.html#reto-2",
-    "href": "reto2/index.html#reto-2",
+    "objectID": "reto1/index.html#reto-1",
+    "href": "reto1/index.html#reto-1",
     "title": "Descripcion",
     "section": "",
-    "text": "Este reto consiste en determinar y fundamentar la metodología de desarrollo utilizada en el proyecto",
+    "text": "Este reto consiste en utilizar la técnica de Mikado en la implementación de alguna tecnología o funcionalidad en el proyecto.",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 1 - Mikado",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto2/index.html#subsecciones",
-    "href": "reto2/index.html#subsecciones",
+    "objectID": "reto1/index.html#subsecciones",
+    "href": "reto1/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la manera en que se implementó la técnica y algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
     "crumbs": [
-      "Reto 2 - Metodologia Utilizada",
+      "Reto 1 - Mikado",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto3/implementacion.html",
-    "href": "reto3/implementacion.html",
+    "objectID": "reto2/implementacion.html",
+    "href": "reto2/implementacion.html",
     "title": "Implementacion",
     "section": "",
-    "text": "En el proyecto se definieron un total de 38 requerimientos, de los cuales 31 corresponden a requerimientos funcionales y 7 a requerimientos no funcionales. Todos los requerimientos fueron documentados en Jira con formato de user story, descripción, flujo normal y criterios de aceptación.\nLos tipos de requerimientos fueron etiquetados como RF, para requerimientos funcionales y RNF para requerimientos no funcionales.",
+    "text": "Para el desarrollo del sistema de asistencia diagnóstica orientado a psicólogos clínicos, se optó por implementar un modelo de desarrollo incremental, un enfoque que permite construir el software mediante versiones sucesivas que agregan funcionalidades de manera progresiva, con entregables operativos en cada iteración (Pressman & Maxim, 2014). Esta decisión responde no solo a la necesidad técnica de validar soluciones complejas, sino también a las exigencias éticas y clínicas propias del contexto en que se implementará la herramienta.",
     "crumbs": [
-      "Reto 3 - RF y RNF",
+      "Reto 2 - Metodologia Utilizada",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto3/implementacion.html#como-lo-aplicamos",
-    "href": "reto3/implementacion.html#como-lo-aplicamos",
+    "objectID": "reto2/implementacion.html#elección-de-metodología",
+    "href": "reto2/implementacion.html#elección-de-metodología",
     "title": "Implementacion",
     "section": "",
-    "text": "En el proyecto se definieron un total de 38 requerimientos, de los cuales 31 corresponden a requerimientos funcionales y 7 a requerimientos no funcionales. Todos los requerimientos fueron documentados en Jira con formato de user story, descripción, flujo normal y criterios de aceptación.\nLos tipos de requerimientos fueron etiquetados como RF, para requerimientos funcionales y RNF para requerimientos no funcionales.",
+    "text": "Para el desarrollo del sistema de asistencia diagnóstica orientado a psicólogos clínicos, se optó por implementar un modelo de desarrollo incremental, un enfoque que permite construir el software mediante versiones sucesivas que agregan funcionalidades de manera progresiva, con entregables operativos en cada iteración (Pressman & Maxim, 2014). Esta decisión responde no solo a la necesidad técnica de validar soluciones complejas, sino también a las exigencias éticas y clínicas propias del contexto en que se implementará la herramienta.",
     "crumbs": [
-      "Reto 3 - RF y RNF",
+      "Reto 2 - Metodologia Utilizada",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto3/implementacion.html#enlace-al-jira",
-    "href": "reto3/implementacion.html#enlace-al-jira",
+    "objectID": "reto2/implementacion.html#justificacion",
+    "href": "reto2/implementacion.html#justificacion",
     "title": "Implementacion",
-    "section": "Enlace al Jira",
-    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\nEn los siguientes URL, se puede observar la lista de requerimientos filtradas por Requerimientos Funcionales y No Funcionales:\n\nRequerimientos Funcionales\nRequerimientos No Funcionales",
+    "section": "Justificacion",
+    "text": "Justificacion\nLa selección del modelo incremental está directamente vinculada a las características del entorno clínico-psicológico:\n\nComplejidad del diagnóstico clínico: El diagnóstico de trastornos como ansiedad o depresión involucra elementos subjetivos, patrones del discurso, lenguaje no verbal, historia clínica y contexto emocional. La solución debe poder analizar múltiples variables y hacerlo sin interferir con la relación terapéutica. El enfoque incremental permite empezar con módulos acotados —como transcripción de lenguaje o análisis de sentimiento— que luego se integran en un ecosistema clínico más amplio.\nAceptación gradual del profesional clínico: Según el screener y las entrevistas aplicadas, muchos psicólogos manifiestan apertura al uso de tecnología, pero también preocupación por la interferencia en la consulta o por el respeto al vínculo terapéutico. En este sentido, lanzar versiones básicas, supervisadas y opcionales del sistema permite generar confianza progresiva en el uso de la herramienta (American Psychological Association, 2020).\nValidación empírica y ajustes éticos: La posibilidad de evaluar funcionalmente cada módulo en ambientes reales de consulta (o simulados) con feedback del profesional permite identificar sesgos, riesgos éticos, limitaciones diagnósticas o errores interpretativos de forma temprana, antes de escalar la solución (Croskerry, 2003; Calvo et al., 2017).",
     "crumbs": [
-      "Reto 3 - RF y RNF",
+      "Reto 2 - Metodologia Utilizada",
       "Implementacion"
     ]
   },
   {
-    "objectID": "reto4/ejemplos.html",
-    "href": "reto4/ejemplos.html",
+    "objectID": "reto2/implementacion.html#beneficios",
+    "href": "reto2/implementacion.html#beneficios",
+    "title": "Implementacion",
+    "section": "Beneficios",
+    "text": "Beneficios\n\nReducción de riesgos técnicos y clínicos: Permite probar a baja escala antes de implementar herramientas sensibles a nivel profesional.\nAdaptabilidad a distintas formas de práctica clínica: Dado que no todos los psicólogos usan las mismas metodologías, se pueden personalizar módulos para distintos enfoques (TREC, humanista, conductual, etc.).\nRetroalimentación constante con usuarios clave: Fomenta el diseño centrado en el usuario (UX clínico), mejorando la usabilidad real del sistema.\nFacilidad para introducir mejoras regulatorias, éticas y técnicas entre versiones.",
+    "crumbs": [
+      "Reto 2 - Metodologia Utilizada",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto2/implementacion.html#como-lo-aplicamos",
+    "href": "reto2/implementacion.html#como-lo-aplicamos",
+    "title": "Implementacion",
+    "section": "¿Como lo aplicamos?",
+    "text": "¿Como lo aplicamos?\nPara este proyecto, se aplicaron iteraciones tanto de descubrimiento como de desarrollo, donde se iban integrando funcionalidades gradualmente al codigo y se publicaban al repositorio. En cada iteración se hicieron validaciones conceptuales y funcionales.",
+    "crumbs": [
+      "Reto 2 - Metodologia Utilizada",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto2/implementacion.html#resultados",
+    "href": "reto2/implementacion.html#resultados",
+    "title": "Implementacion",
+    "section": "Resultados",
+    "text": "Resultados\nLa utilización de la metodología incremental nos permitió formar la idea progresivamente, con integridad conceptual y procurando entender las áreas del negocio donde teníamos deficiencias.\nDesde el punto de vista técnico nos permitió iterar el proyecto de forma segura, sin romper funcionalidades críticas y haciendo crecer las funcionalidades de la aplicación de forma gradual.\nAdicionalmente, nos permitió explorar y hacer uso de tecnologías desconocidas, procurando realizar implementaciones pequeñas en cada iteración",
+    "crumbs": [
+      "Reto 2 - Metodologia Utilizada",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html",
+    "href": "reto3/ejemplos.html",
     "title": "Ejemplos y demostraciones",
     "section": "",
-    "text": "Características ideales de diseño\n\nReutilización: El siguiente screenshot muestra la estructura del servicio de generación de prompts para intercambiar información con Gemini, la cual es reutilizable en otras iniciativas.\n\n\n\n\nEjemplo de código reutilizable\n\n\n\nExtensibilidad: En la imagen a continuación se puede observar la interfaz de swagger con los diferentes endpoints de la aplicación, los cuales funcionan independientemente, lo cual facilita la extensibilidad total de la aplicación.\n\n\n\n\nDemostración de extensibilidad\n\n\n\n\nPrácticas de diseño\n\nDivide y vencerás e iteraciones: En esta captura de pantalla se puede observar los commits al repositorio que demuestran el proceso iterativo de desarollo utilizado, así como el principio de divide y vencerás.\n\n\n\n\nGit Graph\n\n\n\n\nTécnicas para mejorar la calidad de software\n\nActividades exclusivas de control de calidad: A continuación se puede observar un ejemplo de una prueba automatizada realizada durante el desarrollo del módulo de pacientes.\n\n\n\n\nCódigo de prueba automatizada\n\n\n\nSaber definir los requerimientos y planificación de las etapas: En la siguiente imagen se puede observar las diferentes épicas del proyecto, las cuales agrupan los requerimientos específicos de la aplicación.\n\n\n\n\nÉpicas del proyecto\n\n\n\n\nOportunidad de integración\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En esta imagen se puede apreciar un ejemplo de la correlación del módulo de pacientes y el de valoraciones, como resultado de la integración del primero con el segundo.\n\n\n\n\nIntegración de paciente y valoraciones\n\n\n\nIntegración con el API de Gemini: En esta captura de pantalla se puede apreciar parte del código que permite la integración con el API de Gemini.\n\n\n\n\nIntegración con Gemini",
+    "text": "Visita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
     "crumbs": [
-      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Reto 3 - RF y RNF",
       "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto4/index.html",
-    "href": "reto4/index.html",
+    "objectID": "reto3/ejemplos.html#enlace-al-jira",
+    "href": "reto3/ejemplos.html#enlace-al-jira",
+    "title": "Ejemplos y demostraciones",
+    "section": "",
+    "text": "Visita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html#requerimientos-funcionales",
+    "href": "reto3/ejemplos.html#requerimientos-funcionales",
+    "title": "Ejemplos y demostraciones",
+    "section": "Requerimientos Funcionales",
+    "text": "Requerimientos Funcionales\nEn la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos funcoinales.\n\n\n\nRequerimientos Funcionales",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html#requerimientos-no-funcionales",
+    "href": "reto3/ejemplos.html#requerimientos-no-funcionales",
+    "title": "Ejemplos y demostraciones",
+    "section": "Requerimientos No Funcionales",
+    "text": "Requerimientos No Funcionales\nEn la siguiente captura de pantalla se puede apreciar parte de la lista de requerimientos no funcoinales.\n\n\n\nRequerimientos No Funcionales",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html#formato-de-user-story",
+    "href": "reto3/ejemplos.html#formato-de-user-story",
+    "title": "Ejemplos y demostraciones",
+    "section": "Formato de User Story",
+    "text": "Formato de User Story\nLa imagen a continuación muestra un ejemplo del formato utilizado para documentar los requerimientos en Jira\n\n\n\nUser Story",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html#épicas-de-requerimientos-funcionales",
+    "href": "reto3/ejemplos.html#épicas-de-requerimientos-funcionales",
+    "title": "Ejemplos y demostraciones",
+    "section": "Épicas de requerimientos funcionales",
+    "text": "Épicas de requerimientos funcionales\nLa siguiente imagen muestra las épicas que agrupan los requerimientos funcionales\n\n\n\nÉpicas",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/ejemplos.html#progreso-de-épicas",
+    "href": "reto3/ejemplos.html#progreso-de-épicas",
+    "title": "Ejemplos y demostraciones",
+    "section": "Progreso de épicas",
+    "text": "Progreso de épicas\nEn la siguiente imagen se puede apreciar el progreso de las diferentes épicas de requerimientos funcionales\n\n\n\nProgreso de épicas",
+    "crumbs": [
+      "Reto 3 - RF y RNF",
+      "Ejemplos y demostraciones"
+    ]
+  },
+  {
+    "objectID": "reto3/index.html",
+    "href": "reto3/index.html",
     "title": "Descripcion",
     "section": "",
-    "text": "El reto consiste en implementar al menos:\n\n2 características ideales de diseño\n1-2 Prácticas de diseño\nAl menos 2 técnicas para mejorar la calidad de software\nIdentificar una oportunidad de integración",
+    "text": "Este reto consiste en definir y documentar los requerimientos funcionales y no funcionales del proyecto",
     "crumbs": [
-      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Reto 3 - RF y RNF",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto4/index.html#reto-4",
-    "href": "reto4/index.html#reto-4",
+    "objectID": "reto3/index.html#reto-3",
+    "href": "reto3/index.html#reto-3",
     "title": "Descripcion",
     "section": "",
-    "text": "El reto consiste en implementar al menos:\n\n2 características ideales de diseño\n1-2 Prácticas de diseño\nAl menos 2 técnicas para mejorar la calidad de software\nIdentificar una oportunidad de integración",
+    "text": "Este reto consiste en definir y documentar los requerimientos funcionales y no funcionales del proyecto",
     "crumbs": [
-      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Reto 3 - RF y RNF",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto4/index.html#subsecciones",
-    "href": "reto4/index.html#subsecciones",
+    "objectID": "reto3/index.html#subsecciones",
+    "href": "reto3/index.html#subsecciones",
     "title": "Descripcion",
     "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la manera en que se implementaron las características mencionadas, así como ejemplos que demuestran su utilización\n\nImplementación\nEjemplos y demostraciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se define el alcance del proyecto y se listan los recursos donde se registraron los requerimientos\n\nImplementación\nEjemplos y demostraciones",
     "crumbs": [
-      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Reto 3 - RF y RNF",
       "Descripcion"
     ]
   },
   {
-    "objectID": "reto5/implementacion.html",
-    "href": "reto5/implementacion.html",
+    "objectID": "reto4/implementacion.html",
+    "href": "reto4/implementacion.html",
     "title": "Implementacion",
     "section": "",
-    "text": "Aunque Docker no es una herramienta de integración continua por sí sola, su incorporación dentro del pipeline de desarrollo es fundamental para garantizar la consistencia y confiabilidad del proceso. Al permitir la creación de entornos aislados y reproducibles, Docker facilita la construcción, prueba y despliegue de la aplicación de forma automatizada y homogénea en todas las etapas del ciclo de vida.\nEsto reduce significativamente los errores asociados a diferencias entre entornos locales, de prueba y producción, y permite integrar de forma más efectiva otras herramientas de CI/CD. En este sentido, Docker se convierte en un habilitador clave dentro de nuestra estrategia de integración continua, mejorando la calidad del software y acelerando los tiempos de entrega.",
+    "text": "En el desarrollo de la primera versión se implementaron múltiples características ideales de diseño, principalmente las siguientes:\n\nReutilización: El sistema cuenta con dos módulos que se conectan al API de Gemini, para obtener un análisis de los niveles de depresión de los pacientes. La configuración de dependencias y el código de conexión y métodos que generan los prompts son perfectamente reutilizables en otras aplicaciones, donde podrían integrarse tal como están desarrollados y solamente utilizar un prompt distinto.\nExtensibilidad: Los diferentes endpoints están separados por funcionalidad, de manera que se conectan entre ellos por atributos específicos pero no comparten lógica. Al estar desarrollados de esta manera, permite seguir extendiendo la aplicación un módulo a la vez, con una complejidad relativamente baja.\n\n\n\n\nLa aplicación propuesta se prestaba para aplicar múltiples prácticas de diseño, dos de ellas desarrolladas a continuación:\n\nIteraciones: Todo el código del proyecto fue desarrollado en iteraciones, creando branches para cada grupo de funcionalidades y la interfaz gráfica.\nDivide y vencerás: En esta mínima experiencia viable se dividieron las funcionalidades en grupos pequeños y se fue integrando el código progresivamente. El enfoque para seguir desarrollando la totalidad del proyecto sería el mismo, en cantidades pequeñas de trabajo que hagan el desarrollo manejable desde un punto de vista técnico y conceptual.\n\n\n\n\nA continuación se describen las técnicas para mejorar la calidad de software utilizadas y la forma en que fueron aplicadas:\n\nActividades exclusivas de control de calidad: En cada iteración se dedicó tiempo exclusivo a realizar pruebas unitarias, funcionales, de integración y de regresión.\nSaber definir los requerimientos y planificación de las etapas: Se dedicó un tiempo considerable al inicio del proyecto para definir los requerimientos que componen la totalidad de la visión del proyecto.\n\n\n\n\nEn la primera versión se identificaron dos oportunidades de integración, las cuales se explican a continuación:\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En el desarrollo de la experiencia mínima viable, se trabajó intencionalmente el módulo de pacientes después de crear el módulo de valoraciones, con el propósito de integrar un módulo que representaría una depedencia para el módulo ya existente y de esta manera ejercitar buenas prácticas de integración.\nIntegración con el API de Gemini: Se integró una conexión con el API de Gemini, al cual se le pasan prompts con los valores de las valoraciones y se obtienen respuestas en un formato específico, que alimentan la funcionalidad de la aplicación.",
+    "crumbs": [
+      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto4/implementacion.html#como-lo-aplicamos",
+    "href": "reto4/implementacion.html#como-lo-aplicamos",
+    "title": "Implementacion",
+    "section": "",
+    "text": "En el desarrollo de la primera versión se implementaron múltiples características ideales de diseño, principalmente las siguientes:\n\nReutilización: El sistema cuenta con dos módulos que se conectan al API de Gemini, para obtener un análisis de los niveles de depresión de los pacientes. La configuración de dependencias y el código de conexión y métodos que generan los prompts son perfectamente reutilizables en otras aplicaciones, donde podrían integrarse tal como están desarrollados y solamente utilizar un prompt distinto.\nExtensibilidad: Los diferentes endpoints están separados por funcionalidad, de manera que se conectan entre ellos por atributos específicos pero no comparten lógica. Al estar desarrollados de esta manera, permite seguir extendiendo la aplicación un módulo a la vez, con una complejidad relativamente baja.\n\n\n\n\nLa aplicación propuesta se prestaba para aplicar múltiples prácticas de diseño, dos de ellas desarrolladas a continuación:\n\nIteraciones: Todo el código del proyecto fue desarrollado en iteraciones, creando branches para cada grupo de funcionalidades y la interfaz gráfica.\nDivide y vencerás: En esta mínima experiencia viable se dividieron las funcionalidades en grupos pequeños y se fue integrando el código progresivamente. El enfoque para seguir desarrollando la totalidad del proyecto sería el mismo, en cantidades pequeñas de trabajo que hagan el desarrollo manejable desde un punto de vista técnico y conceptual.\n\n\n\n\nA continuación se describen las técnicas para mejorar la calidad de software utilizadas y la forma en que fueron aplicadas:\n\nActividades exclusivas de control de calidad: En cada iteración se dedicó tiempo exclusivo a realizar pruebas unitarias, funcionales, de integración y de regresión.\nSaber definir los requerimientos y planificación de las etapas: Se dedicó un tiempo considerable al inicio del proyecto para definir los requerimientos que componen la totalidad de la visión del proyecto.\n\n\n\n\nEn la primera versión se identificaron dos oportunidades de integración, las cuales se explican a continuación:\n\nIntegración del módulo de pacientes (posterior al módulo de valoraciones): En el desarrollo de la experiencia mínima viable, se trabajó intencionalmente el módulo de pacientes después de crear el módulo de valoraciones, con el propósito de integrar un módulo que representaría una depedencia para el módulo ya existente y de esta manera ejercitar buenas prácticas de integración.\nIntegración con el API de Gemini: Se integró una conexión con el API de Gemini, al cual se le pasan prompts con los valores de las valoraciones y se obtienen respuestas en un formato específico, que alimentan la funcionalidad de la aplicación.",
+    "crumbs": [
+      "Reto 4 - Diseno, Calidad y Oportunidad de Integracion",
+      "Implementacion"
+    ]
+  },
+  {
+    "objectID": "reto5/ejemplos.html",
+    "href": "reto5/ejemplos.html",
+    "title": "Ejemplos y demostraciones",
+    "section": "",
+    "text": "Utilización de Docker\nA continuación se pueden observar algunas capturas de pantalla que demuestran la utilización de Docker en el proyecto.\n\n\n\nArchivo docker-compose.yml\n\n\n\n\n\nArchivo dockerfile\n\n\n\n\n\nArchivo requirements.txt\n\n\n\n\n\nEjecución en Docker Desktop",
     "crumbs": [
       "Reto 5 - Tecnología relacionada con integración continua",
-      "Implementacion"
+      "Ejemplos y demostraciones"
     ]
   },
   {
-    "objectID": "reto5/implementacion.html#como-lo-aplicamos",
-    "href": "reto5/implementacion.html#como-lo-aplicamos",
-    "title": "Implementacion",
+    "objectID": "reto5/index.html",
+    "href": "reto5/index.html",
+    "title": "Descripcion",
     "section": "",
-    "text": "Aunque Docker no es una herramienta de integración continua por sí sola, su incorporación dentro del pipeline de desarrollo es fundamental para garantizar la consistencia y confiabilidad del proceso. Al permitir la creación de entornos aislados y reproducibles, Docker facilita la construcción, prueba y despliegue de la aplicación de forma automatizada y homogénea en todas las etapas del ciclo de vida.\nEsto reduce significativamente los errores asociados a diferencias entre entornos locales, de prueba y producción, y permite integrar de forma más efectiva otras herramientas de CI/CD. En este sentido, Docker se convierte en un habilitador clave dentro de nuestra estrategia de integración continua, mejorando la calidad del software y acelerando los tiempos de entrega.",
+    "text": "Este reto consiste en explorar la utilización de alguna tecnología relacionada con integración continua",
     "crumbs": [
       "Reto 5 - Tecnología relacionada con integración continua",
-      "Implementacion"
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto5/index.html#reto-5",
+    "href": "reto5/index.html#reto-5",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este reto consiste en explorar la utilización de alguna tecnología relacionada con integración continua",
+    "crumbs": [
+      "Reto 5 - Tecnología relacionada con integración continua",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "reto5/index.html#subsecciones",
+    "href": "reto5/index.html#subsecciones",
+    "title": "Descripcion",
+    "section": "Subsecciones",
+    "text": "Subsecciones\nEn las siguientes subsecciones se desarrollan las tecnologías exploradas y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nImplementación\nEjemplos y demostraciones",
+    "crumbs": [
+      "Reto 5 - Tecnología relacionada con integración continua",
+      "Descripcion"
     ]
   },
   {
@@ -778,78 +866,6 @@
     ]
   },
   {
-    "objectID": "reto6/index.html",
-    "href": "reto6/index.html",
-    "title": "Descripcion",
-    "section": "",
-    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Descripcion"
-    ]
-  },
-  {
-    "objectID": "reto6/index.html#reto-6",
-    "href": "reto6/index.html#reto-6",
-    "title": "Descripcion",
-    "section": "",
-    "text": "Este reto consiste en aplicar alguna oportunidad para implementar automatización de procesos para integración continua.",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Descripcion"
-    ]
-  },
-  {
-    "objectID": "reto6/index.html#subsecciones",
-    "href": "reto6/index.html#subsecciones",
-    "title": "Descripcion",
-    "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguientes subsecciones se detalla la metodología y la justificación de su elección, así como algunos recursos para demostrar su aplicación en el proyecto\n\nImplementación\nEjemplos y demostraciones",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Descripcion"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html",
-    "href": "reto6/ejemplos.html",
-    "title": "Ejemplos y demostraciones",
-    "section": "",
-    "text": "En esta sección se puede encontrar evidencia sobre la implementación del reto.",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html#git-graph-del-proyecto",
-    "href": "reto6/ejemplos.html#git-graph-del-proyecto",
-    "title": "Ejemplos y demostraciones",
-    "section": "Git Graph del proyecto",
-    "text": "Git Graph del proyecto\nEn la siguiente imagen se puede apreciar los múltiples commits que se hicieron al repositorio, en los cuales se puede notar el crecimiento progresivo en tamaño y complejidad de la solución. Lo cual demuestra la metodología incremental utilizada\n\n\n\nGit Graph del proyecto Psybot"
-  },
-  {
-    "objectID": "reto6/ejemplos.html#enlace-al-jira",
-    "href": "reto6/ejemplos.html#enlace-al-jira",
-    "title": "Ejemplos y demostraciones",
-    "section": "Enlace al Jira",
-    "text": "Enlace al Jira\nVisita este enlace para ver nuestro board de Jira\n\n\n\nLogo de Jira"
-  },
-  {
-    "objectID": "reto6/ejemplos.html#progreso-de-épicas",
-    "href": "reto6/ejemplos.html#progreso-de-épicas",
-    "title": "Ejemplos y demostraciones",
-    "section": "Progreso de Épicas",
-    "text": "Progreso de Épicas\nLa siguiente imagen muestra el progreso de las épicas iniciadas\n\n\n\nProgreso de épicas"
-  },
-  {
-    "objectID": "reto6/ejemplos.html#calendario-en-jira",
-    "href": "reto6/ejemplos.html#calendario-en-jira",
-    "title": "Ejemplos y demostraciones",
-    "section": "Calendario en Jira",
-    "text": "Calendario en Jira\nEn esta imagen, se puede apreciar parte del calendario de desarrollo del proyecto\n\n\n\nCalendario en Jira"
-  },
-  {
     "objectID": "reto6/implementacion.html#pruebas-unitarias-implementadas",
     "href": "reto6/implementacion.html#pruebas-unitarias-implementadas",
     "title": "Implementacion",
@@ -880,50 +896,6 @@
     "crumbs": [
       "Reto 6 - Automatización de procesos para integración continua.",
       "Implementacion"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
-    "href": "reto6/ejemplos.html#vista-de-github-al-hacer-un-push",
-    "title": "Ejemplos y demostraciones",
-    "section": "Vista de GitHub al hacer un push",
-    "text": "Vista de GitHub al hacer un push\nEn el siguiente video se puede observar el estado del repositorio al momento de hacer un push, mientras las pruebas unitarias automatizadas se están ejecutando\n\n\n\nTu navegador no soporta la etiqueta de video. \n\n\nNotificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo\n\n\n\n\nPrueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución\n\n\n\n\nRepositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
-    "href": "reto6/ejemplos.html#notificación-de-fallo-de-pruebas-unitarias",
-    "title": "Ejemplos y demostraciones",
-    "section": "Notificación de fallo de pruebas unitarias",
-    "text": "Notificación de fallo de pruebas unitarias\nEn esta captura de pantalla se observa una notificación recibida por correo electrónico después del fallo de las pruebas unitarias\n\n\n\nNotificación de fallo",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html#prueba-exitosa",
-    "href": "reto6/ejemplos.html#prueba-exitosa",
-    "title": "Ejemplos y demostraciones",
-    "section": "Prueba exitosa",
-    "text": "Prueba exitosa\nLa siguiente imagen muestra el dashboard de github actions, para una ejecución exitosa de las pruebas unitarias\n\n\n\nPrueba exitosa\n\n\nA continuación se muestra el flujo de ejecución de las pruebas automatizadas\n\n\n\nFlujo de ejecución",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Ejemplos y demostraciones"
-    ]
-  },
-  {
-    "objectID": "reto6/ejemplos.html#repositorio",
-    "href": "reto6/ejemplos.html#repositorio",
-    "title": "Ejemplos y demostraciones",
-    "section": "Repositorio",
-    "text": "Repositorio\nVisita el repositorio del proyecto para ver como implementamos esta automatización de pruebas. Utiliza la siguiente estructura de archivos para entender mejor la implementación.\n\n\n\nEstructura de archivos",
-    "crumbs": [
-      "Reto 6 - Automatización de procesos para integración continua.",
-      "Ejemplos y demostraciones"
     ]
   }
 ]
