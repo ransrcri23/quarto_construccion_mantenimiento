@@ -393,47 +393,58 @@
     ]
   },
   {
-    "objectID": "caso1/index.html",
-    "href": "caso1/index.html",
-    "title": "Descripcion",
+    "objectID": "caso2/index.html",
+    "href": "caso2/index.html",
+    "title": "Estimación de Esfuerzo mediante PFA",
     "section": "",
-    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "text": "El objetivo de este caso es aplicar el método de estimación por Puntos de Función (Function Point Analysis, FPA) propuesto por Albrecht al proyecto final MVE, con el fin de calcular de manera objetiva y cuantificable el tamaño funcional del sistema, estimar el esfuerzo requerido en horas de desarrollo, y determinar los costos asociados al proyecto, incluyendo una cotización realista que considere márgenes de riesgo, contribución e impuestos.\nEn las siguientes secciones, se pueden observar algunas tablas relevantes. En este enlace se puede descargar el informe completo de este caso.",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Caso 2 - Estimación de Esfuerzo mediante PFA",
+      "Estimación de Esfuerzo mediante PFA"
     ]
   },
   {
-    "objectID": "caso1/index.html#caso-1",
-    "href": "caso1/index.html#caso-1",
-    "title": "Descripcion",
+    "objectID": "caso2/index.html#caso-2",
+    "href": "caso2/index.html#caso-2",
+    "title": "Estimación de Esfuerzo mediante PFA",
     "section": "",
-    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "text": "El objetivo de este caso es aplicar el método de estimación por Puntos de Función (Function Point Analysis, FPA) propuesto por Albrecht al proyecto final MVE, con el fin de calcular de manera objetiva y cuantificable el tamaño funcional del sistema, estimar el esfuerzo requerido en horas de desarrollo, y determinar los costos asociados al proyecto, incluyendo una cotización realista que considere márgenes de riesgo, contribución e impuestos.\nEn las siguientes secciones, se pueden observar algunas tablas relevantes. En este enlace se puede descargar el informe completo de este caso.",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Caso 2 - Estimación de Esfuerzo mediante PFA",
+      "Estimación de Esfuerzo mediante PFA"
     ]
   },
   {
-    "objectID": "caso1/index.html#estudiantes",
-    "href": "caso1/index.html#estudiantes",
-    "title": "Descripcion",
+    "objectID": "caso2/index.html#estudiantes",
+    "href": "caso2/index.html#estudiantes",
+    "title": "Estimación de Esfuerzo mediante PFA",
     "section": "Estudiantes",
     "text": "Estudiantes\n\nStephanie Delgado Brenes\nRosibel Enriquez Vargas\nMax Rojas Torres\nManuel Sanabria Montoya\nRandall Sánchez Rivera",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Caso 2 - Estimación de Esfuerzo mediante PFA",
+      "Estimación de Esfuerzo mediante PFA"
     ]
   },
   {
-    "objectID": "caso1/index.html#subsecciones",
-    "href": "caso1/index.html#subsecciones",
-    "title": "Descripcion",
-    "section": "Subsecciones",
-    "text": "Subsecciones\nEn las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nDesarrollo",
+    "objectID": "caso2/index.html#identificación-de-componentes-funcionales",
+    "href": "caso2/index.html#identificación-de-componentes-funcionales",
+    "title": "Estimación de Esfuerzo mediante PFA",
+    "section": "Identificación de componentes funcionales",
+    "text": "Identificación de componentes funcionales\n\nComponentes funcionales entradas externas\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nJustificación\nDescripción\nInterfaz\nOrigen\n\n\n\n\nEI-01\nRegistro de usuario\nValida y almacena usuario con campos básicos\nEl usuario crea su cuenta con nombre, correo, rol y contraseña\nFormulario web\nUsuario\n\n\nEI-02\nInicio de sesión\nSimple autenticación en base de datos\nEl usuario ingresa sus credenciales para acceder al sistema\nLogin\nUsuario\n\n\nEI-03\nEnvío de test de síntomas\nSe guarda test clínico vinculado al usuario\nEl usuario responde preguntas clínicas sobre su estado mental\nTest clínico\nUsuario\n\n\nEI-05\nConfiguración del perfil profesional\nPersonalización avanzada del profesional\nEl profesional edita y guarda los criterios de su perfil\nPanel de configuración\nPsicólogo\n\n\nEI-06\nCarga de métricas del paciente\nDatos clínicos de salud física para seguimiento\nLa profesional carga métricas físicas del paciente\nPanel clínico\nPsicólogo\n\n\n\n\n\nComponentes funcionales salidas externas\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nJustificación\nDescripción\nInterfaz\nOrigen\n\n\n\n\nEO-01\nDiagnóstico por IA\nGenera salida automatizada\nEl sistema entrega un diagnóstico\nResultado clínico\nSistema\n\n\nEO-02\nRecomendaciones personalizadas\nIncluye generación dinámica y contenido variado personalizado\nGenera planes y metas adaptados al paciente\nVista recomendaciones\nSistema\n\n\nEO-03\nInforme de progreso\nMuestra múltiples datos en formato visual\nMuestra gráficas de métricas físicas y emocionales\nPanel de paciente\nSistema\n\n\nEO-04\nRespuesta conversacional\nProcesamiento de texto/audio, con respuesta generada en tiempo real\nEntrega respuestas del chatbot según entrada del usuario\nInterfaz conversacional\nSistema\n\n\nEO-05\nPanel de resultados para el paciente\nMuestra la información de los resultados del paciente\nMuestra un resumen gráfico de los últimos análisis realizados\nPanel visual\nSistema\n\n\n\n\n\nComponentes funcionales consultas externas\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nJustificación\nDescripción\nInterfaz\nOrigen\n\n\n\n\nEQ-01\nConsulta de historial de diagnósticos\nConsulta estructurada por fechas y usuario.\nEl usuario revisa los diagnósticos anteriores con sus respectivas fechas.\nPanel del paciente\nUsuario\n\n\nEQ-02\nConsulta de métricas físicas\nDatos numéricos históricos, sin edición.\nEl profesional accede a los valores ingresados por el paciente.\nPanel profesional\nProfesional\n\n\nEQ-03\nConsulta de configuración del perfil\nInformación fija, sin procesamiento adicional.\nEl profesional revisa los datos configurados previamente.\nPanel configuración\nProfesional\n\n\nEQ-04\nBúsqueda de conversaciones pasadas\nConsulta filtrada por fecha e interacción conversacional.\nPermite ver las conversaciones previas con el bot.\nPanel de mensajes\nUsuario / Profesional\n\n\nEQ-05\nConsulta de progreso mensual\nInforme completo de metas y métricas por mes.\nMuestra un resumen mensual del progreso del paciente.\nPanel de progreso\nUsuario\n\n\nEQ-06\nConsulta de historial emocional\nRevisión histórica de estados emocionales detectados.\nPermite ver el registro completo de emociones en distintas fechas.\nPanel de bienestar\nUsuario\n\n\nEQ-07\nReporte de configuración profesional\nExtracción estructurada de datos de perfil profesional.\nPermite al profesional revisar y exportar su configuración personal del sistema.\nPanel profesional\nProfesional\n\n\n\n\n\nComponentes funcionales archivos lógicos internos (ILF)\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nJustificación\nDescripción\n\n\n\n\nILF-01\nUser\nEntidad simple de autenticación con atributos básicos.\nAlmacena las credenciales y características del usuario que accede al sistema.\n\n\nILF-02\nAssessment\nEstructura específica de pruebas clínicas, incluye resultados procesados por IA.\nGuarda los datos de cada test clínico aplicado por el sistema o el profesional.\n\n\nILF-03\nMessageLog\nRegistra el historial conversacional con campos de IA y procesamiento.\nRegistro de interacciones entre usuario y bot para trazabilidad y análisis posteriores.\n\n\nILF-04\nPhysicalMetrics\nValores de salud física relacionados a la evolución del paciente.\nRegistra indicadores fisiológicos ingresados por el profesional o sincronizados con dispositivos.\n\n\n\n\n\nComponentes funcionales archivos de interfaz externa (EIF)\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nJustificación\nDescripción\nInterfaz\nOrigen\n\n\n\n\nEIF-01\nCatálogo de categorías\nDatos externos utilizados para clasificar síntomas y diagnósticos.\nConjunto estático de categorías clínicas que se consulta desde el backend y frontend.\nTest clínico / Resultados\nSistema externo\n\n\nEIF-02\nBase de síntomas\nEstructura jerárquica referenciada por IA para clasificar inputs del usuario.\nLista de síntomas obtenida desde un servicio externo, utilizada por el motor de inferencia.\nDiagnóstico automático\nSistema experto\n\n\nEIF-03\nBase de profesionales\nInformación de profesionales de salud registrados en un sistema externo interoperable.\nDatos de profesionales que pueden ser consultados desde el sistema para asignaciones o consultas.\nPanel de configuración\nPlataforma externa\n\n\n\n\n\nIdentificación y conteo de DET, RET y FTR por componente funcional\n\n\n\n\n\n\n\n\n\nSigla\nNombre\n¿Qué representa?\nEjemplo en psybot-service\n\n\n\n\nDET\nData Element Type\nCampo único de datos que se captura o muestra\nnombre, correo, diagnóstico, fecha\n\n\nRET\nRecord Element Type\nSubgrupo lógico dentro de un archivo lógico (como una tabla o estructura agrupada)\npreguntas/respuestas en un test\n\n\nFTR\nFile Type Referenced\nArchivo lógico (ILF o EIF) que es referenciado (leído o escrito) por la función\nUser, Assessment, Gemini API\n\n\n\n\nAnálisis de Funciones EI\n\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nDET\nRET\nFTR\nComplejidad\nPF\n\n\n\n\nEI-01\nRegistro de usuario\n5\n1\n1\nMedia\n4\n\n\nEI-02\nInicio de sesión\n2\n1\n1\nBaja\n3\n\n\nEI-03\nEnvío de test\n10\n2\n2\nAlta\n6\n\n\nEI-04\nEnvío de voz o texto\n4\n1\n1\nBaja\n3\n\n\nEI-05\nConfiguración del perfil\n6\n1\n1\nMedia\n4\n\n\nEI-06\nCarga de métricas del paciente\n8\n1\n2\nAlta\n6\n\n\n\nTotal PF para EI: 4+3+6+3+4+6 = 26 PF\n\n\nAnálisis de Funciones EO\n\n\n\nCódigo\nNombre\nDET\nFTR\nComplejidad\nPF\n\n\n\n\nEO-01\nReporte de diagnóstico\n12\n2\nAlta\n7\n\n\nEO-02\nExportación en PDF\n10\n2\nAlta\n7\n\n\nEO-03\nEstadísticas de avance\n7\n2\nMedia\n5\n\n\nEO-04\nAlertas de seguimiento\n5\n1\nBaja\n4\n\n\nEO-05\nPanel de resultados\n10\n2\nAlta\n7\n\n\n\nTotal PF para EO: 7+7+5+4+7 = 30 PF\n\n\nAnálisis de Funciones EQ\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nDET\nFTR\nComplejidad\nPF\n\n\n\n\nEQ-01\nConsulta historial de tests\n5\n2\nMedia\n4\n\n\nEQ-02\nBúsqueda de paciente\n3\n2\nBaja\n3\n\n\nEQ-03\nVer métricas actuales\n4\n1\nBaja\n3\n\n\nEQ-04\nRevisión estado análisis IA\n5\n2\nMedia\n4\n\n\nEQ-05\nConsulta de progreso mensual\n6\n2\nAlta\n6\n\n\nEQ-06\nConsulta de historial emocional\n5\n2\nMedia\n4\n\n\nEQ-07\nReporte de configuración prof.\n6\n2\nAlta\n6\n\n\n\nTotal PF para EQ: 4+3+3+4+6+4+6 = 30 PF\n\n\nAnálisis de Funciones ILF\n\n\n\nCódigo\nNombre\nDET\nRET\nComplejidad\nPF\n\n\n\n\nILF-01\nUser\n15\n1\nBaja\n7\n\n\nILF-02\nAssessment\n25\n2\nMedia\n10\n\n\nILF-03\nMessageLog\n20\n1\nBaja\n7\n\n\nILF-04\nPhysicalMetrics\n22\n1\nBaja\n7\n\n\n\nTotal PF para ILF: 7+10+7+7 = 31 PF\n\n\nAnálisis de Funciones EIF\n\n\n\n\n\n\n\n\n\n\n\nCódigo\nNombre\nDET\nRET\nComplejidad\nPF\n\n\n\n\nEIF-01\nGemini API\n12\n1\nBaja\n5\n\n\nEIF-02\nBase datos soporte externo\n18\n1\nBaja\n5\n\n\nEIF-03\nPlataforma de autenticación\n6\n1\nBaja\n5\n\n\n\nTotal PF para EIF: 5+5+5 = 15 PF",
     "crumbs": [
-      "Caso 1 - BDD",
-      "Descripcion"
+      "Caso 2 - Estimación de Esfuerzo mediante PFA",
+      "Estimación de Esfuerzo mediante PFA"
+    ]
+  },
+  {
+    "objectID": "caso2/index.html#estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service",
+    "href": "caso2/index.html#estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service",
+    "title": "Estimación de Esfuerzo mediante PFA",
+    "section": "Estimación de Esfuerzo y Costos del Proyecto psybot-service",
+    "text": "Estimación de Esfuerzo y Costos del Proyecto psybot-service\n\nTabla resumen de Puntos de Función\n\n\n\nTipo de Función\nCantidad\nSubtotal PF\n\n\n\n\nEI – Entradas Externas\n6\n26\n\n\nEO – Salidas Externas\n5\n30\n\n\nEQ – Consultas Externas\n7\n30\n\n\nILF – Archivos Lógicos Internos\n4\n31\n\n\nEIF – Archivos de Interfaz Ext.\n3\n15\n\n\nTotal de Puntos sin Ajustar (PFSA)\n—\n132\n\n\n\n\n\nEvaluación del Factor de Influencia (FI)\n\n\n\n\n\n\n\n\n\nNº\nCaracterística\nPuntaje\nJustificación específica en psybot-service\n\n\n\n\n1\nComunicación de datos\n4\nSe comunica con APIs externas como Gemini y sistemas de autenticación.\n\n\n2\nFunciones distribuidas\n4\nAunque es monolítico, parte del procesamiento se delega a servicios externos.\n\n\n3\nRequerimientos de rendimiento\n3\nSe espera respuesta rápida en análisis IA y consulta de datos.\n\n\n4\nConfiguración hardware intensiva\n1\nRequiere hardware mínimo, salvo procesamiento en nube.\n\n\n5\nTransacciones de alta frecuencia\n2\nPuede escalar con múltiples usuarios realizando evaluaciones concurrentes.\n\n\n6\nEntrada de datos\n3\nTiene entrada por formularios, voz y texto con diferentes estructuras.\n\n\n7\nEficiencia del usuario final\n4\nAltamente orientado a experiencia rápida e intuitiva para paciente y profesional.\n\n\n8\nActualización de archivos\n2\nActualiza constantemente métricas, perfiles, evaluaciones.\n\n\n9\nProcesamiento complejo\n5\nProcesamiento de IA, análisis emocional y generación dinámica de resultados.\n\n\n10\nReusabilidad\n2\nAlgunos módulos (test, perfil) podrían reutilizarse en otros sistemas.\n\n\n11\nInstalación en múltiples plataformas\n2\nEstá pensado para nube, pero podría instalarse localmente si se adapta.\n\n\n12\nFacilidad de operación\n3\nAutomatiza varios procesos, pero requiere interacción profesional.\n\n\n13\nMúltiples sitios\n1\nCentralizado, pero podría expandirse con poco esfuerzo.\n\n\n14\nFacilidad de cambio\n2\nCambios en tests o flujos requieren actualización moderada del backend.\n\n\n\nResultado total del FI: FI=4+2+3+1+2+3+4+2+4+2+2+3+1+2=38\n\n\nEstimación de Esfuerzo Total\n\n\n\nParámetro técnico\nValor\n\n\n\n\nTecnología usada\nPython + Frameworks modernos\n\n\nPromedio de horas por PF\n8 horas\n\n\nPFA ajustado\n136\n\n\nTotal estimado de esfuerzo\n136 × 8 = 1,088 horas\n\n\n\n\n\nSupuestos para el cálculo de costos\n\n\n\nParámetro\nValor\n\n\n\n\nJornada laboral diaria por desarrollador\n6 horas\n\n\nDías laborables por mes\n20 días\n\n\nSalario mensual por desarrollador\n₡650,000\n\n\nCosto adicional del proyecto\n₡1,000,000\n\n\nPorcentaje de imprevistos\n20%\n\n\nMargen de contribución\n30%\n\n\nIVA (Costa Rica)\n13%\n\n\n\n\n\nTabla completa de esfuerzo y costos por tamaño de equipo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNº Devs\nHoras/día\nDías requeridos\nMeses requeridos\nCosto directo (₡)\nOtros costos (₡)\nSubtotal base (₡)\nMargen (₡)\nSubtotal sin IVA (₡)\nIVA (₡)\nCosto Total (₡)\n\n\n\n\n1\n6\n181.33\n9.07\n₡7,072,000\n₡1,000,000\n₡8,072,000\n₡3,459,429\n₡11,531,429\n₡1,499,086\n₡13,030,514\n\n\n2\n6\n90.67\n4.53\n₡7,072,000\n₡1,000,000\n₡8,072,000\n₡3,459,429\n₡11,531,429\n₡1,499,086\n₡13,030,514\n\n\n3\n6\n60.44\n3.02\n₡7,072,000\n₡1,000,000\n₡8,072,000\n₡3,459,429\n₡11,531,429\n₡1,499,086\n₡13,030,514\n\n\n4\n6\n45.33\n2.27\n₡7,072,000\n₡1,000,000\n₡8,072,000\n₡3,459,429\n₡11,531,429\n₡1,499,086\n₡13,030,514\n\n\n5\n6\n36.27\n1.81\n₡7,072,000\n₡1,000,000\n₡8,072,000\n₡3,459,429\n₡11,531,429\n₡1,499,086\n₡13,030,514",
+    "crumbs": [
+      "Caso 2 - Estimación de Esfuerzo mediante PFA",
+      "Estimación de Esfuerzo mediante PFA"
     ]
   },
   {
@@ -522,6 +533,50 @@
     "crumbs": [
       "Caso 1 - BDD",
       "Desarrollo"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html",
+    "href": "caso1/index.html",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#caso-1",
+    "href": "caso1/index.html#caso-1",
+    "title": "Descripcion",
+    "section": "",
+    "text": "Este caso está relacionado con el tema de Behavior Driven Development (BDD)",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#estudiantes",
+    "href": "caso1/index.html#estudiantes",
+    "title": "Descripcion",
+    "section": "Estudiantes",
+    "text": "Estudiantes\n\nStephanie Delgado Brenes\nRosibel Enriquez Vargas\nMax Rojas Torres\nManuel Sanabria Montoya\nRandall Sánchez Rivera",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
+    ]
+  },
+  {
+    "objectID": "caso1/index.html#subsecciones",
+    "href": "caso1/index.html#subsecciones",
+    "title": "Descripcion",
+    "section": "Subsecciones",
+    "text": "Subsecciones\nEn las siguiente subsección se desarrolla el uso de BDD y su implementación en el proyecto, así como ejemplos y demostraciones de su uso\n\nDesarrollo",
+    "crumbs": [
+      "Caso 1 - BDD",
+      "Descripcion"
     ]
   },
   {

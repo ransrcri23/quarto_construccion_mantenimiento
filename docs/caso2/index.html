@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Implementacion – PSWE-03 Construcción y Mantenimiento de Software SCV6</title>
+<title>Estimación de Esfuerzo mediante PFA – PSWE-03 Construcción y Mantenimiento de Software SCV6</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reto7/index.html">Reto 7 - Proyecto de Mantenimiento.</a></li><li class="breadcrumb-item"><a href="../reto7/implementacion.html">Implementacion</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../caso2/index.html">Caso 2 - Estimación de Esfuerzo mediante PFA</a></li><li class="breadcrumb-item"><a href="../caso2/index.html">Estimación de Esfuerzo mediante PFA</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -319,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reto7/implementacion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../reto7/implementacion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Implementacion</span></a>
   </div>
 </li>
@@ -371,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../caso2/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../caso2/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Estimación de Esfuerzo mediante PFA</span></a>
   </div>
 </li>
@@ -387,13 +387,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#como-lo-aplicamos" id="toc-como-lo-aplicamos" class="nav-link active" data-scroll-target="#como-lo-aplicamos">¿Como lo aplicamos?</a></li>
-  <li><a href="#beneficios" id="toc-beneficios" class="nav-link" data-scroll-target="#beneficios">Beneficios</a></li>
-  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">¿Como funciona?</a>
+  <li><a href="#caso-2" id="toc-caso-2" class="nav-link active" data-scroll-target="#caso-2">Caso 2</a></li>
+  <li><a href="#estudiantes" id="toc-estudiantes" class="nav-link" data-scroll-target="#estudiantes">Estudiantes</a></li>
+  <li><a href="#identificación-de-componentes-funcionales" id="toc-identificación-de-componentes-funcionales" class="nav-link" data-scroll-target="#identificación-de-componentes-funcionales">Identificación de componentes funcionales</a>
   <ul class="collapse">
-  <li><a href="#diagrama-de-arquitectura" id="toc-diagrama-de-arquitectura" class="nav-link" data-scroll-target="#diagrama-de-arquitectura">Diagrama de arquitectura</a></li>
-  <li><a href="#script-de-automatización" id="toc-script-de-automatización" class="nav-link" data-scroll-target="#script-de-automatización">Script de automatización</a></li>
-  <li><a href="#git-hook" id="toc-git-hook" class="nav-link" data-scroll-target="#git-hook">Git Hook</a></li>
+  <li><a href="#componentes-funcionales-entradas-externas" id="toc-componentes-funcionales-entradas-externas" class="nav-link" data-scroll-target="#componentes-funcionales-entradas-externas">Componentes funcionales entradas externas</a></li>
+  <li><a href="#componentes-funcionales-salidas-externas" id="toc-componentes-funcionales-salidas-externas" class="nav-link" data-scroll-target="#componentes-funcionales-salidas-externas">Componentes funcionales salidas externas</a></li>
+  <li><a href="#componentes-funcionales-consultas-externas" id="toc-componentes-funcionales-consultas-externas" class="nav-link" data-scroll-target="#componentes-funcionales-consultas-externas">Componentes funcionales consultas externas</a></li>
+  <li><a href="#componentes-funcionales-archivos-lógicos-internos-ilf" id="toc-componentes-funcionales-archivos-lógicos-internos-ilf" class="nav-link" data-scroll-target="#componentes-funcionales-archivos-lógicos-internos-ilf">Componentes funcionales archivos lógicos internos (ILF)</a></li>
+  <li><a href="#componentes-funcionales-archivos-de-interfaz-externa-eif" id="toc-componentes-funcionales-archivos-de-interfaz-externa-eif" class="nav-link" data-scroll-target="#componentes-funcionales-archivos-de-interfaz-externa-eif">Componentes funcionales archivos de interfaz externa (EIF)</a></li>
+  <li><a href="#identificación-y-conteo-de-det-ret-y-ftr-por-componente-funcional" id="toc-identificación-y-conteo-de-det-ret-y-ftr-por-componente-funcional" class="nav-link" data-scroll-target="#identificación-y-conteo-de-det-ret-y-ftr-por-componente-funcional">Identificación y conteo de DET, RET y FTR por componente funcional</a></li>
+  </ul></li>
+  <li><a href="#estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service" id="toc-estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service" class="nav-link" data-scroll-target="#estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service">Estimación de Esfuerzo y Costos del Proyecto psybot-service</a>
+  <ul class="collapse">
+  <li><a href="#tabla-resumen-de-puntos-de-función" id="toc-tabla-resumen-de-puntos-de-función" class="nav-link" data-scroll-target="#tabla-resumen-de-puntos-de-función">Tabla resumen de Puntos de Función</a></li>
+  <li><a href="#evaluación-del-factor-de-influencia-fi" id="toc-evaluación-del-factor-de-influencia-fi" class="nav-link" data-scroll-target="#evaluación-del-factor-de-influencia-fi">Evaluación del Factor de Influencia (FI)</a></li>
+  <li><a href="#estimación-de-esfuerzo-total" id="toc-estimación-de-esfuerzo-total" class="nav-link" data-scroll-target="#estimación-de-esfuerzo-total">Estimación de Esfuerzo Total</a></li>
+  <li><a href="#supuestos-para-el-cálculo-de-costos" id="toc-supuestos-para-el-cálculo-de-costos" class="nav-link" data-scroll-target="#supuestos-para-el-cálculo-de-costos">Supuestos para el cálculo de costos</a></li>
+  <li><a href="#tabla-completa-de-esfuerzo-y-costos-por-tamaño-de-equipo" id="toc-tabla-completa-de-esfuerzo-y-costos-por-tamaño-de-equipo" class="nav-link" data-scroll-target="#tabla-completa-de-esfuerzo-y-costos-por-tamaño-de-equipo">Tabla completa de esfuerzo y costos por tamaño de equipo</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -401,9 +412,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reto7/index.html">Reto 7 - Proyecto de Mantenimiento.</a></li><li class="breadcrumb-item"><a href="../reto7/implementacion.html">Implementacion</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../caso2/index.html">Caso 2 - Estimación de Esfuerzo mediante PFA</a></li><li class="breadcrumb-item"><a href="../caso2/index.html">Estimación de Esfuerzo mediante PFA</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Implementacion</h1>
+<h1 class="title">Estimación de Esfuerzo mediante PFA</h1>
 </div>
 
 
@@ -420,57 +431,1011 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="como-lo-aplicamos" class="level2">
-<h2 class="anchored" data-anchor-id="como-lo-aplicamos">¿Como lo aplicamos?</h2>
-<p>Para el desarrollo del reto 7 desarrollamos un sistema de documentación automatizada, la cual se dispara al hacer un push al <a href="https://github.com/ransrcri23/psybot-service">repositorio del proyecto en Github</a>. Una vez que se hace un push al repositorio del proyecto, el sistema extrae información del commit, como el autor y el mensaje del desarrollador en el commit, así como las diferencias entre el código original y el actualizado. Con esta información, el sistema se conecta con Gemini para obtener una descripción del cambio. Una vez que se obtiene la descripción de Gemini, se inserta una nueva fila en la bitácora de cambios, la cual se encuentra en el <a href="https://ransrcri23.github.io/quarto_construccion_mantenimiento/reto7/logs.html">wiki del proyecto</a>.</p>
+<section id="caso-2" class="level2">
+<h2 class="anchored" data-anchor-id="caso-2">Caso 2</h2>
+<p>El objetivo de este caso es aplicar el método de estimación por Puntos de Función (Function Point Analysis, FPA) propuesto por Albrecht al proyecto final MVE, con el fin de calcular de manera objetiva y cuantificable el tamaño funcional del sistema, estimar el esfuerzo requerido en horas de desarrollo, y determinar los costos asociados al proyecto, incluyendo una cotización realista que considere márgenes de riesgo, contribución e impuestos.</p>
+<p>En las siguientes secciones, se pueden observar algunas tablas relevantes. <a href="Caso II Delgado, Enriquez, ,Salas, Sanabria, Sanchez.pdf" download="">En este enlace</a> se puede descargar el informe completo de este caso.</p>
 </section>
-<section id="beneficios" class="level2">
-<h2 class="anchored" data-anchor-id="beneficios">Beneficios</h2>
-<p>La utilización del sistema automatizado de documentación permite registrar una bitácora de cambios que se mantiene por si sola, sin necesidad de que las personas involucradas tengan que hacer sus registros, lo cual reduce no solo las tareas manuales sino que asegura que no se deje información por fuera y se tenga un registro de cambios que esté completamente alineado con el repositorio de GitHub.</p>
-</section>
-<section id="como-funciona" class="level2">
-<h2 class="anchored" data-anchor-id="como-funciona">¿Como funciona?</h2>
-<section id="diagrama-de-arquitectura" class="level3">
-<h3 class="anchored" data-anchor-id="diagrama-de-arquitectura">Diagrama de arquitectura</h3>
-<p>El siguiente diagrama muestra el diseño de la arquitectura utilizada para el sistema</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="./recursos/arq.png" class="img-fluid figure-img"></p>
-<figcaption>Diagrama de arquitectura</figcaption>
-</figure>
-</div>
-</section>
-<section id="script-de-automatización" class="level3">
-<h3 class="anchored" data-anchor-id="script-de-automatización">Script de automatización</h3>
-<p>Dentro del proyecto se encuentra un archivo llamado auto_documentación.py, el cual contiene las siguientes funciones:</p>
+<section id="estudiantes" class="level2">
+<h2 class="anchored" data-anchor-id="estudiantes">Estudiantes</h2>
 <ul>
-<li><p><strong>get_git_info():</strong> Extrae información del commit actual, entre ellos el hash del commit (git rev-parse HEAD), autor (git log –pretty=format:%an), mensaje del commit (git log –pretty=format:%s), archivos modificados (git diff –name-only) y contenido de los cambios (git diff)</p></li>
-<li><p><strong>analyze_changes_with_gemini():</strong> Conecta con gemini, envía el prompt, procesa y formatea la respuesta</p></li>
-<li><p><strong>update_wiki_logs():</strong> Actualiza el archivo logs.qmd, dentro del wiki del proyecto. Lee el archivo actual, identifica donde insertar la nueva fila, agrega la nueva entrada con el formato |commit|autor|descripción|fecha| y guarda el archivo actualizado</p></li>
-<li><p><strong>commit_and_push_wiki_changes():</strong> Realiza las tareas para hacer push al repositorio del wiki (quarto render &gt; git add . &gt; git commit &gt; git push)</p></li>
+<li>Stephanie Delgado Brenes</li>
+<li>Rosibel Enriquez Vargas</li>
+<li>Max Rojas Torres</li>
+<li>Manuel Sanabria Montoya</li>
+<li>Randall Sánchez Rivera</li>
 </ul>
 </section>
-<section id="git-hook" class="level3">
-<h3 class="anchored" data-anchor-id="git-hook">Git Hook</h3>
-<p>En este caso, configuramos el pre-push (.git-push) para ejecutar nuestro script auto_documentacion.py. De esta manera, cada vez que se haga un push al repositorio, se va a disparar el script. A continuación se puede observar el contenido del archivo.</p>
-<pre><code>#!/bin/sh
-# Git Hook: pre-push
-# Se ejecuta automáticamente antes de cada push
-# Llama al sistema de documentación automática
-
-echo "Ejecutando sistema de documentación automática..."
-
-# Ejecutar el script de documentación automática
-python auto_documentation.py
-
-# Verificar si el script se ejecutó correctamente
-if [ $? -ne 0 ]; then
-    echo "Error en la documentación automática"
-    echo "El push continúa, pero revisa los logs"
-fi
-
-echo "Documentación automática completada"</code></pre>
-<p>En la <a href="../reto7/ejemplos.html">siguiente sección</a> se pueden observar algunas demostraciones.</p>
+<section id="identificación-de-componentes-funcionales" class="level2">
+<h2 class="anchored" data-anchor-id="identificación-de-componentes-funcionales">Identificación de componentes funcionales</h2>
+<section id="componentes-funcionales-entradas-externas" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-funcionales-entradas-externas">Componentes funcionales entradas externas</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 24%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>Justificación</th>
+<th>Descripción</th>
+<th>Interfaz</th>
+<th>Origen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EI-01</td>
+<td>Registro de usuario</td>
+<td>Valida y almacena usuario con campos básicos</td>
+<td>El usuario crea su cuenta con nombre, correo, rol y contraseña</td>
+<td>Formulario web</td>
+<td>Usuario</td>
+</tr>
+<tr class="even">
+<td>EI-02</td>
+<td>Inicio de sesión</td>
+<td>Simple autenticación en base de datos</td>
+<td>El usuario ingresa sus credenciales para acceder al sistema</td>
+<td>Login</td>
+<td>Usuario</td>
+</tr>
+<tr class="odd">
+<td>EI-03</td>
+<td>Envío de test de síntomas</td>
+<td>Se guarda test clínico vinculado al usuario</td>
+<td>El usuario responde preguntas clínicas sobre su estado mental</td>
+<td>Test clínico</td>
+<td>Usuario</td>
+</tr>
+<tr class="even">
+<td>EI-05</td>
+<td>Configuración del perfil profesional</td>
+<td>Personalización avanzada del profesional</td>
+<td>El profesional edita y guarda los criterios de su perfil</td>
+<td>Panel de configuración</td>
+<td>Psicólogo</td>
+</tr>
+<tr class="odd">
+<td>EI-06</td>
+<td>Carga de métricas del paciente</td>
+<td>Datos clínicos de salud física para seguimiento</td>
+<td>La profesional carga métricas físicas del paciente</td>
+<td>Panel clínico</td>
+<td>Psicólogo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="componentes-funcionales-salidas-externas" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-funcionales-salidas-externas">Componentes funcionales salidas externas</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 24%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>Justificación</th>
+<th>Descripción</th>
+<th>Interfaz</th>
+<th>Origen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EO-01</td>
+<td>Diagnóstico por IA</td>
+<td>Genera salida automatizada</td>
+<td>El sistema entrega un diagnóstico</td>
+<td>Resultado clínico</td>
+<td>Sistema</td>
+</tr>
+<tr class="even">
+<td>EO-02</td>
+<td>Recomendaciones personalizadas</td>
+<td>Incluye generación dinámica y contenido variado personalizado</td>
+<td>Genera planes y metas adaptados al paciente</td>
+<td>Vista recomendaciones</td>
+<td>Sistema</td>
+</tr>
+<tr class="odd">
+<td>EO-03</td>
+<td>Informe de progreso</td>
+<td>Muestra múltiples datos en formato visual</td>
+<td>Muestra gráficas de métricas físicas y emocionales</td>
+<td>Panel de paciente</td>
+<td>Sistema</td>
+</tr>
+<tr class="even">
+<td>EO-04</td>
+<td>Respuesta conversacional</td>
+<td>Procesamiento de texto/audio, con respuesta generada en tiempo real</td>
+<td>Entrega respuestas del chatbot según entrada del usuario</td>
+<td>Interfaz conversacional</td>
+<td>Sistema</td>
+</tr>
+<tr class="odd">
+<td>EO-05</td>
+<td>Panel de resultados para el paciente</td>
+<td>Muestra la información de los resultados del paciente</td>
+<td>Muestra un resumen gráfico de los últimos análisis realizados</td>
+<td>Panel visual</td>
+<td>Sistema</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="componentes-funcionales-consultas-externas" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-funcionales-consultas-externas">Componentes funcionales consultas externas</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 17%">
+<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 9%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>Justificación</th>
+<th>Descripción</th>
+<th>Interfaz</th>
+<th>Origen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EQ-01</td>
+<td>Consulta de historial de diagnósticos</td>
+<td>Consulta estructurada por fechas y usuario.</td>
+<td>El usuario revisa los diagnósticos anteriores con sus respectivas fechas.</td>
+<td>Panel del paciente</td>
+<td>Usuario</td>
+</tr>
+<tr class="even">
+<td>EQ-02</td>
+<td>Consulta de métricas físicas</td>
+<td>Datos numéricos históricos, sin edición.</td>
+<td>El profesional accede a los valores ingresados por el paciente.</td>
+<td>Panel profesional</td>
+<td>Profesional</td>
+</tr>
+<tr class="odd">
+<td>EQ-03</td>
+<td>Consulta de configuración del perfil</td>
+<td>Información fija, sin procesamiento adicional.</td>
+<td>El profesional revisa los datos configurados previamente.</td>
+<td>Panel configuración</td>
+<td>Profesional</td>
+</tr>
+<tr class="even">
+<td>EQ-04</td>
+<td>Búsqueda de conversaciones pasadas</td>
+<td>Consulta filtrada por fecha e interacción conversacional.</td>
+<td>Permite ver las conversaciones previas con el bot.</td>
+<td>Panel de mensajes</td>
+<td>Usuario / Profesional</td>
+</tr>
+<tr class="odd">
+<td>EQ-05</td>
+<td>Consulta de progreso mensual</td>
+<td>Informe completo de metas y métricas por mes.</td>
+<td>Muestra un resumen mensual del progreso del paciente.</td>
+<td>Panel de progreso</td>
+<td>Usuario</td>
+</tr>
+<tr class="even">
+<td>EQ-06</td>
+<td>Consulta de historial emocional</td>
+<td>Revisión histórica de estados emocionales detectados.</td>
+<td>Permite ver el registro completo de emociones en distintas fechas.</td>
+<td>Panel de bienestar</td>
+<td>Usuario</td>
+</tr>
+<tr class="odd">
+<td>EQ-07</td>
+<td>Reporte de configuración profesional</td>
+<td>Extracción estructurada de datos de perfil profesional.</td>
+<td>Permite al profesional revisar y exportar su configuración personal del sistema.</td>
+<td>Panel profesional</td>
+<td>Profesional</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="componentes-funcionales-archivos-lógicos-internos-ilf" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-funcionales-archivos-lógicos-internos-ilf">Componentes funcionales archivos lógicos internos (ILF)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 38%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>Justificación</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ILF-01</td>
+<td>User</td>
+<td>Entidad simple de autenticación con atributos básicos.</td>
+<td>Almacena las credenciales y características del usuario que accede al sistema.</td>
+</tr>
+<tr class="even">
+<td>ILF-02</td>
+<td>Assessment</td>
+<td>Estructura específica de pruebas clínicas, incluye resultados procesados por IA.</td>
+<td>Guarda los datos de cada test clínico aplicado por el sistema o el profesional.</td>
+</tr>
+<tr class="odd">
+<td>ILF-03</td>
+<td>MessageLog</td>
+<td>Registra el historial conversacional con campos de IA y procesamiento.</td>
+<td>Registro de interacciones entre usuario y bot para trazabilidad y análisis posteriores.</td>
+</tr>
+<tr class="even">
+<td>ILF-04</td>
+<td>PhysicalMetrics</td>
+<td>Valores de salud física relacionados a la evolución del paciente.</td>
+<td>Registra indicadores fisiológicos ingresados por el profesional o sincronizados con dispositivos.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="componentes-funcionales-archivos-de-interfaz-externa-eif" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-funcionales-archivos-de-interfaz-externa-eif">Componentes funcionales archivos de interfaz externa (EIF)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 9%">
+<col style="width: 29%">
+<col style="width: 38%">
+<col style="width: 11%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>Justificación</th>
+<th>Descripción</th>
+<th>Interfaz</th>
+<th>Origen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EIF-01</td>
+<td>Catálogo de categorías</td>
+<td>Datos externos utilizados para clasificar síntomas y diagnósticos.</td>
+<td>Conjunto estático de categorías clínicas que se consulta desde el backend y frontend.</td>
+<td>Test clínico / Resultados</td>
+<td>Sistema externo</td>
+</tr>
+<tr class="even">
+<td>EIF-02</td>
+<td>Base de síntomas</td>
+<td>Estructura jerárquica referenciada por IA para clasificar inputs del usuario.</td>
+<td>Lista de síntomas obtenida desde un servicio externo, utilizada por el motor de inferencia.</td>
+<td>Diagnóstico automático</td>
+<td>Sistema experto</td>
+</tr>
+<tr class="odd">
+<td>EIF-03</td>
+<td>Base de profesionales</td>
+<td>Información de profesionales de salud registrados en un sistema externo interoperable.</td>
+<td>Datos de profesionales que pueden ser consultados desde el sistema para asignaciones o consultas.</td>
+<td>Panel de configuración</td>
+<td>Plataforma externa</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="identificación-y-conteo-de-det-ret-y-ftr-por-componente-funcional" class="level3">
+<h3 class="anchored" data-anchor-id="identificación-y-conteo-de-det-ret-y-ftr-por-componente-funcional">Identificación y conteo de DET, RET y FTR por componente funcional</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 47%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sigla</th>
+<th>Nombre</th>
+<th>¿Qué representa?</th>
+<th>Ejemplo en psybot-service</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DET</td>
+<td>Data Element Type</td>
+<td>Campo único de datos que se captura o muestra</td>
+<td>nombre, correo, diagnóstico, fecha</td>
+</tr>
+<tr class="even">
+<td>RET</td>
+<td>Record Element Type</td>
+<td>Subgrupo lógico dentro de un archivo lógico (como una tabla o estructura agrupada)</td>
+<td>preguntas/respuestas en un test</td>
+</tr>
+<tr class="odd">
+<td>FTR</td>
+<td>File Type Referenced</td>
+<td>Archivo lógico (ILF o EIF) que es referenciado (leído o escrito) por la función</td>
+<td>User, Assessment, Gemini API</td>
+</tr>
+</tbody>
+</table>
+<section id="análisis-de-funciones-ei" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-de-funciones-ei">Análisis de Funciones EI</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 43%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 19%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>DET</th>
+<th>RET</th>
+<th>FTR</th>
+<th>Complejidad</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EI-01</td>
+<td>Registro de usuario</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td>Media</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>EI-02</td>
+<td>Inicio de sesión</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>Baja</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>EI-03</td>
+<td>Envío de test</td>
+<td>10</td>
+<td>2</td>
+<td>2</td>
+<td>Alta</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>EI-04</td>
+<td>Envío de voz o texto</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>Baja</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>EI-05</td>
+<td>Configuración del perfil</td>
+<td>6</td>
+<td>1</td>
+<td>1</td>
+<td>Media</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>EI-06</td>
+<td>Carga de métricas del paciente</td>
+<td>8</td>
+<td>1</td>
+<td>2</td>
+<td>Alta</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Total PF para EI: 4+3+6+3+4+6 = <strong>26 PF</strong></p>
+</section>
+<section id="análisis-de-funciones-eo" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-de-funciones-eo">Análisis de Funciones EO</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>DET</th>
+<th>FTR</th>
+<th>Complejidad</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EO-01</td>
+<td>Reporte de diagnóstico</td>
+<td>12</td>
+<td>2</td>
+<td>Alta</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>EO-02</td>
+<td>Exportación en PDF</td>
+<td>10</td>
+<td>2</td>
+<td>Alta</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>EO-03</td>
+<td>Estadísticas de avance</td>
+<td>7</td>
+<td>2</td>
+<td>Media</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>EO-04</td>
+<td>Alertas de seguimiento</td>
+<td>5</td>
+<td>1</td>
+<td>Baja</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>EO-05</td>
+<td>Panel de resultados</td>
+<td>10</td>
+<td>2</td>
+<td>Alta</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Total PF para EO: 7+7+5+4+7 = <strong>30 PF</strong></p>
+</section>
+<section id="análisis-de-funciones-eq" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-de-funciones-eq">Análisis de Funciones EQ</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 48%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 20%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>DET</th>
+<th>FTR</th>
+<th>Complejidad</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EQ-01</td>
+<td>Consulta historial de tests</td>
+<td>5</td>
+<td>2</td>
+<td>Media</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>EQ-02</td>
+<td>Búsqueda de paciente</td>
+<td>3</td>
+<td>2</td>
+<td>Baja</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>EQ-03</td>
+<td>Ver métricas actuales</td>
+<td>4</td>
+<td>1</td>
+<td>Baja</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>EQ-04</td>
+<td>Revisión estado análisis IA</td>
+<td>5</td>
+<td>2</td>
+<td>Media</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>EQ-05</td>
+<td>Consulta de progreso mensual</td>
+<td>6</td>
+<td>2</td>
+<td>Alta</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>EQ-06</td>
+<td>Consulta de historial emocional</td>
+<td>5</td>
+<td>2</td>
+<td>Media</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>EQ-07</td>
+<td>Reporte de configuración prof.</td>
+<td>6</td>
+<td>2</td>
+<td>Alta</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Total PF para EQ: 4+3+3+4+6+4+6 = <strong>30 PF</strong></p>
+</section>
+<section id="análisis-de-funciones-ilf" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-de-funciones-ilf">Análisis de Funciones ILF</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>DET</th>
+<th>RET</th>
+<th>Complejidad</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ILF-01</td>
+<td>User</td>
+<td>15</td>
+<td>1</td>
+<td>Baja</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>ILF-02</td>
+<td>Assessment</td>
+<td>25</td>
+<td>2</td>
+<td>Media</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>ILF-03</td>
+<td>MessageLog</td>
+<td>20</td>
+<td>1</td>
+<td>Baja</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>ILF-04</td>
+<td>PhysicalMetrics</td>
+<td>22</td>
+<td>1</td>
+<td>Baja</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Total PF para ILF: 7+10+7+7 = <strong>31 PF</strong></p>
+</section>
+<section id="análisis-de-funciones-eif" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-de-funciones-eif">Análisis de Funciones EIF</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 45%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 20%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código</th>
+<th>Nombre</th>
+<th>DET</th>
+<th>RET</th>
+<th>Complejidad</th>
+<th>PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EIF-01</td>
+<td>Gemini API</td>
+<td>12</td>
+<td>1</td>
+<td>Baja</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>EIF-02</td>
+<td>Base datos soporte externo</td>
+<td>18</td>
+<td>1</td>
+<td>Baja</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>EIF-03</td>
+<td>Plataforma de autenticación</td>
+<td>6</td>
+<td>1</td>
+<td>Baja</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>Total PF para EIF: 5+5+5 = <strong>15 PF</strong></p>
+</section>
+</section>
+</section>
+<section id="estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service" class="level2">
+<h2 class="anchored" data-anchor-id="estimación-de-esfuerzo-y-costos-del-proyecto-psybot-service">Estimación de Esfuerzo y Costos del Proyecto psybot-service</h2>
+<section id="tabla-resumen-de-puntos-de-función" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-resumen-de-puntos-de-función">Tabla resumen de Puntos de Función</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tipo de Función</th>
+<th>Cantidad</th>
+<th>Subtotal PF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EI – Entradas Externas</td>
+<td>6</td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td>EO – Salidas Externas</td>
+<td>5</td>
+<td>30</td>
+</tr>
+<tr class="odd">
+<td>EQ – Consultas Externas</td>
+<td>7</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>ILF – Archivos Lógicos Internos</td>
+<td>4</td>
+<td>31</td>
+</tr>
+<tr class="odd">
+<td>EIF – Archivos de Interfaz Ext.</td>
+<td>3</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td><strong>Total de Puntos sin Ajustar (PFSA)</strong></td>
+<td>—</td>
+<td><strong>132</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evaluación-del-factor-de-influencia-fi" class="level3">
+<h3 class="anchored" data-anchor-id="evaluación-del-factor-de-influencia-fi">Evaluación del Factor de Influencia (FI)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 22%">
+<col style="width: 5%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nº</th>
+<th>Característica</th>
+<th>Puntaje</th>
+<th>Justificación específica en psybot-service</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Comunicación de datos</td>
+<td>4</td>
+<td>Se comunica con APIs externas como Gemini y sistemas de autenticación.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Funciones distribuidas</td>
+<td>4</td>
+<td>Aunque es monolítico, parte del procesamiento se delega a servicios externos.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Requerimientos de rendimiento</td>
+<td>3</td>
+<td>Se espera respuesta rápida en análisis IA y consulta de datos.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Configuración hardware intensiva</td>
+<td>1</td>
+<td>Requiere hardware mínimo, salvo procesamiento en nube.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Transacciones de alta frecuencia</td>
+<td>2</td>
+<td>Puede escalar con múltiples usuarios realizando evaluaciones concurrentes.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Entrada de datos</td>
+<td>3</td>
+<td>Tiene entrada por formularios, voz y texto con diferentes estructuras.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Eficiencia del usuario final</td>
+<td>4</td>
+<td>Altamente orientado a experiencia rápida e intuitiva para paciente y profesional.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Actualización de archivos</td>
+<td>2</td>
+<td>Actualiza constantemente métricas, perfiles, evaluaciones.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Procesamiento complejo</td>
+<td>5</td>
+<td>Procesamiento de IA, análisis emocional y generación dinámica de resultados.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Reusabilidad</td>
+<td>2</td>
+<td>Algunos módulos (test, perfil) podrían reutilizarse en otros sistemas.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Instalación en múltiples plataformas</td>
+<td>2</td>
+<td>Está pensado para nube, pero podría instalarse localmente si se adapta.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Facilidad de operación</td>
+<td>3</td>
+<td>Automatiza varios procesos, pero requiere interacción profesional.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Múltiples sitios</td>
+<td>1</td>
+<td>Centralizado, pero podría expandirse con poco esfuerzo.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Facilidad de cambio</td>
+<td>2</td>
+<td>Cambios en tests o flujos requieren actualización moderada del backend.</td>
+</tr>
+</tbody>
+</table>
+<p>Resultado total del FI: FI=4+2+3+1+2+3+4+2+4+2+2+3+1+2=38</p>
+</section>
+<section id="estimación-de-esfuerzo-total" class="level3">
+<h3 class="anchored" data-anchor-id="estimación-de-esfuerzo-total">Estimación de Esfuerzo Total</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parámetro técnico</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tecnología usada</td>
+<td>Python + Frameworks modernos</td>
+</tr>
+<tr class="even">
+<td>Promedio de horas por PF</td>
+<td>8 horas</td>
+</tr>
+<tr class="odd">
+<td>PFA ajustado</td>
+<td>136</td>
+</tr>
+<tr class="even">
+<td>Total estimado de esfuerzo</td>
+<td>136 × 8 = <strong>1,088 horas</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="supuestos-para-el-cálculo-de-costos" class="level3">
+<h3 class="anchored" data-anchor-id="supuestos-para-el-cálculo-de-costos">Supuestos para el cálculo de costos</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parámetro</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jornada laboral diaria por desarrollador</td>
+<td>6 horas</td>
+</tr>
+<tr class="even">
+<td>Días laborables por mes</td>
+<td>20 días</td>
+</tr>
+<tr class="odd">
+<td>Salario mensual por desarrollador</td>
+<td>₡650,000</td>
+</tr>
+<tr class="even">
+<td>Costo adicional del proyecto</td>
+<td>₡1,000,000</td>
+</tr>
+<tr class="odd">
+<td>Porcentaje de imprevistos</td>
+<td>20%</td>
+</tr>
+<tr class="even">
+<td>Margen de contribución</td>
+<td>30%</td>
+</tr>
+<tr class="odd">
+<td>IVA (Costa Rica)</td>
+<td>13%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabla-completa-de-esfuerzo-y-costos-por-tamaño-de-equipo" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-completa-de-esfuerzo-y-costos-por-tamaño-de-equipo">Tabla completa de esfuerzo y costos por tamaño de equipo</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 12%">
+<col style="width: 7%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nº Devs</th>
+<th>Horas/día</th>
+<th>Días requeridos</th>
+<th>Meses requeridos</th>
+<th>Costo directo (₡)</th>
+<th>Otros costos (₡)</th>
+<th>Subtotal base (₡)</th>
+<th>Margen (₡)</th>
+<th>Subtotal sin IVA (₡)</th>
+<th>IVA (₡)</th>
+<th>Costo Total (₡)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>6</td>
+<td>181.33</td>
+<td>9.07</td>
+<td>₡7,072,000</td>
+<td>₡1,000,000</td>
+<td>₡8,072,000</td>
+<td>₡3,459,429</td>
+<td>₡11,531,429</td>
+<td>₡1,499,086</td>
+<td>₡13,030,514</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>6</td>
+<td>90.67</td>
+<td>4.53</td>
+<td>₡7,072,000</td>
+<td>₡1,000,000</td>
+<td>₡8,072,000</td>
+<td>₡3,459,429</td>
+<td>₡11,531,429</td>
+<td>₡1,499,086</td>
+<td>₡13,030,514</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>6</td>
+<td>60.44</td>
+<td>3.02</td>
+<td>₡7,072,000</td>
+<td>₡1,000,000</td>
+<td>₡8,072,000</td>
+<td>₡3,459,429</td>
+<td>₡11,531,429</td>
+<td>₡1,499,086</td>
+<td>₡13,030,514</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>6</td>
+<td>45.33</td>
+<td>2.27</td>
+<td>₡7,072,000</td>
+<td>₡1,000,000</td>
+<td>₡8,072,000</td>
+<td>₡3,459,429</td>
+<td>₡11,531,429</td>
+<td>₡1,499,086</td>
+<td>₡13,030,514</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>6</td>
+<td>36.27</td>
+<td>1.81</td>
+<td>₡7,072,000</td>
+<td>₡1,000,000</td>
+<td>₡8,072,000</td>
+<td>₡3,459,429</td>
+<td>₡11,531,429</td>
+<td>₡1,499,086</td>
+<td>₡13,030,514</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

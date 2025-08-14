@@ -56,6 +56,9 @@ website:
         contents:
           - caso1/index.qmd
           - caso1/implementacion.qmd
+      - section: "Caso 2 - Estimación de Esfuerzo mediante PFA"
+        contents:
+          - caso2/index.qmd
 
 format:
   html:

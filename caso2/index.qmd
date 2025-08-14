@@ -1,0 +1,205 @@
+---
+title: "Estimación de Esfuerzo mediante PFA"
+---
+
+## Caso 2
+
+El objetivo de este caso es aplicar el método de estimación por Puntos de Función (Function Point Analysis, FPA) propuesto por Albrecht al proyecto final MVE, con el fin de calcular de manera objetiva y cuantificable el tamaño funcional del sistema, estimar el esfuerzo requerido en horas de desarrollo, y determinar los costos asociados al proyecto, incluyendo una cotización realista que considere márgenes de riesgo, contribución e impuestos.
+
+En las siguientes secciones, se pueden observar algunas tablas relevantes. <a href="Caso II Delgado, Enriquez, ,Salas, Sanabria, Sanchez.pdf" download>En este enlace</a> se puede descargar el informe completo de este caso.
+
+## Estudiantes
+- Stephanie Delgado Brenes
+- Rosibel Enriquez Vargas
+- Max Rojas Torres
+- Manuel Sanabria Montoya
+- Randall Sánchez Rivera
+
+## Identificación de componentes funcionales
+
+### Componentes funcionales entradas externas
+
+| Código             | Nombre       | Justificación             | Descripción       | Interfaz       | Origen       |
+|--------------------|--------------|---------------------------|-------------------|----------------|--------------|
+| EI-01            | Registro de usuario  | Valida y almacena usuario con campos básicos | El usuario crea su cuenta con nombre, correo, rol y contraseña | Formulario web | Usuario |
+| EI-02           | Inicio de sesión  | Simple autenticación en base de datos | El usuario ingresa sus credenciales para acceder al sistema | Login | Usuario |
+| EI-03            | Envío de test de síntomas  | Se guarda test clínico vinculado al usuario | El usuario responde preguntas clínicas sobre su estado mental | Test clínico | Usuario |
+| EI-05            | Configuración del perfil profesional  | Personalización avanzada del profesional | El profesional edita y guarda los criterios de su perfil | Panel de configuración | Psicólogo |
+| EI-06            | Carga de métricas del paciente  | Datos clínicos de salud física para seguimiento | La profesional carga métricas físicas del paciente | Panel clínico | Psicólogo |
+
+### Componentes funcionales salidas externas
+
+| Código             | Nombre       | Justificación             | Descripción       | Interfaz       | Origen       |
+|--------------------|--------------|---------------------------|-------------------|----------------|--------------|
+| EO-01          | Diagnóstico por IA  | Genera salida automatizada  | El sistema entrega un diagnóstico  | Resultado clínico | Sistema |
+| EO-02          | Recomendaciones personalizadas  | Incluye generación dinámica y contenido variado personalizado  | Genera planes y metas adaptados al paciente  | Vista recomendaciones | Sistema |
+| EO-03          | Informe de progreso  | Muestra múltiples datos en formato visual  | Muestra gráficas de métricas físicas y emocionales  | Panel de paciente | Sistema |
+| EO-04          | Respuesta conversacional  | Procesamiento de texto/audio, con respuesta generada en tiempo real  | Entrega respuestas del chatbot según entrada del usuario  | Interfaz conversacional | Sistema |
+| EO-05          | Panel de resultados para el paciente  | Muestra la información de los resultados del paciente  | Muestra un resumen gráfico de los últimos análisis realizados  | Panel visual | Sistema |
+
+### Componentes funcionales consultas externas
+
+| Código | Nombre                                | Justificación                                           | Descripción                                                                 | Interfaz            | Origen                |
+|--------|----------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------|----------------------|------------------------|
+| EQ-01 | Consulta de historial de diagnósticos  | Consulta estructurada por fechas y usuario.             | El usuario revisa los diagnósticos anteriores con sus respectivas fechas.   | Panel del paciente   | Usuario                |
+| EQ-02 | Consulta de métricas físicas           | Datos numéricos históricos, sin edición.                | El profesional accede a los valores ingresados por el paciente.             | Panel profesional    | Profesional            |
+| EQ-03 | Consulta de configuración del perfil   | Información fija, sin procesamiento adicional.          | El profesional revisa los datos configurados previamente.                   | Panel configuración  | Profesional            |
+| EQ-04 | Búsqueda de conversaciones pasadas     | Consulta filtrada por fecha e interacción conversacional. | Permite ver las conversaciones previas con el bot.                         | Panel de mensajes    | Usuario / Profesional  |
+| EQ-05 | Consulta de progreso mensual           | Informe completo de metas y métricas por mes.           | Muestra un resumen mensual del progreso del paciente.                       | Panel de progreso    | Usuario                |
+| EQ-06 | Consulta de historial emocional        | Revisión histórica de estados emocionales detectados.   | Permite ver el registro completo de emociones en distintas fechas.         | Panel de bienestar   | Usuario                |
+| EQ-07 | Reporte de configuración profesional   | Extracción estructurada de datos de perfil profesional. | Permite al profesional revisar y exportar su configuración personal del sistema. | Panel profesional    | Profesional            |
+
+### Componentes funcionales archivos lógicos internos (ILF)
+
+| Código  | Nombre           | Justificación                                                                 | Descripción                                                                                      |
+|---------|------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| ILF-01 | User             | Entidad simple de autenticación con atributos básicos.                       | Almacena las credenciales y características del usuario que accede al sistema.                 |
+| ILF-02 | Assessment       | Estructura específica de pruebas clínicas, incluye resultados procesados por IA. | Guarda los datos de cada test clínico aplicado por el sistema o el profesional.                |
+| ILF-03 | MessageLog       | Registra el historial conversacional con campos de IA y procesamiento.        | Registro de interacciones entre usuario y bot para trazabilidad y análisis posteriores.        |
+| ILF-04 | PhysicalMetrics  | Valores de salud física relacionados a la evolución del paciente.             | Registra indicadores fisiológicos ingresados por el profesional o sincronizados con dispositivos. |
+
+### Componentes funcionales archivos de interfaz externa (EIF)
+
+| Código  | Nombre                   | Justificación                                                              | Descripción                                                                                       | Interfaz                      | Origen            |
+|---------|--------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------|--------------------|
+| EIF-01 | Catálogo de categorías   | Datos externos utilizados para clasificar síntomas y diagnósticos.         | Conjunto estático de categorías clínicas que se consulta desde el backend y frontend.             | Test clínico / Resultados     | Sistema externo     |
+| EIF-02 | Base de síntomas          | Estructura jerárquica referenciada por IA para clasificar inputs del usuario. | Lista de síntomas obtenida desde un servicio externo, utilizada por el motor de inferencia.       | Diagnóstico automático        | Sistema experto     |
+| EIF-03 | Base de profesionales     | Información de profesionales de salud registrados en un sistema externo interoperable. | Datos de profesionales que pueden ser consultados desde el sistema para asignaciones o consultas. | Panel de configuración        | Plataforma externa  |
+
+### Identificación y conteo de DET, RET y FTR por componente funcional
+
+| Sigla | Nombre               | ¿Qué representa?                                                           | Ejemplo en psybot-service                           |
+|-------|----------------------|----------------------------------------------------------------------------|------------------------------------------------------|
+| DET   | Data Element Type    | Campo único de datos que se captura o muestra                             | nombre, correo, diagnóstico, fecha                   |
+| RET   | Record Element Type  | Subgrupo lógico dentro de un archivo lógico (como una tabla o estructura agrupada) | preguntas/respuestas en un test                     |
+| FTR   | File Type Referenced | Archivo lógico (ILF o EIF) que es referenciado (leído o escrito) por la función | User, Assessment, Gemini API                        |
+
+#### Análisis de Funciones EI
+
+| Código | Nombre                         | DET | RET | FTR | Complejidad | PF |
+|--------|--------------------------------|-----|-----|-----|--------------|----|
+| EI-01  | Registro de usuario            |  5  |  1  |  1  | Media        | 4  |
+| EI-02  | Inicio de sesión               |  2  |  1  |  1  | Baja         | 3  |
+| EI-03  | Envío de test                  | 10  |  2  |  2  | Alta         | 6  |
+| EI-04  | Envío de voz o texto           |  4  |  1  |  1  | Baja         | 3  |
+| EI-05  | Configuración del perfil       |  6  |  1  |  1  | Media        | 4  |
+| EI-06  | Carga de métricas del paciente |  8  |  1  |  2  | Alta         | 6  |
+
+Total PF para EI: 4+3+6+3+4+6 = **26 PF**
+
+#### Análisis de Funciones EO
+
+| Código | Nombre                   | DET | FTR | Complejidad | PF |
+|--------|--------------------------|-----|-----|--------------|----|
+| EO-01  | Reporte de diagnóstico   | 12  |  2  | Alta         | 7  |
+| EO-02  | Exportación en PDF       | 10  |  2  | Alta         | 7  |
+| EO-03  | Estadísticas de avance   |  7  |  2  | Media        | 5  |
+| EO-04  | Alertas de seguimiento   |  5  |  1  | Baja         | 4  |
+| EO-05  | Panel de resultados      | 10  |  2  | Alta         | 7  |
+
+Total PF para EO: 7+7+5+4+7 = **30 PF**
+
+#### Análisis de Funciones EQ
+
+| Código | Nombre                           | DET | FTR | Complejidad | PF |
+|--------|----------------------------------|-----|-----|--------------|----|
+| EQ-01  | Consulta historial de tests      |  5  |  2  | Media        | 4  |
+| EQ-02  | Búsqueda de paciente             |  3  |  2  | Baja         | 3  |
+| EQ-03  | Ver métricas actuales            |  4  |  1  | Baja         | 3  |
+| EQ-04  | Revisión estado análisis IA      |  5  |  2  | Media        | 4  |
+| EQ-05  | Consulta de progreso mensual     |  6  |  2  | Alta         | 6  |
+| EQ-06  | Consulta de historial emocional  |  5  |  2  | Media        | 4  |
+| EQ-07  | Reporte de configuración prof.   |  6  |  2  | Alta         | 6  |
+
+Total PF para EQ: 4+3+3+4+6+4+6 = **30 PF**
+
+#### Análisis de Funciones ILF
+
+| Código   | Nombre           | DET | RET | Complejidad | PF |
+|----------|------------------|-----|-----|--------------|----|
+| ILF-01   | User             | 15  |  1  | Baja         | 7  |
+| ILF-02   | Assessment       | 25  |  2  | Media        | 10 |
+| ILF-03   | MessageLog       | 20  |  1  | Baja         | 7  |
+| ILF-04   | PhysicalMetrics  | 22  |  1  | Baja         | 7  |
+
+Total PF para ILF: 7+10+7+7 = **31 PF**
+
+#### Análisis de Funciones EIF
+
+| Código   | Nombre                         | DET | RET | Complejidad | PF |
+|----------|--------------------------------|-----|-----|--------------|----|
+| EIF-01   | Gemini API                     | 12  |  1  | Baja         | 5  |
+| EIF-02   | Base datos soporte externo     | 18  |  1  | Baja         | 5  |
+| EIF-03   | Plataforma de autenticación    |  6  |  1  | Baja         | 5  |
+
+Total PF para EIF: 5+5+5 = **15 PF**
+
+## Estimación de Esfuerzo y Costos del Proyecto psybot-service
+
+### Tabla resumen de Puntos de Función
+
+| Tipo de Función                    | Cantidad | Subtotal PF |
+|-----------------------------------|----------|--------------|
+| EI – Entradas Externas            |    6     |      26      |
+| EO – Salidas Externas             |    5     |      30      |
+| EQ – Consultas Externas           |    7     |      30      |
+| ILF – Archivos Lógicos Internos   |    4     |      31      |
+| EIF – Archivos de Interfaz Ext.   |    3     |      15      |
+| **Total de Puntos sin Ajustar (PFSA)** |    —     |    **132**    |
+
+
+### Evaluación del Factor de Influencia (FI)
+
+| Nº | Característica                    | Puntaje | Justificación específica en psybot-service                                                                 |
+|----|-----------------------------------|---------|-------------------------------------------------------------------------------------------------------------|
+| 1  | Comunicación de datos             |   4     | Se comunica con APIs externas como Gemini y sistemas de autenticación.                                     |
+| 2  | Funciones distribuidas            |   4     | Aunque es monolítico, parte del procesamiento se delega a servicios externos.                              |
+| 3  | Requerimientos de rendimiento     |   3     | Se espera respuesta rápida en análisis IA y consulta de datos.                                             |
+| 4  | Configuración hardware intensiva  |   1     | Requiere hardware mínimo, salvo procesamiento en nube.                                                     |
+| 5  | Transacciones de alta frecuencia  |   2     | Puede escalar con múltiples usuarios realizando evaluaciones concurrentes.                                 |
+| 6  | Entrada de datos                  |   3     | Tiene entrada por formularios, voz y texto con diferentes estructuras.                                     |
+| 7  | Eficiencia del usuario final      |   4     | Altamente orientado a experiencia rápida e intuitiva para paciente y profesional.                          |
+| 8  | Actualización de archivos         |   2     | Actualiza constantemente métricas, perfiles, evaluaciones.                                                 |
+| 9  | Procesamiento complejo            |   5     | Procesamiento de IA, análisis emocional y generación dinámica de resultados.                               |
+| 10 | Reusabilidad                      |   2     | Algunos módulos (test, perfil) podrían reutilizarse en otros sistemas.                                     |
+| 11 | Instalación en múltiples plataformas | 2     | Está pensado para nube, pero podría instalarse localmente si se adapta.                                    |
+| 12 | Facilidad de operación            |   3     | Automatiza varios procesos, pero requiere interacción profesional.                                         |
+| 13 | Múltiples sitios                  |   1     | Centralizado, pero podría expandirse con poco esfuerzo.                                                    |
+| 14 | Facilidad de cambio               |   2     | Cambios en tests o flujos requieren actualización moderada del backend.                                    |
+
+Resultado total del FI: FI=4+2+3+1+2+3+4+2+4+2+2+3+1+2=38
+
+### Estimación de Esfuerzo Total
+
+| Parámetro técnico            | Valor                            |
+|-----------------------------|----------------------------------|
+| Tecnología usada            | Python + Frameworks modernos     |
+| Promedio de horas por PF    | 8 horas                          |
+| PFA ajustado                | 136                              |
+| Total estimado de esfuerzo  | 136 × 8 = **1,088 horas**        |
+
+### Supuestos para el cálculo de costos
+
+| Parámetro                                 | Valor             |
+|-------------------------------------------|-------------------|
+| Jornada laboral diaria por desarrollador  | 6 horas           |
+| Días laborables por mes                   | 20 días           |
+| Salario mensual por desarrollador         | ₡650,000          |
+| Costo adicional del proyecto              | ₡1,000,000        |
+| Porcentaje de imprevistos                 | 20%               |
+| Margen de contribución                    | 30%               |
+| IVA (Costa Rica)                          | 13%               |
+
+### Tabla completa de esfuerzo y costos por tamaño de equipo
+
+| Nº Devs | Horas/día | Días requeridos | Meses requeridos | Costo directo (₡) | Otros costos (₡) | Subtotal base (₡) | Margen (₡)  | Subtotal sin IVA (₡) | IVA (₡)     | Costo Total (₡)  |
+|---------|------------|------------------|-------------------|--------------------|-------------------|-------------------|-------------|------------------------|-------------|-------------------|
+| 1       | 6          | 181.33           | 9.07              | ₡7,072,000         | ₡1,000,000        | ₡8,072,000        | ₡3,459,429 | ₡11,531,429             | ₡1,499,086 | ₡13,030,514       |
+| 2       | 6          | 90.67            | 4.53              | ₡7,072,000         | ₡1,000,000        | ₡8,072,000        | ₡3,459,429 | ₡11,531,429             | ₡1,499,086 | ₡13,030,514       |
+| 3       | 6          | 60.44            | 3.02              | ₡7,072,000         | ₡1,000,000        | ₡8,072,000        | ₡3,459,429 | ₡11,531,429             | ₡1,499,086 | ₡13,030,514       |
+| 4       | 6          | 45.33            | 2.27              | ₡7,072,000         | ₡1,000,000        | ₡8,072,000        | ₡3,459,429 | ₡11,531,429             | ₡1,499,086 | ₡13,030,514       |
+| 5       | 6          | 36.27            | 1.81              | ₡7,072,000         | ₡1,000,000        | ₡8,072,000        | ₡3,459,429 | ₡11,531,429             | ₡1,499,086 | ₡13,030,514       |
+
+
+
+
