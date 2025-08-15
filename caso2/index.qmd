@@ -6,7 +6,7 @@ title: "Estimación de Esfuerzo mediante PFA"
 
 El objetivo de este caso es aplicar el método de estimación por Puntos de Función (Function Point Analysis, FPA) propuesto por Albrecht al proyecto final MVE, con el fin de calcular de manera objetiva y cuantificable el tamaño funcional del sistema, estimar el esfuerzo requerido en horas de desarrollo, y determinar los costos asociados al proyecto, incluyendo una cotización realista que considere márgenes de riesgo, contribución e impuestos.
 
-En las siguientes secciones, se pueden observar algunas tablas relevantes. <a href="Caso II Delgado, Enriquez, ,Salas, Sanabria, Sanchez.pdf" download>En este enlace</a> se puede descargar el informe completo de este caso.
+En las siguientes secciones, se pueden observar algunas tablas relevantes. <a href="Caso II Delgado, Enriquez, ,Rojas, Sanabria, Sanchez.pdf" download>En este enlace</a> se puede descargar el informe completo de este caso.
 
 ## Estudiantes
 - Stephanie Delgado Brenes
